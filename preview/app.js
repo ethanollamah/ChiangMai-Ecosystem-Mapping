@@ -190,9 +190,9 @@
   }
 
   function renderInsights() {
-    $("#reading-rules").innerHTML = state.briefing.reading_rules
-      .map((r) => `<div>${escapeHtml(r)}</div>`)
-      .join("");
+    $("#reading-rules").innerHTML = `<ul>${state.briefing.reading_rules
+      .map((r) => `<li>${escapeHtml(r)}</li>`)
+      .join("")}</ul>`;
 
     const list = $("#insights-list");
     list.innerHTML = state.briefing.insights
