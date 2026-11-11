@@ -1,0 +1,9 @@
+﻿marker_id,organisation,district_code,district_en,latitude,longitude,presence_role,geocode_status,included_because
+CM-004,Thai Freedom House,5001,Mueang Chiang Mai,18.794259,98.971928,delivery,ok,Agreed Level 2B destination: exact public current delivery or mixed site.
+CM-010,Integrated Ministries for Ethnic Minorities Foundation (IMEMF),5014,San Sai,18.844832,99.071439,mixed_office_and_delivery,ok,Agreed Level 2B destination: exact public current delivery or mixed site.
+CM-022,The Salvation Army Foundation (Thailand),5014,San Sai,18.828307,99.018163,mixed_office_and_delivery,ok,Agreed Level 2B destination: exact public current delivery or mixed site.
+CM-026,Projects for Asia Charitable Foundation,5019,Saraphi,18.683193,98.995340,mixed_office_and_delivery,ok,Agreed Level 2B destination: exact public current delivery or mixed site.
+CM-029,Wat Don Chan Children’s Quality of Life Development Project,5001,Mueang Chiang Mai,18.760210,99.032567,delivery,ok,Agreed Level 2B destination: exact public current delivery or mixed site.
+CM-030,Dulabhatorn Foundation,5014,San Sai,18.825536,99.041570,delivery,ok,Agreed Level 2B destination: exact public current delivery or mixed site.
+CM-032,Radion,5015,Hang Dong,18.677257,98.969707,mixed_office_and_delivery,ok,Agreed Level 2B destination: exact public current delivery or mixed site.
+CM-071,Chiang Mai Children's and Family Shelter,5007,Mae Rim,18.857521,98.968210,delivery,ok,Agreed Level 2B destination: exact public current delivery or mixed site.

@@ -1,0 +1,20 @@
+{
+  "raw_audit_sha256": "a6a0219320a0535d46f6a78896efeabe7b9d7e4e9f5c0bb46ff8f39e4021b07c",
+  "source_copy": "outputs/step2/source_copy/Chiang_Mai_Organisation_Location_Audit_2026-10-29.xlsx",
+  "n_sites": 72,
+  "n_organisations": 57,
+  "n_from_audit": 68,
+  "n_from_public_directory": 4,
+  "level1_orgs": 53,
+  "level1_sites": 57,
+  "level1_points": 12,
+  "geocode_ok_house": 13,
+  "geocode_ok_coarse": 3,
+  "geocode_failed": 17,
+  "chiang_rai_excluded": [
+    "CM-060",
+    "CM-061",
+    "CM-062"
+  ],
+  "rule": "Level 1 unique organisations use level1_org_eligible. Unique physical sites use level1_site_eligible. Nearest-neighbour points use only level1_point_eligible (exact public house/building geocodes in Chiang Mai). Service-area markers and protected approximations are not points. Juvenile justice is labelled but not in the family-support site count."
+}

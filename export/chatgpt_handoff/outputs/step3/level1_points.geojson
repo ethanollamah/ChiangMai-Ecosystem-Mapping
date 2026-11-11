@@ -1,0 +1,279 @@
+{
+  "type": "FeatureCollection",
+  "name": "Chiang Mai Level 1 points",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.971928,
+          18.794259
+        ]
+      },
+      "properties": {
+        "marker_id": "CM-004",
+        "org_id": "ORG-004",
+        "organisation": "Thai Freedom House",
+        "district_code": "5001",
+        "district_en": "Mueang Chiang Mai",
+        "geocode_status": "ok",
+        "geocode_point_kind": "building_or_house",
+        "core_universe_role": "mapped_child_welfare",
+        "in_nearest_neighbour": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.071439,
+          18.844832
+        ]
+      },
+      "properties": {
+        "marker_id": "CM-010",
+        "org_id": "ORG-009",
+        "organisation": "Integrated Ministries for Ethnic Minorities Foundation (IMEMF)",
+        "district_code": "5014",
+        "district_en": "San Sai",
+        "geocode_status": "ok",
+        "geocode_point_kind": "building_or_house",
+        "core_universe_role": "mapped_child_welfare",
+        "in_nearest_neighbour": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.985516,
+          18.777113
+        ]
+      },
+      "properties": {
+        "marker_id": "CM-012",
+        "org_id": "ORG-011",
+        "organisation": "Friends for All Children Foundation",
+        "district_code": "5001",
+        "district_en": "Mueang Chiang Mai",
+        "geocode_status": "ok",
+        "geocode_point_kind": "building_or_house",
+        "core_universe_role": "mapped_child_welfare",
+        "in_nearest_neighbour": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.018163,
+          18.828307
+        ]
+      },
+      "properties": {
+        "marker_id": "CM-022",
+        "org_id": "ORG-019",
+        "organisation": "The Salvation Army Foundation (Thailand)",
+        "district_code": "5014",
+        "district_en": "San Sai",
+        "geocode_status": "ok",
+        "geocode_point_kind": "building_or_house",
+        "core_universe_role": "mapped_child_welfare",
+        "in_nearest_neighbour": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.99534,
+          18.683193
+        ]
+      },
+      "properties": {
+        "marker_id": "CM-026",
+        "org_id": "ORG-022",
+        "organisation": "Projects for Asia Charitable Foundation",
+        "district_code": "5019",
+        "district_en": "Saraphi",
+        "geocode_status": "ok",
+        "geocode_point_kind": "building_or_house",
+        "core_universe_role": "mapped_child_welfare",
+        "in_nearest_neighbour": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.032567,
+          18.76021
+        ]
+      },
+      "properties": {
+        "marker_id": "CM-029",
+        "org_id": "ORG-024",
+        "organisation": "Wat Don Chan Children’s Quality of Life Development Project",
+        "district_code": "5001",
+        "district_en": "Mueang Chiang Mai",
+        "geocode_status": "ok",
+        "geocode_point_kind": "building_or_house",
+        "core_universe_role": "mapped_child_welfare",
+        "in_nearest_neighbour": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.04157,
+          18.825536
+        ]
+      },
+      "properties": {
+        "marker_id": "CM-030",
+        "org_id": "ORG-025",
+        "organisation": "Dulabhatorn Foundation",
+        "district_code": "5014",
+        "district_en": "San Sai",
+        "geocode_status": "ok",
+        "geocode_point_kind": "building_or_house",
+        "core_universe_role": "mapped_child_welfare",
+        "in_nearest_neighbour": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.969707,
+          18.677257
+        ]
+      },
+      "properties": {
+        "marker_id": "CM-032",
+        "org_id": "ORG-027",
+        "organisation": "Radion",
+        "district_code": "5015",
+        "district_en": "Hang Dong",
+        "geocode_status": "ok",
+        "geocode_point_kind": "building_or_house",
+        "core_universe_role": "mapped_child_welfare",
+        "in_nearest_neighbour": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9792,
+          18.772
+        ]
+      },
+      "properties": {
+        "marker_id": "CM-042",
+        "org_id": "ORG-032",
+        "organisation": "Child's Dream",
+        "district_code": "5001",
+        "district_en": "Mueang Chiang Mai",
+        "geocode_status": "audit_supplied",
+        "geocode_point_kind": "",
+        "core_universe_role": "mapped_child_welfare",
+        "in_nearest_neighbour": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.024702,
+          18.79838
+        ]
+      },
+      "properties": {
+        "marker_id": "CM-047",
+        "org_id": "ORG-037",
+        "organisation": "Interact Asia",
+        "district_code": "5001",
+        "district_en": "Mueang Chiang Mai",
+        "geocode_status": "audit_supplied",
+        "geocode_point_kind": "",
+        "core_universe_role": "mapped_child_welfare",
+        "in_nearest_neighbour": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.937517,
+          18.744541
+        ]
+      },
+      "properties": {
+        "marker_id": "CM-050",
+        "org_id": "ORG-040",
+        "organisation": "Connie's Home",
+        "district_code": "5001",
+        "district_en": "Mueang Chiang Mai",
+        "geocode_status": "ok",
+        "geocode_point_kind": "building_or_house",
+        "core_universe_role": "mapped_child_welfare",
+        "in_nearest_neighbour": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.96821,
+          18.857521
+        ]
+      },
+      "properties": {
+        "marker_id": "CM-071",
+        "org_id": "ORG-056",
+        "organisation": "Chiang Mai Children's and Family Shelter",
+        "district_code": "5007",
+        "district_en": "Mae Rim",
+        "geocode_status": "ok",
+        "geocode_point_kind": "building_or_house",
+        "core_universe_role": "public_reception",
+        "in_nearest_neighbour": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.965311,
+          18.889962
+        ]
+      },
+      "properties": {
+        "marker_id": "CM-072",
+        "org_id": "ORG-057",
+        "organisation": "Chiang Mai Juvenile Observation and Protection Centre",
+        "district_code": "5007",
+        "district_en": "Mae Rim",
+        "geocode_status": "ok",
+        "geocode_point_kind": "building_or_house",
+        "core_universe_role": "juvenile_justice_separately_labelled",
+        "in_nearest_neighbour": "no"
+      }
+    }
+  ]
+}

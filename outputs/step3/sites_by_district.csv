@@ -1,0 +1,27 @@
+﻿district_code,district_th,district_en,n_level1_organisations,n_level1_sites,share_of_level1_sites,share_of_joinable_sites,n_level1_points,thai_reg_age_0_17,population_note,zero_is_not_absent
+5001,อำเภอเมืองเชียงใหม่,Mueang Chiang Mai,15,15,0.2632,0.3061,6,27716,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",no
+5002,อำเภอจอมทอง,Chom Thong,0,0,0.0,0.0,0,11172,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",yes
+5003,อำเภอแม่แจ่ม,Mae Chaem,0,0,0.0,0.0,0,13267,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",yes
+5004,อำเภอเชียงดาว,Chiang Dao,1,1,0.0175,0.0204,0,18525,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",no
+5005,อำเภอดอยสะเก็ด,Doi Saket,8,8,0.1404,0.1633,0,11388,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",no
+5006,อำเภอแม่แตง,Mae Taeng,1,1,0.0175,0.0204,0,10794,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",no
+5007,อำเภอแม่ริม,Mae Rim,3,3,0.0526,0.0612,1,14326,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",no
+5008,อำเภอสะเมิง,Samoeng,0,0,0.0,0.0,0,4325,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",yes
+5009,อำเภอฝาง,Fang,0,0,0.0,0.0,0,18203,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",yes
+5010,อำเภอแม่อาย,Mae Ai,1,3,0.0526,0.0612,0,15325,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",no
+5011,อำเภอพร้าว,Phrao,1,1,0.0175,0.0204,0,6249,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",no
+5012,อำเภอสันป่าตอง,San Pa Tong,1,1,0.0175,0.0204,0,9002,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",no
+5013,อำเภอสันกำแพง,San Kamphaeng,1,2,0.0351,0.0408,0,12893,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",no
+5014,อำเภอสันทราย,San Sai,8,9,0.1579,0.1837,3,21649,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",no
+5015,อำเภอหางดง,Hang Dong,2,2,0.0351,0.0408,1,14472,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",no
+5016,อำเภอฮอด,Hot,0,0,0.0,0.0,0,6782,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",yes
+5017,อำเภอดอยเต่า,Doi Tao,0,0,0.0,0.0,0,4166,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",yes
+5018,อำเภออมก๋อย,Omkoi,0,0,0.0,0.0,0,17373,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",yes
+5019,อำเภอสารภี,Saraphi,2,2,0.0351,0.0408,1,12982,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",no
+5020,อำเภอเวียงแหง,Wiang Haeng,0,0,0.0,0.0,0,6493,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",yes
+5021,อำเภอไชยปราการ,Chai Prakan,0,0,0.0,0.0,0,7642,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",yes
+5022,อำเภอแม่วาง,Mae Wang,1,1,0.0175,0.0204,0,5436,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",no
+5023,อำเภอแม่ออน,Mae On,0,0,0.0,0.0,0,2818,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",yes
+5024,อำเภอดอยหล่อ,Doi Lo,0,0,0.0,0.0,0,2848,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",yes
+5025,อำเภอกัลยาณิวัฒนา,Galyani Vadhana,0,0,0.0,0.0,0,3230,"Child count is registered Thai 0–17 (DOPA Dec 2025), not a need rate. Rates belong in Level 2A.",yes
+,,(in Chiang Mai; district not joinable),6,8,0.1404,,0,,Do not allocate these sites to a district denominator.,no

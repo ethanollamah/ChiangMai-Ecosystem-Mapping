@@ -1,0 +1,64 @@
+{
+  "generated_utc": "2026-11-10T12:10:13.314635+00:00",
+  "decision": "User chose both purposes on 10 November 2026: family-support/prevention partnerships and educational re-engagement, kept as two comparisons. No weighted score. No rank.",
+  "order": "DOPA district code. Not a priority order.",
+  "cuts_reused_from_level2a": {
+    "dole_home_not_found_q3": 135.0,
+    "dole_consented_q3": 40.0,
+    "tpmap_target_poor_median": 689,
+    "tpmap_target_poor_q3": 1438.0,
+    "thai_children_median": 11172,
+    "thai_children_q3": 14472.0,
+    "quartile_method": "statistics.quantiles n=4 method=inclusive",
+    "concentration_rule": "Level 1 site share >= 2x share of registered Thai children 0–17, and at least 5 sites"
+  },
+  "education_flag_q3": {
+    "dole_help_wanted": 5.0,
+    "dole_never_studied": 5.0
+  },
+  "n_family_support_rule_hits": 15,
+  "n_education_rule_hits": 29,
+  "family_support_districts_with_any_rule": [
+    "Chom Thong",
+    "Mae Chaem",
+    "Doi Saket",
+    "Mae Taeng",
+    "Samoeng",
+    "Fang",
+    "San Pa Tong",
+    "Doi Tao",
+    "Omkoi",
+    "Mae Wang",
+    "Galyani Vadhana"
+  ],
+  "education_districts_with_any_rule": [
+    "Mueang Chiang Mai",
+    "Chom Thong",
+    "Mae Chaem",
+    "Doi Saket",
+    "Mae Taeng",
+    "Mae Rim",
+    "Fang",
+    "Mae Ai",
+    "San Kamphaeng",
+    "Hang Dong",
+    "Hot",
+    "Doi Tao",
+    "Omkoi",
+    "Chai Prakan"
+  ],
+  "after_school_sites": {
+    "5010": 3,
+    "5014": 1
+  },
+  "school_campus_sites": {
+    "5014": 1
+  },
+  "uncertainties": [
+    "The mapped sample is not a census of providers.",
+    "Catchments are unknown, so a site in one district may serve another.",
+    "Centroid travel time is not a child's travel time.",
+    "DOLE screening categories must not be added to each other or to TPMAP.",
+    "Affordability, language, eligibility and spare capacity are validation questions, not measured values."
+  ]
+}

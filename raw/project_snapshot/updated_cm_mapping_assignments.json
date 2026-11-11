@@ -1,0 +1,734 @@
+{
+  "source_file": "CM mapping 2.0 - updated.xlsx",
+  "source_tab": "CM Mapping (checkbox)",
+  "verified_date": "2026-10-29",
+  "assignments": {
+    "Foundation of Child Understanding (FOCUS)": {
+      "stages": [
+        "Identification & Routing",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Identification & Routing": [
+          "Screening & referral"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Skills development for independent living",
+          "Post-discharge support "
+        ]
+      }
+    },
+    "Agape Home Chiangmai Foundation": {
+      "stages": [
+        "Identification & Routing",
+        "Short-term Intervention",
+        "Residential and Institutional Care"
+      ],
+      "subcategories": {
+        "Identification & Routing": [
+          "Screening & referral"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ]
+      }
+    },
+    "Methodist Missions Society (VINEYARD METHODIST SCHOOL)": {
+      "stages": [
+        "Short-term Intervention",
+        "Residential and Institutional Care"
+      ],
+      "subcategories": {
+        "Short-term Intervention": [
+          "Monetary support"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ]
+      }
+    },
+    "Thai Freedom House": {
+      "stages": [
+        "Parent Capability Building",
+        "Short-term Intervention"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Parenting & caregiver skills ",
+          "Family relationships & co-parenting",
+          "Livelihood training/ Employability improvement (hard skills)"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ]
+      }
+    },
+    "Faithful Heart Foundation": {
+      "stages": [
+        "Short-term Intervention",
+        "Foster Care / Adoption",
+        "Residential and Institutional Care",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Short-term Intervention": [
+          "Monetary support",
+          "Intensive family preservation"
+        ],
+        "Foster Care / Adoption": [
+          "Foster-carer recruitment, assessment & matching",
+          "Financial Support (any subsidies they can provide) ",
+          "Support systems for foster families"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Assessment to determine ideal long-term placement"
+        ]
+      }
+    },
+    "Children’s Shelter Foundation Thailand": {
+      "stages": [
+        "Parent Capability Building",
+        "Residential and Institutional Care",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Parenting & caregiver skills "
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Skills development for independent living"
+        ]
+      }
+    },
+    "Jojo’s Sanctuary International": {
+      "stages": [
+        "Parent Capability Building",
+        "Short-term Intervention",
+        "Residential and Institutional Care",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Parenting & caregiver skills ",
+          "Family relationships & co-parenting",
+          "Child & youth development and support",
+          "Livelihood training/ Employability improvement (hard skills)"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ],
+        "Residential and Institutional Care": [
+          "Short-term"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Advocacy for family placement",
+          "Assessment to determine ideal long-term placement"
+        ]
+      }
+    },
+    "Warm Heart Foundation": {
+      "stages": [
+        "Residential and Institutional Care"
+      ],
+      "subcategories": {
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ]
+      }
+    },
+    "Integrated Ministries for Ethnic Minorities Foundation (IMEMF)": {
+      "stages": [
+        "Parent Capability Building",
+        "Identification & Routing",
+        "Short-term Intervention",
+        "Residential and Institutional Care"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Parenting & caregiver skills ",
+          "Family relationships & co-parenting",
+          "Child & youth development and support"
+        ],
+        "Identification & Routing": [
+          "Reporting & disclosure channels",
+          "Screening & referral"
+        ],
+        "Short-term Intervention": [
+          "Monetary support",
+          "Intensive family preservation"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ]
+      }
+    },
+    "Shan Youth Power": {
+      "stages": [
+        "Short-term Intervention"
+      ],
+      "subcategories": {
+        "Short-term Intervention": [
+          "Monetary support"
+        ]
+      }
+    },
+    "Friends for All Children Foundation": {
+      "stages": [
+        "Short-term Intervention",
+        "Residential and Institutional Care"
+      ],
+      "subcategories": {
+        "Short-term Intervention": [
+          "Youth diversion, supervision & re-engagement",
+          "Respite Care"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ]
+      }
+    },
+    "Baan Dek Foundation": {
+      "stages": [
+        "Parent Capability Building",
+        "Identification & Routing",
+        "Short-term Intervention"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Parenting & caregiver skills ",
+          "Child & youth development and support"
+        ],
+        "Identification & Routing": [
+          "Reporting & disclosure channels",
+          "Screening & referral"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ]
+      }
+    },
+    "ADRA Thailand": {
+      "stages": [
+        "Residential and Institutional Care"
+      ],
+      "subcategories": {
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ]
+      }
+    },
+    "ZOE Foundation Thailand": {
+      "stages": [
+        "Identification & Routing",
+        "Short-term Intervention",
+        "Residential and Institutional Care",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Identification & Routing": [
+          "Reporting & disclosure channels",
+          "Screening & referral"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Skills development for independent living"
+        ]
+      }
+    },
+    "Rapha International": {
+      "stages": [
+        "Identification & Routing",
+        "Short-term Intervention",
+        "Residential and Institutional Care",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Identification & Routing": [
+          "Screening & referral"
+        ],
+        "Short-term Intervention": [
+          "Monetary support",
+          "Intensive family preservation"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Assessment to determine ideal long-term placement",
+          "Post-discharge support "
+        ]
+      }
+    },
+    "Urban Light Foundation": {
+      "stages": [
+        "Parent Capability Building",
+        "Identification & Routing",
+        "Residential and Institutional Care"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Child & youth development and support",
+          "Livelihood training/ Employability improvement (hard skills)"
+        ],
+        "Identification & Routing": [
+          "Reporting & disclosure channels",
+          "Screening & referral"
+        ],
+        "Residential and Institutional Care": [
+          "Short-term",
+          "General residential care & daily living"
+        ]
+      }
+    },
+    "New Life Center Foundation": {
+      "stages": [
+        "Parent Capability Building",
+        "Identification & Routing",
+        "Short-term Intervention",
+        "Residential and Institutional Care"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Livelihood training/ Employability improvement (hard skills)"
+        ],
+        "Identification & Routing": [
+          "Screening & referral"
+        ],
+        "Short-term Intervention": [
+          "Monetary support",
+          "Intensive family preservation"
+        ],
+        "Residential and Institutional Care": [
+          "Short-term",
+          "General residential care & daily living"
+        ]
+      }
+    },
+    "Immanuel Foundation Thailand (IMF)": {
+      "stages": [
+        "Identification & Routing"
+      ],
+      "subcategories": {
+        "Identification & Routing": [
+          "Screening & referral"
+        ]
+      }
+    },
+    "The Salvation Army Foundation (Thailand)": {
+      "stages": [
+        "Parent Capability Building",
+        "Short-term Intervention"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Parenting & caregiver skills ",
+          "Child & youth development and support",
+          "Livelihood training/ Employability improvement (hard skills)"
+        ],
+        "Short-term Intervention": [
+          "Respite Care"
+        ]
+      }
+    },
+    "Care Corner Orphanage Foundation": {
+      "stages": [
+        "Residential and Institutional Care"
+      ],
+      "subcategories": {
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ]
+      }
+    },
+    "Baan Sabaay Foundation (Hope Home)": {
+      "stages": [
+        "Identification & Routing",
+        "Short-term Intervention",
+        "Residential and Institutional Care"
+      ],
+      "subcategories": {
+        "Identification & Routing": [
+          "Screening & referral"
+        ],
+        "Short-term Intervention": [
+          "Respite Care"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ]
+      }
+    },
+    "Projects for Asia Charitable Foundation": {
+      "stages": [
+        "Parent Capability Building",
+        "Short-term Intervention",
+        "Residential and Institutional Care",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Child & youth development and support"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Skills development for independent living"
+        ]
+      }
+    },
+    "Borderless Friendship Foundation": {
+      "stages": [
+        "Residential and Institutional Care",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Skills development for independent living"
+        ]
+      }
+    },
+    "Wat Don Chan Children’s Quality of Life Development Project": {
+      "stages": [
+        "Short-term Intervention",
+        "Residential and Institutional Care",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Short-term Intervention": [
+          "Monetary support"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Skills development for independent living"
+        ]
+      }
+    },
+    "Dulabhatorn Foundation": {
+      "stages": [
+        "Parent Capability Building",
+        "Residential and Institutional Care",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Parenting & caregiver skills ",
+          "Child & youth development and support",
+          "Livelihood training/ Employability improvement (hard skills)"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Skills development for independent living"
+        ]
+      }
+    },
+    "Daughters Rising / Chai Lai Orchid Foundation": {
+      "stages": [
+        "Parent Capability Building",
+        "Short-term Intervention",
+        "Residential and Institutional Care",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Livelihood training/ Employability improvement (hard skills)"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Skills development for independent living",
+          "Post-discharge support "
+        ]
+      }
+    },
+    "Radion": {
+      "stages": [
+        "Short-term Intervention",
+        "Residential and Institutional Care"
+      ],
+      "subcategories": {
+        "Short-term Intervention": [
+          "Monetary support",
+          "Intensive family preservation"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ]
+      }
+    },
+    "Building Stronger Families": {
+      "stages": [
+        "Parent Capability Building",
+        "Identification & Routing",
+        "Short-term Intervention"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Parenting & caregiver skills ",
+          "Family relationships & co-parenting",
+          "Livelihood training/ Employability improvement (hard skills)"
+        ],
+        "Identification & Routing": [
+          "Reporting & disclosure channels"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ]
+      }
+    },
+    "INEB": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "World Vision": {
+      "stages": [
+        "Parent Capability Building",
+        "Identification & Routing",
+        "Short-term Intervention",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Parenting & caregiver skills ",
+          "Child & youth development and support",
+          "Livelihood training/ Employability improvement (hard skills)"
+        ],
+        "Identification & Routing": [
+          "Reporting & disclosure channels"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Skills development for independent living"
+        ]
+      }
+    },
+    "El-roi": {
+      "stages": [
+        "Short-term Intervention"
+      ],
+      "subcategories": {
+        "Short-term Intervention": [
+          "Intensive family preservation"
+        ]
+      }
+    },
+    "Child's Dream": {
+      "stages": [
+        "Parent Capability Building",
+        "Short-term Intervention",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Child & youth development and support"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Skills development for independent living"
+        ]
+      }
+    },
+    "Shine": {
+      "stages": [
+        "Parent Capability Building",
+        "Identification & Routing"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Family relationships & co-parenting"
+        ],
+        "Identification & Routing": [
+          "Reporting & disclosure channels"
+        ]
+      }
+    },
+    "Community Children Foundation (CCF)": {
+      "stages": [
+        "Short-term Intervention",
+        "Foster Care / Adoption"
+      ],
+      "subcategories": {
+        "Short-term Intervention": [
+          "Monetary support"
+        ],
+        "Foster Care / Adoption": [
+          "Foster-carer recruitment, assessment & matching"
+        ]
+      }
+    },
+    "OneSky": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "Care for Children": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "Interact Asia": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "Child Impact": {
+      "stages": [
+        "Parent Capability Building",
+        "Short-term Intervention"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Child & youth development and support"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ]
+      }
+    },
+    "The compassion foundation (Only for Thailand work)": {
+      "stages": [
+        "Identification & Routing",
+        "Short-term Intervention"
+      ],
+      "subcategories": {
+        "Identification & Routing": [
+          "Reporting & disclosure channels"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ]
+      }
+    },
+    "Connie's Home": {
+      "stages": [
+        "Residential and Institutional Care",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Assessment to determine ideal long-term placement"
+        ]
+      }
+    },
+    "Asia's Hope": {
+      "stages": [
+        "Identification & Routing",
+        "Short-term Intervention",
+        "Residential and Institutional Care",
+        "Reintegration, Reunification and Adoption"
+      ],
+      "subcategories": {
+        "Identification & Routing": [
+          "Screening & referral"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ],
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ],
+        "Reintegration, Reunification and Adoption": [
+          "Assessment to determine ideal long-term placement",
+          "Skills development for independent living"
+        ]
+      }
+    },
+    "Grace Family": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "The Caring Nest": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "The Prayer Roof": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "Sunflower Family": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "Garden of Grace": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "Embrace Family": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "Seedling Family": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "Homestead of Hope": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "Unity Villa": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "The Family Forge": {
+      "stages": [],
+      "subcategories": {}
+    },
+    "Adventist Rescued Children's Care": {
+      "stages": [
+        "Residential and Institutional Care"
+      ],
+      "subcategories": {
+        "Residential and Institutional Care": [
+          "General residential care & daily living"
+        ]
+      }
+    },
+    "Kid's Ark Foundation": {
+      "stages": [
+        "Parent Capability Building",
+        "Short-term Intervention"
+      ],
+      "subcategories": {
+        "Parent Capability Building": [
+          "Child & youth development and support"
+        ],
+        "Short-term Intervention": [
+          "Monetary support"
+        ]
+      }
+    }
+  }
+}
+

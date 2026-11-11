@@ -1,0 +1,444 @@
+[
+  {
+    "file": "dole_50_province.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "เชียงใหม่ (province)",
+    "retrieved_utc": "2026-11-10T06:33:55.648533+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 13250,
+    "sha256": "e24a198dd1fc4dcf7e89299d2f1572591c49433f4bf5626635ba165a220eeaaf",
+    "total": 27140
+  },
+  {
+    "file": "dole_5001.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5001",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "เมืองเชียงใหม่",
+    "retrieved_utc": "2026-11-10T06:34:07.392295+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 6431,
+    "sha256": "6364694a1bd1b771ef88a452090ff4be676937f27dad66de8224b593780cd59d",
+    "total": 3465
+  },
+  {
+    "file": "dole_5002.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5002",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "จอมทอง",
+    "retrieved_utc": "2026-11-10T06:34:09.465154+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 7115,
+    "sha256": "10eac93fe68360d831e36a2a74a9dab25150eb425d3f5626a782ff5b246eb9e6",
+    "total": 414
+  },
+  {
+    "file": "dole_5003.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5003",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "แม่แจ่ม",
+    "retrieved_utc": "2026-11-10T06:34:11.239264+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 5389,
+    "sha256": "56a539507b9624f9c5dab416dd44daa78b8416b7cc5ca5cede257799e9c7147b",
+    "total": 387
+  },
+  {
+    "file": "dole_5004.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5004",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "เชียงดาว",
+    "retrieved_utc": "2026-11-10T06:34:13.005150+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 6109,
+    "sha256": "ecdbdd499066bc3b8976064da45a89900433c97b2d7fa43d0c684e901857f851",
+    "total": 2914
+  },
+  {
+    "file": "dole_5005.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5005",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "ดอยสะเก็ด",
+    "retrieved_utc": "2026-11-10T06:34:15.024896+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 6252,
+    "sha256": "e62c51f280c2db7449c9ea200b9b5d1d6cd4df425fe77ae957296bf5b272606f",
+    "total": 719
+  },
+  {
+    "file": "dole_5006.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5006",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "แม่แตง",
+    "retrieved_utc": "2026-11-10T06:34:16.836621+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 6631,
+    "sha256": "59ef065398bd5042bf52fab913ad3ff76728d254067d8d5872fee5e627098131",
+    "total": 884
+  },
+  {
+    "file": "dole_5007.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5007",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "แม่ริม",
+    "retrieved_utc": "2026-11-10T06:34:19.029558+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 7829,
+    "sha256": "ea1fcecfd6c34da09286c748c80f9509b77d8434328ed4a9fbcb3815b15bc357",
+    "total": 1558
+  },
+  {
+    "file": "dole_5008.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5008",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "สะเมิง",
+    "retrieved_utc": "2026-11-10T06:34:20.928776+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 5018,
+    "sha256": "b5e4ac41cbcdcb341b2cdd02bdfd4b7c594b63060d6ab5b0292e17af712f03dc",
+    "total": 227
+  },
+  {
+    "file": "dole_5009.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5009",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "ฝาง",
+    "retrieved_utc": "2026-11-10T06:34:22.700297+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 6672,
+    "sha256": "fafc237fbf65a6d3809f56c4ba755f88cae04a2ef17e6e3c43b30d0b1e8a8816",
+    "total": 3416
+  },
+  {
+    "file": "dole_5010.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5010",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "แม่อาย",
+    "retrieved_utc": "2026-11-10T06:34:24.768063+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 7207,
+    "sha256": "3d18264bbab0c74295a350b711eaaa00528c6a5bc65bdd3093d53af1632736da",
+    "total": 1977
+  },
+  {
+    "file": "dole_5011.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5011",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "พร้าว",
+    "retrieved_utc": "2026-11-10T06:34:26.701658+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 5018,
+    "sha256": "dbef515a4e19a17372bfd3325e29f013b7fd26eb22d15e2d596e84ce6abbec29",
+    "total": 304
+  },
+  {
+    "file": "dole_5012.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5012",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "สันป่าตอง",
+    "retrieved_utc": "2026-11-10T06:34:28.479929+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 6210,
+    "sha256": "5ee3c1bf5a78e0ff71ac18ccc0b7957e0da66f7da54f6c1b33771f828bfaf917",
+    "total": 382
+  },
+  {
+    "file": "dole_5013.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5013",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "สันกำแพง",
+    "retrieved_utc": "2026-11-10T06:34:30.240941+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 6038,
+    "sha256": "216d764845a43c3e177f85ba18fa9ae332e7936b7968ab1ec31102697b6c8c33",
+    "total": 674
+  },
+  {
+    "file": "dole_5014.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5014",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "สันทราย",
+    "retrieved_utc": "2026-11-10T06:34:32.041257+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 5328,
+    "sha256": "d5303f4fcd802f3739085e863f94464db77b1e81e345a8b1659b9fa1445604e1",
+    "total": 1922
+  },
+  {
+    "file": "dole_5015.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5015",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "หางดง",
+    "retrieved_utc": "2026-11-10T06:34:33.964272+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 5917,
+    "sha256": "5e3ca38c39dbc9765df5f49b7ed3312f4c2d5bff67c10e91f57b48688aca794f",
+    "total": 1021
+  },
+  {
+    "file": "dole_5016.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5016",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "ฮอด",
+    "retrieved_utc": "2026-11-10T06:34:36.000262+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 6294,
+    "sha256": "066a1b43245ee12c972153c83a4b853c68421dd68b33b902d2842b20a85ad209",
+    "total": 264
+  },
+  {
+    "file": "dole_5017.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5017",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "ดอยเต่า",
+    "retrieved_utc": "2026-11-10T06:34:37.771046+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 6349,
+    "sha256": "fb1d603d164446b395bbf24714728759670638733706aa8f23390f68aca078e7",
+    "total": 147
+  },
+  {
+    "file": "dole_5018.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5018",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "อมก๋อย",
+    "retrieved_utc": "2026-11-10T06:34:39.527462+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 9437,
+    "sha256": "07e964fe28617e82ba7242cac6c52c35bee41a7823cf8b629dc4c868ac7401cb",
+    "total": 1691
+  },
+  {
+    "file": "dole_5019.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5019",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "สารภี",
+    "retrieved_utc": "2026-11-10T06:34:41.411699+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 5493,
+    "sha256": "326c66e560d790a4b60a032358cedf2d7808ad499e3c7b4f397c065e4f1fdc7c",
+    "total": 856
+  },
+  {
+    "file": "dole_5020.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5020",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "เวียงแหง",
+    "retrieved_utc": "2026-11-10T06:34:43.230511+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 5007,
+    "sha256": "9b80c5533149e2ae33ffd2bd4392ad51f2e6aa5e9cbe726fef7371f701cfe50c",
+    "total": 2083
+  },
+  {
+    "file": "dole_5021.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5021",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "ไชยปราการ",
+    "retrieved_utc": "2026-11-10T06:34:45.189249+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 6028,
+    "sha256": "908dfcbffa561b6a8d486108693b0ef3cc656b5f2593e733beb2eef326d855ff",
+    "total": 1076
+  },
+  {
+    "file": "dole_5022.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5022",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "แม่วาง",
+    "retrieved_utc": "2026-11-10T06:34:47.043460+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 5155,
+    "sha256": "c5558a4e1fc433dc4a47e370ca2754ecaf4159679df6b6e90934c78d61a547d5",
+    "total": 288
+  },
+  {
+    "file": "dole_5023.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5023",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "แม่ออน",
+    "retrieved_utc": "2026-11-10T06:34:48.807333+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 5731,
+    "sha256": "71116520a1ae8a81e3aec6745454b581ae7f1225e21b726d472fb2c9666c728f",
+    "total": 157
+  },
+  {
+    "file": "dole_5024.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5024",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "ดอยหล่อ",
+    "retrieved_utc": "2026-11-10T06:34:50.568158+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 4795,
+    "sha256": "e10b74a732607202a315346b3def24ba6b729a113c2a05ed050b5959907ab067",
+    "total": 270
+  },
+  {
+    "file": "dole_5025.json",
+    "url": "https://dbzerodropout.dole.go.th/api/dashboard_68.php",
+    "method": "POST",
+    "parameters": {
+      "province_id": "50",
+      "district_id": "5025",
+      "subdistrict_id": ""
+    },
+    "area_name_th": "กัลยาณิวัฒนา",
+    "retrieved_utc": "2026-11-10T06:34:52.335876+00:00",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 4771,
+    "sha256": "130d1ea915c6a715a24dda97fbc66ddae5bb6361c269c455fc6476df407824ea",
+    "total": 44
+  }
+]

@@ -1,0 +1,14 @@
+﻿marker_id,org_id,organisation,district_code,district_en,latitude,longitude,geocode_status,geocode_point_kind,core_universe_role,in_nearest_neighbour
+CM-004,ORG-004,Thai Freedom House,5001,Mueang Chiang Mai,18.794259,98.971928,ok,building_or_house,mapped_child_welfare,yes
+CM-010,ORG-009,Integrated Ministries for Ethnic Minorities Foundation (IMEMF),5014,San Sai,18.844832,99.071439,ok,building_or_house,mapped_child_welfare,yes
+CM-012,ORG-011,Friends for All Children Foundation,5001,Mueang Chiang Mai,18.777113,98.985516,ok,building_or_house,mapped_child_welfare,yes
+CM-022,ORG-019,The Salvation Army Foundation (Thailand),5014,San Sai,18.828307,99.018163,ok,building_or_house,mapped_child_welfare,yes
+CM-026,ORG-022,Projects for Asia Charitable Foundation,5019,Saraphi,18.683193,98.995340,ok,building_or_house,mapped_child_welfare,yes
+CM-029,ORG-024,Wat Don Chan Children’s Quality of Life Development Project,5001,Mueang Chiang Mai,18.760210,99.032567,ok,building_or_house,mapped_child_welfare,yes
+CM-030,ORG-025,Dulabhatorn Foundation,5014,San Sai,18.825536,99.041570,ok,building_or_house,mapped_child_welfare,yes
+CM-032,ORG-027,Radion,5015,Hang Dong,18.677257,98.969707,ok,building_or_house,mapped_child_welfare,yes
+CM-042,ORG-032,Child's Dream,5001,Mueang Chiang Mai,18.772,98.9792,audit_supplied,,mapped_child_welfare,yes
+CM-047,ORG-037,Interact Asia,5001,Mueang Chiang Mai,18.79838,99.024702,audit_supplied,,mapped_child_welfare,yes
+CM-050,ORG-040,Connie's Home,5001,Mueang Chiang Mai,18.744541,98.937517,ok,building_or_house,mapped_child_welfare,yes
+CM-071,ORG-056,Chiang Mai Children's and Family Shelter,5007,Mae Rim,18.857521,98.968210,ok,building_or_house,public_reception,yes
+CM-072,ORG-057,Chiang Mai Juvenile Observation and Protection Centre,5007,Mae Rim,18.889962,98.965311,ok,building_or_house,juvenile_justice_separately_labelled,no

@@ -1,0 +1,587 @@
+[
+ {
+  "row_no": "101",
+  "facility_name_th": "ธนากร",
+  "facility_name_en": "Tanakon Nursery",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Motdang lists อนุบาลธนากร in Cholae, Mae Taeng, matching the directory tambon. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://motdang.net/cm/p/60448134448241573529.html",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.ช่อแล อ.แม่แตง",
+  "searches_run": [
+   "ธนากร เนอสเซอรี่ แม่แตง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "102",
+  "facility_name_th": "สถานรับเลี้ยงเด็กบ้านไร่",
+  "facility_name_en": "Baan Rai Nursery (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Name is very common. Searches returned unrelated บ้านไร่ schools in other districts. No matching Mae Taeng listing with hours.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "No corroborated online match in สบเปิง, Mae Taeng",
+  "searches_run": [
+   "สถานรับเลี้ยงเด็กบ้านไร่ แม่แตง สบเปิง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "103",
+  "facility_name_th": "อนุบาลเรวดี",
+  "facility_name_en": "Rewadee Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register lists โรงเรียนอนุบาลเรวดี in Mae Na, Chiang Dao, matching the directory. Motdang has a different เรวดี listing in Mueang Na with a different house number. Directory website rewadeeschool.weebly.com returned HTTP 404. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=692&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   },
+   {
+    "url": "https://motdang.net/cm/p/395615485995467951.html",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.แม่นะ อ.เชียงดาว on the register; Motdang pin is ต.เมืองนะ 275/1 vs directory 275 หมู่ 2 ต.แม่นะ",
+  "searches_run": [
+   "FETCH https://rewadeeschool.weebly.com/ (404)",
+   "อนุบาลเรวดี เชียงดาว"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Website listed in the directory is dead. Some directory phones are also listed on other Chai Prakan rows (data-quality flag)."
+ },
+ {
+  "row_no": "104",
+  "facility_name_th": "อนุบาลดวงใจ",
+  "facility_name_en": "Duangjai Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Directory Facebook name links it with อนุบาลยูเมะมิกิ, which the private-school register places in Chiang Dao. Directory phone 081-1112519 is the same number as row 147 (อนุบาลเยเรมีย์, Chiang Dao). No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=693&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Facebook name pairs it with อนุบาลยูเมะมิกิ in Chiang Dao; phone is shared with another directory row",
+  "searches_run": [
+   "อนุบาลดวงใจ เชียงดาว"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Shared phone with row 147. Facebook not opened."
+ },
+ {
+  "row_no": "105",
+  "facility_name_th": "เก๋อหลินฮั่นเนิสเซอรี่",
+  "facility_name_en": "Green Hill Nursery (閣林翰托兒所)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Motdang lists Green Hill 閣林翰托兒所 as a kindergarten in Mueang Na, Chiang Dao, matching the directory tambon and Facebook name Green Hill 綠丘森林. Motdang phone 089-817-4546 differs from directory 084-7406775. No hours or overnight wording. Unrelated Taiwan/China Green Hill results were rejected.",
+  "evidence_sources": [
+   {
+    "url": "https://motdang.net/cm/p/green-hill-49978534915591915106.html",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Chinese/English name Green Hill + ต.เมืองนะ อ.เชียงดาว; phones differ",
+  "searches_run": [
+   "Green Hill 綠丘 เก๋อหลินฮั่น เชียงดาว ค้างคืน"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened. Overnight search returned tourism results, not this nursery."
+ },
+ {
+  "row_no": "106",
+  "facility_name_th": "ปัญญาดี",
+  "facility_name_en": "Panyadee Nursery (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Register lists โรงเรียนอนุบาลปัญญา (not ปัญญาดี) in Chiang Dao. No listing found under ปัญญาดี. No hours.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=692&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name ปัญญาดี did not match อนุบาลปัญญา on the register; not treated as the same facility",
+  "searches_run": [
+   "ปัญญาดี เชียงดาว เนิร์สเซอรี่"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Possible related school, not confirmed."
+ },
+ {
+  "row_no": "107",
+  "facility_name_th": "เอื้อวิทยา",
+  "facility_name_en": "Auewittaya School",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register lists โรงเรียนเอื้อวิทยา in Pong Tam, Chai Prakan, matching the directory. Listed website http://auewittaya.ac.th/mainpage returned HTTP 403. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=693&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.ปงตำ อ.ไชยปราการ",
+  "searches_run": [
+   "FETCH http://auewittaya.ac.th/mainpage (403)",
+   "เอื้อวิทยา ไชยปราการ"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Own website blocked to this fetch."
+ },
+ {
+  "row_no": "108",
+  "facility_name_th": "จิตราการณ์",
+  "facility_name_en": "Chitrakan Nursery (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No matching public listing found. Facebook named in the directory was not opened.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "No corroborated online match",
+  "searches_run": [
+   "จิตราการณ์ ไชยปราการ สถานรับเลี้ยงเด็ก"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "109",
+  "facility_name_th": "ฉัตรพฤกษ์เนิร์สเซอรี่",
+  "facility_name_en": "Chattraphruek Nursery (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register lists โรงเรียนอนุบาลฉัตรพฤกษ์ in Si Dong Yen, Chai Prakan, matching the directory tambon and GPS locality. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=693&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.ศรีดงเย็น อ.ไชยปราการ",
+  "searches_run": [
+   "อนุบาลฉัตรพฤกษ์ ไชยปราการ"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "110",
+  "facility_name_th": "อนุบาลลูกรัก",
+  "facility_name_en": "Anuban Lukrak (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Name is common. No matching Chai Prakan listing with hours was found.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "No corroborated online match in หนองบัว, Chai Prakan",
+  "searches_run": [
+   "อนุบาลลูกรัก ไชยปราการ"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "111",
+  "facility_name_th": "ณิชดรุณ",
+  "facility_name_en": "Nichdaroon Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register lists โรงเรียนอนุบาลณิชดรุณ in Pong Tam, Chai Prakan, matching the directory. Listed website nichdaroon.weebly.com returned HTTP 404. A Motdang hit for the same school name in Pa Daet (Mueang) was rejected as a different locality. No hours.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=693&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.ปงตำ อ.ไชยปราการ on the register",
+  "searches_run": [
+   "FETCH https://nichdaroon.weebly.com/ (404)",
+   "อนุบาลณิชดรุณ ไชยปราการ"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Website dead. Some directory phones are shared with rows 103 and 112."
+ },
+ {
+  "row_no": "112",
+  "facility_name_th": "อนุบาลแม่บัวไหล",
+  "facility_name_en": "Mae Bua Lai Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Listed website maebualai.weebly.com returned HTTP 404. Register has อนุบาลแม่บัวคลี่ in San Kamphaeng, which is a different school. Directory Facebook was not opened. No hours.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Directory address ต.แม่ทะลบ อ.ไชยปราการ; website dead; not the San Kamphaeng แม่บัวคลี่ school",
+  "searches_run": [
+   "FETCH https://maebualai.weebly.com/ (404)",
+   "อนุบาลแม่บัวไหล ไชยปราการ"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Identity rests on the directory row. Shared phones with other Chai Prakan rows."
+ },
+ {
+  "row_no": "113",
+  "facility_name_th": "บ้านครูอ้อย",
+  "facility_name_en": "Baan Khru Oi (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No matching public listing found in Chai Prakan.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "No corroborated online match",
+  "searches_run": [
+   "บ้านครูอ้อย ไชยปราการ สถานรับเลี้ยงเด็ก"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "114",
+  "facility_name_th": "สมฤทธิ์",
+  "facility_name_en": "Somrit Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register lists โรงเรียนอนุบาลสมฤทธิ์ in Wiang, Fang, matching the directory. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=692&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.เวียง อ.ฝาง",
+  "searches_run": [
+   "อนุบาลสมฤทธิ์ ฝาง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "115",
+  "facility_name_th": "รัตนาเอื้อวิทยาเนิสเซอรี่",
+  "facility_name_en": "Rattana Auewittaya Nursery",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Motdang lists โรงเรียนรัตนาเอื้อวิทยา อนุบาลและเนอสเซอรี่ at 130/1 หมู่ 11 ต.แม่สูน อ.ฝาง, matching the directory. The associated school website rattana.ac.th describes an ordinary kindergarten-to-secondary school (early-years teaching staff listed) but the homepage fetch returned HTTP 403 and no clock hours were captured. No overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://motdang.net/cm/p/2717608846878080157565.html",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   },
+   {
+    "url": "http://rattana.ac.th/person_161",
+    "type": "official_website",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Address 130/1 หมู่ 11 ต.แม่สูน + phone 053-346583 / 080-858-7619",
+  "searches_run": [
+   "รัตนาเอื้อวิทยา เนิร์สเซอรี่ ฝาง",
+   "FETCH http://rattana.ac.th/ (403)"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Likely a day school, but no daily hours were read, so not classified day_only."
+ },
+ {
+  "row_no": "116",
+  "facility_name_th": "ศูนย์พัฒนาเด็กเล็กศูนย์พัฒนา ปิโตรเลียมภาคเหนือ กรมการพลังงาน ทหาร",
+  "facility_name_en": "Northern Petroleum Development Centre child-development centre (DEPA/military energy department)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Workplace/government child-development centre name is unique. No public hours page was found. Typically these centres are weekday day-care, but that is not evidenced here. No overnight wording.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Unique official name + ต.แม่คะ อ.ฝาง in the directory only",
+  "searches_run": [
+   "ศูนย์พัฒนาปิโตรเลียม ฝาง ศูนย์พัฒนาเด็กเล็ก"
+  ],
+  "needs_partner_verification": true,
+  "notes": "No independent web listing found. Not classified day_only without hours."
+ },
+ {
+  "row_no": "117",
+  "facility_name_th": "ร่มฉัตร",
+  "facility_name_en": "Romchat Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register lists โรงเรียนอนุบาลร่มฉัตร in Ban Kat, Mae Wang, matching the directory. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=693&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.บ้านกาด อ.แม่วาง",
+  "searches_run": [
+   "อนุบาลร่มฉัตร แม่วาง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "118",
+  "facility_name_th": "อนุบาลเจริญจิตวิทยา",
+  "facility_name_en": "Charoenchit Wittaya Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "CMHY has a place page for โรงเรียนอนุบาลเจริญจิตวิทยา in Hang Dong; the fetch/search snippet showed neighbouring schools but not hours. Register also lists it in Hang Dong tambon, matching the directory. No overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://www.cmhy.city/place/18894-Jaroenjit-Vittaya-Kindergarten",
+    "type": "directory_listing",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   },
+   {
+    "url": "https://dhammastudy.org/school/index?page=693&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.หางดง + GPS 18.6841274, 98.9191655",
+  "searches_run": [
+   "อนุบาลเจริญจิตวิทยา หางดง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "CMHY page did not yield hours in the snippet. Facebook not opened."
+ },
+ {
+  "row_no": "119",
+  "facility_name_th": "พรพรรณ",
+  "facility_name_en": "Pornphan Nursery (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No matching public listing found in Hang Dong.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "No corroborated online match",
+  "searches_run": [
+   "สถานรับเลี้ยงเด็กพรพรรณ หางดง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "120",
+  "facility_name_th": "สถานรับเลี้ยงเด็กลักษณ์พงค์",
+  "facility_name_en": "Lakphong Wittaya Nursery (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register lists โรงเรียนลักษณ์พงศ์วิทยา in Nong Tong, Hang Dong, matching the directory tambon. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=693&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.หนองตอง อ.หางดง",
+  "searches_run": [
+   "ลักษณ์พงค์ หางดง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "121",
+  "facility_name_th": "สถานรับเลี้ยงและอบรมเด็กบ้านเต็มรัก",
+  "facility_name_en": "Baan Tem Rak (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Overnight/boarding search for this name in Hang Dong returned tourist lodges (หุบเขาเร้นรัก), not a childcare facility. No matching nursery listing found.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "No corroborated childcare listing; tourism homestays were rejected",
+  "searches_run": [
+   "บ้านเต็มรัก หางดง ค้างคืน พักประจำ เนิร์สเซอรี่"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Name could be read as residential; public evidence did not confirm identity. Facebook not opened."
+ },
+ {
+  "row_no": "122",
+  "facility_name_th": "เพลินพิศ",
+  "facility_name_en": "Ploenphit Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register lists โรงเรียนอนุบาลเพลินพิศ in Han Kaeo, Hang Dong, matching the directory tambon. Unrelated academic hits for a person named เพลินพิศ were rejected. No hours.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=693&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.หารแก้ว อ.หางดง",
+  "searches_run": [
+   "อนุบาลเพลินพิศ หางดง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "123",
+  "facility_name_th": "บ้านบัว",
+  "facility_name_en": "Baan Bua Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register lists โรงเรียนอนุบาลบ้านบัว in Nong Tong, Hang Dong, matching the directory. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=693&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.หนองตอง อ.หางดง",
+  "searches_run": [
+   "อนุบาลบ้านบัว หางดง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "124",
+  "facility_name_th": "สถานรับเลี้ยงเด็กสุภาพร",
+  "facility_name_en": "Suphaphorn Nursery (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No matching public listing found.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "No corroborated online match",
+  "searches_run": [
+   "สถานรับเลี้ยงเด็กสุภาพร หางดง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "No Facebook listed."
+ },
+ {
+  "row_no": "125",
+  "facility_name_th": "สถานรับเลี้ยงเด็กอนุบาลชฎาพร",
+  "facility_name_en": "Chadaporn Nursery (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register lists โรงเรียนอนุบาลชฎาพร in Ban Waen, Hang Dong. Directory address is ต.น้ำแพร่. Same district, different tambon. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=693&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + อ.หางดง; register tambon บ้านแหวน vs directory น้ำแพร่",
+  "searches_run": [
+   "อนุบาลชฎาพร หางดง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Tambon conflict. Facebook not opened."
+ }
+]

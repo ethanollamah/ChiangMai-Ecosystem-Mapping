@@ -1,0 +1,495 @@
+[
+ {
+  "row_no": "126",
+  "facility_name_th": "นันทชาติพรีสคูล",
+  "facility_name_en": "Nandachart Preschool (Nandachart Grade School & PreSchool)",
+  "evidenced_model": "day_only",
+  "confidence": "high",
+  "evidence_th": "เลิกเรียนเวลา 15.00 น. และเริ่มรับส่งเด็กตั้งแต่เวลา 15.30 น.; จันทร์-ศุกร์ 08:00-16:30",
+  "evidence_en": "Local review site says preschool classes end at 15:00 with child pick-up from 15:30, a midday nap 12:00-14:00, and free school transport for children living further out. Local directory lists Mon-Fri 08:00-16:30, Sat 09:00-12:00. Pattern is daytime attendance with daily pick-up; no accommodation wording found.",
+  "evidence_sources": [
+   {"url": "https://www.reviewchiangmai.com/nandachart-preschool-hang-dong/", "type": "other", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.cmhy.city/place/8783-Nandachart-Grade-School-PreSchool", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.schoolandcollegelistings.com/TH/Amphoe-Hang-Dong/211683309339227/Nandachart-Hang-Dong", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Classes end 15:00, pick-up from 15:30 (review site); Mon-Fri 08:00-16:30, Sat 09:00-12:00 (CMHY); Mon-Fri 08:00-17:00 (schoolandcollegelistings)",
+  "stay_length_pattern": "daily attendance, children collected each afternoon",
+  "identity_match_basis": "Name + 279 Moo 11 Nong Khwai, Hang Dong + phone 053-432474 / 063-1989893 + operator name Amphawan Chutima (review site)",
+  "searches_run": [
+   "WebFetch https://nandachartschool.com/ (timed out)",
+   "WebFetch https://www.nandachartschool.com/ (returned empty page)",
+   "นันทชาติ หางดง เชียงใหม่ เวลาเรียน ประจำ"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Own website (listed in directory) did not load: first fetch timed out, second returned no content. Facebook pages listed by name only, no URL, not opened. Saturday hours relate to the grade school/summer programmes; still daytime."
+ },
+ {
+  "row_no": "127",
+  "facility_name_th": "พัฒนชัย",
+  "facility_name_en": "Pattanachai Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "โรงเรียนเอกชน ระดับชั้นเตรียมอนุบาล-อนุบาล 3",
+  "evidence_en": "Only directory listings found (private school, pre-kindergarten to K3). No operating hours or attendance pattern found in either direction.",
+  "evidence_sources": [
+   {"url": "https://www.yellowpages.co.th/profile/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%8A%E0%B8%B1%E0%B8%A2-%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%9A%E0%B8%B2%E0%B8%A5-93H6pzezV", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://motdang.net/cm/school/yan-hang-dong.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name (โรงเรียนอนุบาลพัฒนชัย) + San Phak Wan subdistrict, Hang Dong + phone 053-441491. Listings give 213 Moo 2 while input says 213 Moo 1; phone match treated as decisive.",
+  "searches_run": [
+   "โรงเรียนอนุบาลพัฒนชัย สันผักหวาน หางดง เชียงใหม่",
+   "อนุบาลพัฒนชัย หางดง เวลาเปิด ปิด รับเลี้ยงเด็ก ค้างคืน"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Fee 1,500/month and licensed age 1-3 are typical of day nurseries but not evidence of the operating model. Facebook page listed by name only, not opened."
+ },
+ {
+  "row_no": "128",
+  "facility_name_th": "อนุบาลฮานาคริสเตียน",
+  "facility_name_en": "Hana Christian International Kindergarten",
+  "evidenced_model": "day_only",
+  "confidence": "high",
+  "evidence_th": "",
+  "evidence_en": "Official website lists programme hours of 8:20 AM - 4:00 PM for every toddler/preschool group (1-2 yrs, 2-3 yrs, 3-4 yrs, K2, K3). Front desk hours are 8:30 AM-3:30 PM Monday-Friday. No accommodation for kindergarten children is described.",
+  "evidence_sources": [
+   {"url": "https://www.hcik.ac.th/", "type": "official_website", "accessed": "2026-11-10", "seen_via": "page_opened"}
+  ],
+  "operating_hours_found": "Programmes 08:20-16:00; desk Mon-Fri 08:30-15:30; office Mon-Fri 08:00-17:00",
+  "stay_length_pattern": "daily attendance, Monday-Friday",
+  "identity_match_basis": "Name + Moo 12 Nong Khwai, Hang Dong + phone 053-336848 (website gives house no. 55 vs input 34/2)",
+  "searches_run": [
+   "WebFetch https://www.hcik.ac.th/"
+  ],
+  "needs_partner_verification": false,
+  "notes": "The website's donation section says the supporting Mission Power Foundation 'built a dormitory in Chiang Mai to care for middle-school and high-school students from the hill tribes for over 22 years'. That is a separate secondary-age dormitory, not this licensed childcare facility (age 1-3). It may deserve separate mapping as residential provision for older children; its location was not stated."
+ },
+ {
+  "row_no": "129",
+  "facility_name_th": "บ้านคุณแม่",
+  "facility_name_en": "Baankunmae Brain Friendly School (Ban Khun Mae School)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "เวลาทำการ จันทร์-ศุกร์ เวลา 07:00-16:30, เสาร์ เวลา 07:30-17:00; ชั้นเล็ก เปิดสอนเด็กเล็ก 6 เดือน - อนุบาล 3",
+  "evidence_en": "Yellow Pages listing at the same address gives daytime hours Mon-Fri 07:00-16:30 and Sat 07:30-17:00, with a young-child class from 6 months. No overnight or residential wording found.",
+  "evidence_sources": [
+   {"url": "https://www.yellowpages.co.th/profile/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B9%81%E0%B8%A1%E0%B9%88-%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-92B7wa8PV", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.cmhy.city/place/20376-Baan-Kun-Mae-school", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://childimpact.co/blog/284", "type": "other", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 07:00-16:30; Sat 07:30-17:00 (Yellow Pages)",
+  "stay_length_pattern": "daytime attendance",
+  "identity_match_basis": "Name + 184 Moo 9 Nong Khwai, Hang Dong (exact address) + coordinates 18.7302, 98.9287 matching input",
+  "searches_run": [
+   "โรงเรียนบ้านคุณแม่ หนองควาย หางดง Baankunmae Brain Friendly School",
+   "โรงเรียนบ้านคุณแม่ หางดง เวลาเรียน เนอร์สเซอรี่ รับส่ง"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Phone in Yellow Pages (053-430-888) differs from input; address and coordinates match. Hours come from a third-party directory, not an official page, so confidence is medium. A Jan 2026 Child Impact article describes the kindergarten's day programme (play-based learning). Facebook pages listed by name only, not opened."
+ },
+ {
+  "row_no": "130",
+  "facility_name_th": "เชียงใหม่มอนเทสซอรี่",
+  "facility_name_en": "Chiang Mai Montessori International School (CMMIS)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "Independent international-school index lists 'Boarding: No', 'School hours: 08:00-16:30' and after-school care. Official site describes an 18-month-3-year Infant/Toddler Community and says detailed hours are in the parent handbook.",
+  "evidence_sources": [
+   {"url": "https://internationalschoolindex.com/en-th/school/cm-montessori", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://chiangmaimontessori.org/toddler-community/", "type": "official_website", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://esara.school/admissions/", "type": "official_website", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "08:00-16:30 (internationalschoolindex.com, updated 2026-07-09)",
+  "stay_length_pattern": "day school; listed as no boarding",
+  "identity_match_basis": "Name + 229/1 Moo 6 Nong Khwai, Hang Dong (exact address on official site)",
+  "searches_run": [
+   "Chiang Mai Montessori International School Hang Dong school hours toddler"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Hours come from a third-party index; the official handbook was not opened. Licensed age range in the directory is 0-2, while the school advertises from 18 months."
+ },
+ {
+  "row_no": "131",
+  "facility_name_th": "ลิตเติ้ลสตาร์ ไบลิงกัว พรีสคูล",
+  "facility_name_en": "Little Stars Bilingual Pre-School (now Little Stars Ambassador Bilingual School / Yuwathut Suksa Patana Rajapruek School)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "รับนักเรียนอายุ 1.6 - 5 ปี ... เพื่อเป็นการแบ่งเบาภาระของผู้ปกครอง",
+  "evidence_en": "The school history describes a nursery for children aged 1.6-5 years intended to ease the load on working parents, which implies but does not state a day model. No hours were found for the Hang Dong (216 Moo 1) site. Hours found (kindergarten 9:00-15:00) belong to the group's Ambassador Bilingual School in Saraphi, a different campus.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/place/20377-Little-Stars-Ambassador-Bilingual-School", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://map.longdo.com/poilist/40?page=2860", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://absbilingualschool.ac.th/", "type": "official_website", "accessed": "2026-11-10", "seen_via": "page_opened"},
+   {"url": "https://absbilingualschool.ac.th/new/curriculum/", "type": "official_website", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://absbilingualschool.ac.th/Handbook/ABS-en.pdf", "type": "official_website", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "None found for this site. Sister campus ABS (Saraphi): kindergarten 09:00-15:00.",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + 216 Moo 1 Nong Khwai, Hang Dong + phones 053-336840 / 081-9506659 / 081-7168917 + founder Amporn Kamolkomut (= operator)",
+  "searches_run": [
+   "WebFetch https://absbilingualschool.ac.th/ (splash page only)",
+   "Ambassador Bilingual School Hang Dong Chiang Mai school hours boarding",
+   "ลิตเติ้ลสตาร์ ไบลิงกัว พรีสคูล หนองควาย หางดง",
+   "WebFetch http://www.littlestarsambassador.com (503 error)"
+   ],
+  "needs_partner_verification": true,
+  "notes": "Directory status is 'ไม่มีเด็กในการดูแล' (no children currently in care). The licensed nursery appears to have been absorbed into a MOE-licensed school at the same address. The directory URL 'absbilingualschool.ac.t h' was read as absbilingualschool.ac.th, which only showed a splash page. littlestarsambassador.com returned HTTP 503. A school index (wiki.any.school) says ABS lists no boarding, but that refers to the Saraphi campus."
+ },
+ {
+  "row_no": "132",
+  "facility_name_th": "ศิริลักษณ์",
+  "facility_name_en": "Sirilak Nursery",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Only map/directory listings found (nursery school at 194 Moo 1 Thung Satok). No hours or attendance pattern found.",
+  "evidence_sources": [
+   {"url": "https://motdang.net/cm/p/803019414639661715.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/9thfpswt6rr", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://2pos.world/164592/cat-2078", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name (โรงเรียนศิริลักษณ์เนอร์ซอรี / Sirilak Nursery) + 194 Moo 1 Thung Satok, San Pa Tong + coordinates ~18.6113, 98.8491 matching input",
+  "searches_run": [
+   "สถานรับเลี้ยงเด็กศิริลักษณ์ ทุ่งสะโตก สันป่าตอง",
+   "ศิริลักษณ์เนอร์ซอรี สันป่าตอง 091-7171931"
+  ],
+  "needs_partner_verification": true,
+  "notes": "A CMHY listing for another 'ศิริลักษณ์' nursery in Fa Ham, Mueang (Mon-Fri 08:00-16:00) is a different facility and was rejected. Licensed age range is birth-6 with a 1,200/month fee; no online contact."
+ },
+ {
+  "row_no": "133",
+  "facility_name_th": "สถานรับเลี้ยงเด็กบ้านสมณะ",
+  "facility_name_en": "Samana Kindergarten (โรงเรียนอนุบาลสมณะ)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "Place listing (with the facility's phone and email) gives opening hours Mon-Fri 7:45 AM-5:30 PM and closed on weekends. No overnight wording found.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/2ss6mxs75xx", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://motdang.net/cm/p/297904805444433295464.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 07:45-17:30; Sat-Sun closed",
+  "stay_length_pattern": "weekday daytime attendance",
+  "identity_match_basis": "Name (อนุบาลสมณะ / Samana) + Tha Wang Phrao, San Pa Tong + phone 053-024544",
+  "searches_run": [
+   "โรงเรียนอนุบาลสมณะ ท่าวังพร้าว สันป่าตอง Samana Kindergarten"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Hours come from an aggregated place listing (likely Google-derived), not an official page. Facebook page listed by name only, not opened."
+ },
+ {
+  "row_no": "134",
+  "facility_name_th": "สถานรับเลี้ยงเด็กวันเพ็ญ",
+  "facility_name_en": "Wanphen Child Care Centre (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No online source matching this facility by name plus locality or phone was found.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "None. Search returned only a different nursery in Ban Klang (นิตยา สถานรับเลี้ยงเด็ก, 317 Moo 3, different phone), which was rejected.",
+  "searches_run": [
+   "สถานรับเลี้ยงเด็กวันเพ็ญ บ้านกลาง สันป่าตอง",
+   "วันเพ็ญ ยี่นาง รับเลี้ยงเด็ก สันป่าตอง 084-8049937"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Online contact is a personal Facebook profile name only (no URL); not opened. Licensed age 1-3, fee 1,500."
+ },
+ {
+  "row_no": "135",
+  "facility_name_th": "สถานรับเลี้ยงเด็กวิมานทิพย์",
+  "facility_name_en": "Vimantip School (โรงเรียนวิมานทิพย์)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "จันทร์-ศุกร์ 08:00-16:30",
+  "evidence_en": "Local directory gives Mon-Fri 08:00-16:30 for the school, which offers nursery, kindergarten and primary levels. No overnight wording found.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/place/19615-Wimanthip-Kindergarten", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.schooljob.in.th/index.php?page=institutesinginshowall&school_id=2623", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://motdang.net/cm/p/chiang-mai-3179442154505046634226313.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 08:00-16:30",
+  "stay_length_pattern": "weekday daytime attendance",
+  "identity_match_basis": "Name + 239 Moo 8, San Pa Tong + phones 053-311120 / 065-4426462 + GPS 18.6437936, 98.9026551 identical to input",
+  "searches_run": [
+   "โรงเรียนวิมานทิพย์ สันกลาง สันป่าตอง เชียงใหม่"
+  ],
+  "needs_partner_verification": false,
+  "notes": "CMHY gives the subdistrict as Yu Wa; other listings say San Klang (matching input). Facebook page (facebook.com/vimantip) was seen in snippets but not opened."
+ },
+ {
+  "row_no": "136",
+  "facility_name_th": "อนุบาลบ้านแสงทอง",
+  "facility_name_en": "Ban Saeng Thong Kindergarten (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No online source matching this facility by name plus Yu Wa / San Pa Tong or its phone numbers was found.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "None. Results were a municipal kindergarten in Yu Wa (different entity) and an อนุบาลแสงทอง in Nakhon Si Thammarat; both rejected.",
+  "searches_run": [
+   "อนุบาลบ้านแสงทอง ยุหว่า สันป่าตอง",
+   "\"053-311953\" OR \"086-1896901\" อนุบาลแสงทอง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "No online contact in the directory. Licensed age 1-4, fee 1,500-2,000."
+ },
+ {
+  "row_no": "137",
+  "facility_name_th": "ศูนย์พัฒนาเด็กเล็กบ้านเด็กดี",
+  "facility_name_en": "Good Kids Preschool (ศูนย์พัฒนาเด็กเล็ก สองภาษา บ้านเด็กดี)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "Place listing (with the facility's phone and Facebook) gives Mon-Fri 7 AM-5 PM, closed weekends. A 2019 municipal news post describes a daytime field trip by teachers and pupils. No overnight wording found.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/20ymkx7q1xc", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.sanpatong.go.th/?p=page_post&page_id=1&post_id=388", "type": "government", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 07:00-17:00; Sat-Sun closed",
+  "stay_length_pattern": "weekday daytime attendance",
+  "identity_match_basis": "Name + phone 090 885 4242 + coordinates 18.642826, 98.870818 matching input (18.6429, 98.8708) + Facebook goodkidspreschool",
+  "searches_run": [
+   "ศูนย์พัฒนาเด็กเล็กบ้านเด็กดี Good Kids Preschool น้ำบ่อหลวง สันป่าตอง"
+  ],
+  "needs_partner_verification": false,
+  "notes": "The listing places the facility in Yu Wa subdistrict, while the input address is Nam Bo Luang; coordinates and phone match, so this is likely the subdistrict boundary. Hours come from an aggregated listing. Facebook not opened."
+ },
+ {
+  "row_no": "138",
+  "facility_name_th": "อนุบาลวิไลลักษณ์(วิไลเนิสเซอรี่)",
+  "facility_name_en": "Wilailak Kindergarten (Wilai Nursery) (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "Place listing (with the facility's phone) gives Mon-Fri 7:30 AM-5:30 PM, closed weekends. No overnight wording found.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/p0g7nccx20v", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://motdang.net/cm/p/11263694016409874591601.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://motdang.net/cm/p/2327.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 07:30-17:30; Sat-Sun closed",
+  "stay_length_pattern": "weekday daytime attendance",
+  "identity_match_basis": "Name + 79/2 Ban Klang, San Pa Tong + phone 081-3667269 + coordinates 18.5525, 98.8727 matching input",
+  "searches_run": [
+   "อนุบาลวิไลลักษณ์ วิไลเนิสเซอรี่ บ้านกลาง สันป่าตอง"
+  ],
+  "needs_partner_verification": false,
+  "notes": "The input address field contains stray coordinate text from row 137 (PDF overflow). Mot Dang also lists a MOE private-school licence (pre-K to K, founded 2019) under the same name. Hours come from an aggregated listing. Facebook not opened."
+ },
+ {
+  "row_no": "139",
+  "facility_name_th": "บ้านเด็กเนอร์สเซอรี่",
+  "facility_name_en": "Ban Dek Nursery (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "SME directories confirm the business (บ้านเด็ก) at the input address with the input phone and operator, but give no hours or service details. A Feb 2024 school news post records a secondary school giving an education-guidance visit to pupils at บ้านเด็กเนอร์สเซอร์รี่. No operating pattern found.",
+  "evidence_sources": [
+   {"url": "https://www.bethailand.com/20130225664/", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.thailandcompanydirectory.com/otop/1050", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.srichomtong.ac.th/web/?p=9412", "type": "other", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "294 Moo 6 Khuang Pao, Chom Thong + phone 053-341127 + operator name (Sirichan Srichomthong) all match the SME listings",
+  "searches_run": [
+   "บ้านเด็กเนอร์สเซอรี่ ข่วงเปา จอมทอง เชียงใหม่",
+   "\"053-341127\" บ้านเด็กเนอร์สเซอรี่ จอมทอง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Fee 2,500/month, licensed age 1.5-6. The Si Chom Thong school post matches by name and district only."
+ },
+ {
+  "row_no": "140",
+  "facility_name_th": "อนุบาลสุทธิวงศ์",
+  "facility_name_en": "Sutthiwong Kindergarten (Anuban Sutthiwong)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "เวลาทำการ จันทร์-ศุกร์ เวลา 08:00-15:30",
+  "evidence_en": "Yellow Pages gives working hours Mon-Fri 08:00-15:30 for the kindergarten at the input address. No overnight wording found.",
+  "evidence_sources": [
+   {"url": "https://www.yellowpages.co.th/profile/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%AA%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B8%A7%E0%B8%87%E0%B8%A8%E0%B9%8C-%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%9A%E0%B8%B2%E0%B8%A5-93ffLQOyM", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/zqq2tt2rmrm", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://motdang.net/cm/p/2236.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 08:00-15:30",
+  "stay_length_pattern": "weekday daytime attendance",
+  "identity_match_basis": "Name + 171 Moo 4 Ban Luang, Chom Thong (exact address)",
+  "searches_run": [
+   "โรงเรียนอนุบาลสุทธิวงศ์ บ้านหลวง จอมทอง"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Listed phone (053-341-403) differs from the input mobile (081 366 1324); address match is exact. Mot Dang shows a MOE private kindergarten licence founded 1990. Facebook not opened."
+ },
+ {
+  "row_no": "141",
+  "facility_name_th": "ณัทชวิทย์เบบี้โฮม",
+  "facility_name_en": "Natchawit Baby Home (Natchawit School)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "เวลาทำการ จันทร์-ศุกร์ เวลา 08:00-16:00",
+  "evidence_en": "Yellow Pages gives Mon-Fri 08:00-16:00 and CMHY gives Mon-Fri 08:00-16:30 for Natchawit School (K1 to M3). The 'Baby Home' name does not establish residence; no overnight wording found.",
+  "evidence_sources": [
+   {"url": "https://www.yellowpages.co.th/profile/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%93%E0%B8%B1%E0%B8%97%E0%B8%8A%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B9%8C-937fV5g6M", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.cmhy.city/en/place/25479-Natchawit-school", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 08:00-16:00 (Yellow Pages); Mon-Fri 08:00-16:30 (CMHY)",
+  "stay_length_pattern": "weekday daytime attendance",
+  "identity_match_basis": "Name + 560 Moo 14 Khuang Pao, Chom Thong + phones 053-341045 and 092-445-3226",
+  "searches_run": [
+   "โรงเรียนณัทชวิทย์ Natchawit school จอมทอง ข่วงเปา"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Hours are listed for the school as a whole; the baby-home unit's own hours were not separately stated. Facebook (Wise.Natchawitschool) seen in a snippet but not opened."
+ },
+ {
+  "row_no": "142",
+  "facility_name_th": "สถานรับเลี้ยงเด็กเมืองเด็กเนิร์สเซอรี่",
+  "facility_name_en": "Muang Dek Nursery (part of Muang Dek Witthaya School)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "สถานรับเลี้ยงเด็ก เมืองเด็กเนิร์สเซอรี่",
+  "evidence_en": "The official school website lists the nursery as a unit of Muang Dek Witthaya School (kindergarten and primary). It gives the school history, staff and contact details but no operating hours. A search for boarding terms found nothing, but that alone does not establish a day model.",
+  "evidence_sources": [
+   {"url": "https://muangdek.ac.th/", "type": "official_website", "accessed": "2026-11-10", "seen_via": "page_opened"},
+   {"url": "https://muangdek.ac.th/?AboutOrder=40&Cont=ASD", "type": "official_website", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://muangdek.ac.th/?AboutOrder=31&Cont=ASD", "type": "official_website", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Official site lists the nursery by name; school at 168/1 Moo 12 Chang Khoeng, Mae Chaem; phone 053-485053 matches; school manager has the same name as the licensed operator",
+  "searches_run": [
+   "WebFetch https://muangdek.ac.th/",
+   "โรงเรียนเมืองเด็กวิทยา แม่แจ่ม เนิร์สเซอรี่ หอพัก นักเรียนประจำ",
+   "เมืองเด็กเนิร์สเซอรี่ แม่แจ่ม เวลา พักประจำ กินนอน"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Site news items are dated 2023-2025 (displayed years are garbled). Mae Chaem is a remote district where boarding provision exists in some schools, but none was found for this facility. Partner check of hours is recommended."
+ },
+ {
+  "row_no": "143",
+  "facility_name_th": "อัลม่อนเดย์แคร์",
+  "facility_name_en": "Almond Day Care (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No online source matching this facility in Tha Ton, Mae Ai was found. The name contains 'Day Care', but the name alone does not establish the model.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "None. Results were sub-district public child development centres and Banrakdek Thaton Kindergarten (different name and phone), all rejected.",
+  "searches_run": [
+   "อัลม่อนเดย์แคร์ ท่าตอน แม่อาย",
+   "อัลม่อน เดย์แคร์ Almond Day Care Mae Ai Tha Ton nursery"
+  ],
+  "needs_partner_verification": true,
+  "notes": "No online contact in the directory. Licensed age 1y11m-6, fee 2,000."
+ },
+ {
+  "row_no": "144",
+  "facility_name_th": "บ้านฮักโฮม",
+  "facility_name_en": "Baan Hak Home (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "ไป-กลับ อายุ 0 - 4 ปี",
+  "evidence_en": "The licensing directory's age-range field states 'ไป-กลับ' (day attendance, home each day) for ages 0-4. No independent online source was found to confirm or contradict this.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "day attendance (ไป-กลับ) per licensing directory",
+  "identity_match_basis": "Licensing directory record only; no web source matched by name plus Nong Chom / San Sai.",
+  "searches_run": [
+   "บ้านฮักโฮม หนองจ๊อม สันทราย รับเลี้ยงเด็ก"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Classification rests on the directory's own ไป-กลับ wording. Online contact is an email only. Search returned other Nong Chom nurseries (Chan Pen, Baby Genius), which were rejected."
+ },
+ {
+  "row_no": "145",
+  "facility_name_th": "สวนเด็กบ้านเจ้า",
+  "facility_name_en": "Suan Dek Baan Jao",
+  "evidenced_model": "day_only",
+  "confidence": "high",
+  "evidence_th": "ไป-กลับ อายุ แรกเกิด - 6 ปี",
+  "evidence_en": "The licensing directory states ไป-กลับ (day attendance). A place listing with the same phone gives Mon-Fri 7:30 AM-4:30 PM, closed weekends, category 'Nursery School'.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/jsltshtnmt7", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 07:30-16:30; Sat-Sun closed",
+  "stay_length_pattern": "day attendance (ไป-กลับ)",
+  "identity_match_basis": "Name + 90/1 San Phi Suea + phone 098 936 4747",
+  "searches_run": [
+   "สวนเด็กบ้านเจ้า สันผีเสื้อ เชียงใหม่"
+  ],
+  "needs_partner_verification": false,
+  "notes": "The search tool's auto-summary called this a 'สถานสงเคราะห์เด็ก' (child welfare home). The underlying snippet does not support that (category 'Nursery School'), so it was disregarded. The listing wrongly gives the province as Lamphun, but postcode 50300 and San Phi Suea match. Listed website suandekbaanjao.com was not opened. Separately, a San Phi Suea municipality post (29 Sep 2026) records an inspection of a different, applicant private child welfare home (มูลนิธิบ้านร่มไม้ชายคา, Moo 2 San Phi Suea). That facility is unrelated to this row but may be relevant to the wider mapping."
+ },
+ {
+  "row_no": "146",
+  "facility_name_th": "บ้านพระคุณ",
+  "facility_name_en": "Grace Kindergarten (สถานรับเลี้ยงเด็กบ้านพระคุณ GRACE KINDERGARTEN)",
+  "evidenced_model": "day_only",
+  "confidence": "high",
+  "evidence_th": "ไป-กลับ อายุ 2 - 6 ปี",
+  "evidence_en": "The licensing directory states ไป-กลับ (day attendance). A place listing with the same phone shows Mon-Fri opening from 8 AM, closed weekends.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/kzsxckf5pfm", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://2pos.world/327142/cat-2074", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri from 08:00 (listing shows '8 AM-4 AM', almost certainly a data-entry error for 4 PM); Sat-Sun closed",
+  "stay_length_pattern": "day attendance (ไป-กลับ)",
+  "identity_match_basis": "Name + San Na Meng, San Sai + phone 092 391 7328",
+  "searches_run": [
+   "บ้านพระคุณ สันนาเม็ง สันทราย เด็ก"
+  ],
+  "needs_partner_verification": false,
+  "notes": "The listing's '8 AM-4 AM' hours read literally would be 20 hours. Given the weekday-only, weekend-closed pattern and the directory's ไป-กลับ statement, this is treated as a data error and not as evidence of overnight care. Listing says Moo 4 while input says Moo 9; phone matches. Facebook (GIKindergarten) seen in a snippet, not opened."
+ },
+ {
+  "row_no": "147",
+  "facility_name_th": "อนุบาลเยเรมีย์",
+  "facility_name_en": "Jeremiah Kindergarten (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "ไป-กลับ 1 ปี 6 เดือน - 6 ปี",
+  "evidence_en": "The licensing directory's age-range field states 'ไป-กลับ' (day attendance) for ages 1.5-6. No online source was found to confirm or contradict this.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "day attendance (ไป-กลับ) per licensing directory",
+  "identity_match_basis": "Licensing directory record only (530 Moo 6 Chiang Dao subdistrict, Chiang Dao district; district field read as เชียงดาว per PDF overflow note). No web source matched.",
+  "searches_run": [
+   "อนุบาลเยเรมีย์ เชียงดาว"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Classification rests on the directory's ไป-กลับ wording. Search returned only the municipal kindergarten in Chiang Dao (a different entity), which was rejected. No online contact."
+ },
+ {
+  "row_no": "148",
+  "facility_name_th": "อนุบาลศิลาคริสเตียน",
+  "facility_name_en": "SiLA Christian Kindergarten",
+  "evidenced_model": "day_only",
+  "confidence": "high",
+  "evidence_th": "ไป-กลับ 2 ปี - 6 ปี",
+  "evidence_en": "The licensing directory states ไป-กลับ (day attendance). A Chiang Mai family-guide page (checked Nov 2026) lists Mon-Fri 8 AM-5 PM. The school's own posts describe a daytime routine (activities, lunch, nap) for 2-year-olds.",
+  "evidence_sources": [
+   {"url": "https://chiangmaijao.com/family/kindergartens-chiang-mai/", "type": "other", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.schoolandcollegelistings.com/TH/%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87Chiang-Mai/524950154033876/Sila-Christian-Kindergarten", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/hygjbhm54br", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 08:00-17:00",
+  "stay_length_pattern": "day attendance (ไป-กลับ), weekdays",
+  "identity_match_basis": "Name + 400 Moo 4 Mae Hia, Mueang Chiang Mai + phone 084-351-4747",
+  "searches_run": [
+   "Sila Christian Kindergarten Mae Hia Chiang Mai"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Facebook (silakinder) seen via a mirrored listing snippet, not opened directly. Website silakg.org was noted but not opened."
+ }
+]

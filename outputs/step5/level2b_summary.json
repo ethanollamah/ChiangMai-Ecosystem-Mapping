@@ -1,0 +1,36 @@
+{
+  "generated_utc": "2026-11-10T12:01:20.512731+00:00",
+  "n_origins": 25,
+  "n_destinations": 8,
+  "n_routed": 25,
+  "n_failed": 0,
+  "n_centroids_outside_polygon": 0,
+  "excluded_neighbour_centroids_inside_simplified_province": [
+    "Li"
+  ],
+  "private_vehicle_minutes": {
+    "min": 3.9,
+    "median": 84.5,
+    "mean": 88.0,
+    "max": 215.4,
+    "n_centroids_at_or_under_30": 6,
+    "n_centroids_at_or_under_60": 11,
+    "n_centroids_over_60": 14,
+    "n_under_30_on_both_engines": 2,
+    "unit": "district centroids, not children"
+  },
+  "validation": {
+    "n_pairs_compared": 16,
+    "n_valhalla_no_route": 9,
+    "n_valhalla_exceeds_150km_limit": 0,
+    "median_valhalla_minus_fossgis_minutes": 16.1,
+    "max_abs_difference_minutes": 28.0,
+    "note": "Where both engines return a time, Valhalla auto is slower. A no_route from Valhalla means that centroid did not snap to Valhalla's road graph. The FOSSGIS time remains the primary estimate."
+  },
+  "boundary_sha256": {
+    "adm1_simplified": "841f1250cac868fa966b2089863f01e9c9b4dc9b7fb0d9d6dce9a495e32b32a0",
+    "adm2_simplified": "faae0d9d6fe56b489a9cb3bd5b8fe100025aad99ec554bf7a9f49cbe2216bf10"
+  },
+  "bins_are_descriptive": true,
+  "not_a_share_of_children": true
+}

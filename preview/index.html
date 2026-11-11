@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interactive Map of Chiang Mai's Child Welfare Ecosystem</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="styles.css?v=18" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-top">
+      <div class="header-text">
+        <h1>Interactive Map of Chiang Mai's Child Welfare Ecosystem</h1>
+      </div>
+      <div class="header-meta">
+        <p class="data-badge" id="data-badge">Data as of —</p>
+        <p class="audience" id="audience"></p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="view-insights" class="view is-active" aria-label="Insights">
+      <div class="workspace">
+        <div class="workspace-left">
+          <div class="moves-toolbar sticky-move-chrome">
+            <details class="method-drawer">
+              <summary>Glossary & Notes</summary>
+              <div id="reading-rules" class="rules"></div>
+            </details>
+          </div>
+          <div id="insights-list" class="moves-list"></div>
+        </div>
+
+        <div class="workspace-right">
+          <div class="map-mode">
+            <div class="map-stage">
+              <div id="map-insight" class="map" role="img" aria-label="Chiang Mai districts for the selected insight"></div>
+              <div class="map-mode-toggle" role="group" aria-label="Map mode">
+                <button type="button" id="mode-insight" class="is-active" aria-pressed="true">Curated Insights</button>
+                <button type="button" id="mode-full" aria-pressed="false">Full map</button>
+              </div>
+              <aside class="map-legend" id="legend-insight" aria-label="Map legend"></aside>
+            </div>
+            <label class="compare-field">
+              Compare another district
+              <select id="compare-district">
+                <option value="">None</option>
+              </select>
+            </label>
+            <div class="panel-split" id="panels-insight">
+              <aside class="panel" id="panel-insight">
+                <p class="panel-empty">Select an insight to see the figures for its districts.</p>
+              </aside>
+              <aside class="panel panel-compare" id="panel-insight-compare" hidden></aside>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="sources" id="sources"></p>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="app.js?v=22"></script>
+</body>
+</html>

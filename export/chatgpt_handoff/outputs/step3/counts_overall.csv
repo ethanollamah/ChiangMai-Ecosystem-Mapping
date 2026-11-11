@@ -1,0 +1,13 @@
+﻿measure,n,definition
+level1_organisations,53,Unique organisations in Chiang Mai family-support universe (mapped child-welfare + public welfare/reception). Excludes Chiang Rai and juvenile justice.
+of_which_mapped_child_welfare,50,"From the 29 October audit, in Chiang Mai, include-in-map organisations."
+of_which_with_final_stage_tick,39,Mapped child-welfare organisations with at least one FINAL checkbox tick.
+of_which_no_final_stage_tick,11,Mapped child-welfare organisations with no FINAL tick. Still in the overall organisation count.
+of_which_public_welfare_or_reception,3,Added from the 2025 public directory. Not in FINAL checkbox.
+level1_physical_sites,57,"Unique eligible physical sites. Service-area markers, out-of-scope, and 'no verified site' records are excluded. Juvenile excluded."
+level1_sites_district_joinable,49,Level 1 sites mapped onto a DOPA district 5001–5025.
+level1_sites_district_not_joinable,8,"In Chiang Mai but province-wide, undisclosed, or otherwise not a district join."
+level1_nearest_neighbour_points,12,Exact public house/building points in Chiang Mai. Don Kaeo campus counted once (CM-071). Juvenile not included. Coarse street/locality geocodes not included.
+don_kaeo_campus_sites_not_extra_points,2,CM-069 and CM-070 share CM-071 coordinates and are not extra nearest-neighbour observations.
+juvenile_justice_labelled_not_in_family_support_counts,1,"Chiang Mai Juvenile Observation and Protection Centre. Coordinates stored; excluded from organisation, site and point numerators."
+chiang_rai_boundary_note_not_in_counts,3,Wiang Pa Pao markers CM-060/061/062. Nearby provision note only.

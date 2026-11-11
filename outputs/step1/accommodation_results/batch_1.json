@@ -1,0 +1,543 @@
+[
+ {
+  "row_no": "1",
+  "facility_name_th": "พิมานเด็ก",
+  "facility_name_en": "Pimandek Chiang Mai School",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "จันทร์-ศุกร์ 08:00-16:30; การรับส่งเด็ก ทางโรงเรียนจะให้รับส่งภายในโรงเรียน โดยจะมีรถประจำของทางโรงเรียนจำนวน 3 คัน",
+  "evidence_en": "Directory listing gives Mon–Fri 08:00–16:30; a 2017 local profile describes daily pick-up/drop-off by three school vans serving Pa Daet, Wing 41 and Saraphi. Pattern is daily day attendance; no mention of boarding.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/place/40694-Pimandek-ChiangMai-School", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.reviewchiangmai.com/pimandek-kindergarten/", "type": "other", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–16:30 (CMHY directory)",
+  "stay_length_pattern": "Daily attendance with school-van transport home",
+  "identity_match_basis": "Name + address 222 หมู่ 2 ต.ป่าแดด + phone 053-274002 + website pimandek.ac.th all match directory row; operator surname พิสุทธิพันธ์พงศ์ matches reviewchiangmai profile",
+  "searches_run": [
+   "FETCH https://pimandek.ac.th/ (HTTP 500, unreadable)",
+   "พิมานเด็ก เชียงใหม่ ป่าแดด เนิร์สเซอรี่ เวลา รับ-ส่ง"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Official website returned HTTP 500; Facebook page not fetched. Facility is now a kindergarten–primary school (founded 2524 BE/1981 as a childcare centre) whose licensed nursery section covers 0–3 yrs. Hours are from a third-party directory, not the facility itself. No dedicated accommodation-keyword search was run."
+ },
+ {
+  "row_no": "2",
+  "facility_name_th": "ศิริปัญญา",
+  "facility_name_en": "Siripanya Nursery (directory English name)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "สถานรับเลี้ยงเด็ก ศิริปัญญา ... จันทร์-ศุกร์ 08:00-16:30",
+  "evidence_en": "Directory listing gives Mon–Fri 08:00–16:30, i.e. weekday daytime care only.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/place/35462-Siripanya-Nursery", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–16:30",
+  "stay_length_pattern": "Weekday daytime",
+  "identity_match_basis": "Name + ซอย 7 ถนนราชมรรคา ต.พระสิงห์ + phone 083-325-6347 + GPS 18.7839102, 98.9831233 identical to input",
+  "searches_run": [
+   "ศิริปัญญา สถานรับเลี้ยงเด็ก ราชมรรคา พระสิงห์ เชียงใหม่"
+  ],
+  "needs_partner_verification": false,
+  "notes": "No own website/Facebook listed. Single directory source only. No dedicated accommodation-keyword search was run."
+ },
+ {
+  "row_no": "3",
+  "facility_name_th": "พิทักษ์ดรุณ",
+  "facility_name_en": "Phitak Darun (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Only business-directory entries found (operator name, phone); no operating hours or attendance pattern. Directory status is 'ไม่มีเด็กในการดูแล' (no children currently in care).",
+  "evidence_sources": [
+   {"url": "https://www.bethailand.com/20221125615/", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Operator นางกองมูล รัตนเพชร + phone 053-215165 match input; address on bethailand (70/1 ต.ศรีภูมิ) differs from input (ถ.ศรีมงคล ต.ป่าตัน) — likely older/alternate address",
+  "searches_run": [
+   "พิทักษ์ดรุณ สถานรับเลี้ยงเด็ก ศรีมงคล ป่าตัน เชียงใหม่",
+   "cmhy.city อนุบาลพิทักษ์ดรุณ เชียงใหม่"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Listed by name on CMHY category pages (อนุบาลพิทักษ์ดรุณ) but no detail page content seen; CMHY category page returned 403 on fetch. Licensed status shows no children in care, so may be dormant."
+ },
+ {
+  "row_no": "4",
+  "facility_name_th": "วารี",
+  "facility_name_en": "Anuban Varee (Varee Chiangmai School kindergarten branch)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "อนุบาลวารี ... 16/1 ซอย 2 ถนนแก้วนวรัฐ ตำบลวัดเกต ... จันทร์-ศุกร์ 08:00-16:30",
+  "evidence_en": "Directory listing for Anuban Varee at Kaew Nawarat Soi 2, Wat Ket gives Mon–Fri 08:00–16:30. Parent review describes it as a small branch with kindergarten levels only. Main Varee school admissions page shows ordinary school-day/term structure; no dormitory/boarding mentioned.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/place/20441-Varee-Chiangmai-kindergarten", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/jbht42lbx8r", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.varee.ac.th/th/newweb/admissions.php", "type": "official_website", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–16:30 (CMHY directory)",
+  "stay_length_pattern": "Weekday daytime, school terms",
+  "identity_match_basis": "Name วารี + ซอย 2 ถนนแก้วนวรัฐ ต.วัดเกต + phone 053-241163 match; directory gives house no. 16/1 vs input 16/2 (adjacent plot)",
+  "searches_run": [
+   "FETCH https://www.varee.ac.th/ (page returned no readable content)",
+   "โรงเรียนวารีเชียงใหม่ เนิร์สเซอรี่ วัดเกต เวลา นักเรียนประจำ หอพัก",
+   "วารี แก้วนวรัฐ ซอย 2 เนิร์สเซอรี่ สถานรับเลี้ยงเด็ก วัดเกต 053-241163"
+  ],
+  "needs_partner_verification": false,
+  "notes": "The licensed nursery (0–2 yrs) sits at the Wat Ket branch, not the main Varee Chiangmai School campus on Mahidol Rd (Nong Hoi). A search including หอพัก/นักเรียนประจำ returned no boarding content. Facebook not fetched."
+ },
+ {
+  "row_no": "5",
+  "facility_name_th": "พรประกาศิต",
+  "facility_name_en": "Ponphagasit Nursery (name as given on its Facebook title in input)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Found only as a daycare listing on Wang Sing Kham Rd, Pa Tan; no hours or attendance pattern in any snippet.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/sx26qknxyv6", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.cmhy.city/place/15085-Pornpakasit-nursery", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ถ.วังสิงห์คำ + ต.ป่าตัน match; directory house number (289) differs from input (30 ม.5)",
+  "searches_run": [
+   "พรประกาศิต สถานรับเลี้ยงเด็ก วังสิงห์คำ เชียงใหม่ เวลา"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook page listed in input was not fetched (no URL given, and none seen in results). CMHY detail page snippet contained no hours."
+ },
+ {
+  "row_no": "6",
+  "facility_name_th": "สถานอนุบาลพรรณี",
+  "facility_name_en": "Phannee Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "The Chiang Mai school is confirmed in the private-school registry (ต.ศรีภูมิ) but no hours or attendance pattern were found for it. A parent-meeting document with drop-off/pick-up times (08:00/08:30 to 15:00–17:00) was rejected because it belongs to a same-name school in Chiang Rai.",
+  "evidence_sources": [
+   {"url": "https://dhammastudy.org/school/index?page=691&per-page=50&sort=id", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://motdang.net/cm/p/307889724.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name โรงเรียนอนุบาลพรรณี + ต.ศรีภูมิ อ.เมืองเชียงใหม่ in school registry list; motdang Chiang Mai listing phone 053-327-249 is close to but not identical to input 053-327289",
+  "searches_run": [
+   "โรงเรียนอนุบาลพรรณี เชียงใหม่ ราชดำเนิน ศรีภูมิ เวลา",
+   "cmhy \"โรงเรียนอนุบาล พรรณี\" เชียงใหม่ จันทร์-ศุกร์",
+   "อนุบาลพรรณี เชียงใหม่ ศรีภูมิ preschool opening hours"
+  ],
+  "needs_partner_verification": true,
+  "notes": "REJECTED MISMATCH: anyflip.com/crjlh/recc (parent meeting doc 2567) is from โรงเรียนอนุบาลพรรณี Chiang Rai (meeting at a Chiang Rai hotel; Chiang Rai hospitals listed; sanook/yellowpages show a Phannee kindergarten at Rop Wiang, Chiang Rai). The search tool's auto-summary wrongly attributed those hours to the Chiang Mai school. Facebook page not fetched."
+ },
+ {
+  "row_no": "7",
+  "facility_name_th": "อนุบาลร่มเย็น",
+  "facility_name_en": "Romyen Kindergarten School",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "จันทร์-ศุกร์ 08:00-16:30; รับสมัครนักเรียนตั้งแต่อายุ 1 ปี 6 เดือน - 6 ปี",
+  "evidence_en": "Directory listing gives Mon–Fri 08:00–16:30 for Romyen Kindergarten (ages 1.5–6).",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/place/22494-Romyen-Kindergarten-School", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.romyen.ac.th/", "type": "official_website", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–16:30 (CMHY directory)",
+  "stay_length_pattern": "Weekday daytime",
+  "identity_match_basis": "Name + ม.1 ถ.เชียงใหม่-สันกำแพง ต.ท่าศาลา + phones 053-115695 / 081-5302929 match; official site gives 63/2 vs input 63/1",
+  "searches_run": [
+   "FETCH https://www.romyen.ac.th/ (HTTP 500 on direct fetch)",
+   "โรงเรียนอนุบาลร่มเย็น เชียงใหม่ ท่าศาลา เวลาเปิด เนิร์สเซอรี่"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Official site failed on direct fetch; its contact snippet (address/phones) was seen via search only and contained no hours. Facebook not fetched."
+ },
+ {
+  "row_no": "8",
+  "facility_name_th": "ดวงแก้ว",
+  "facility_name_en": "Duang Kaew (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Identity confirmed via business directory and private-school registry, but no operating hours or attendance pattern found.",
+  "evidence_sources": [
+   {"url": "https://www.bethailand.com/20240325722/", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://dhammastudy.org/school/index?page=66&per-page=50&sort=-province_name", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Operator นางอุไร คนแคล้ว + 14/5 หมู่ 2 ต.หนองป่าครั่ง match input (bethailand 'สถานรับเลี้ยงเด็กดวงแก้ว'); registry lists โรงเรียนอนุบาลดวงแก้ว, ต.หนองป่าครั่ง",
+  "searches_run": [
+   "โรงเรียนอนุบาลดวงแก้ว หนองป่าครั่ง เชียงใหม่ เวลา",
+   "\"อนุบาลดวงแก้ว\" เชียงใหม่ หนองป่าครั่ง opening hours",
+   "อนุบาลดวงแก้ว เชียงใหม่ 053-116553 preschool Nong Pa Khrang"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Input online_contact field just says 'School' (no usable link). Rejected same-name schools in Suphanburi, Songkhla and Nakhon Phanom. Hours shown for nearby อนุบาลหนองป่าครั่ง are a different school."
+ },
+ {
+  "row_no": "9",
+  "facility_name_th": "โชติวิทย์เนิร์สเซอรี่",
+  "facility_name_en": "Anuban Chotiwit / Chotiwit Nursery (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "เวลาทำการ จันทร์-ศุกร์ เวลา 08:33-16:00",
+  "evidence_en": "Listings for the school/nursery at 199/44 Photharam give weekday daytime hours (Mon–Fri 08:00–17:00; Yellow Pages 08:33–16:00 [sic]); closed weekends.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/hbk2fttbx1q", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.yellowpages.co.th/profile/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B9%82%E0%B8%8A%E0%B8%95%E0%B8%B4%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B9%8C-%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%9A%E0%B8%B2%E0%B8%A5-93fdNcyKh", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/cpjjvyttrfb", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–17:00 (exa/Google-derived); Mon–Fri 08:33–16:00 (Yellow Pages); 'โชติวิทย์เนอสเซอรี่' Mon–Fri 08:00–17:30",
+  "stay_length_pattern": "Weekday daytime",
+  "identity_match_basis": "Name + 199/44 โพธาราม ซ.6 ต.ช้างเผือก + phone 053-212778 match (exa, Yellow Pages); separate exa entry 'โชติวิทย์เนอสเซอรี่' at Ban Phae Soi 5 Chang Phueak, coords ~18.8183, 98.9709 match input GPS",
+  "searches_run": [
+   "โรงเรียนอนุบาลโชติวิทย์ เชียงใหม่ ช้างเผือก เนิร์สเซอรี่ เวลา"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Hours are from aggregator listings and differ slightly between sources; all consistently weekday daytime. Facebook not fetched."
+ },
+ {
+  "row_no": "10",
+  "facility_name_th": "มยุรี",
+  "facility_name_en": "Mayuree Kindergarten",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "Place listing gives Mon–Fri 08:00–17:00, Sat 09:00–16:00, closed Sunday. Facebook page (opened) confirms address/phone and shows school activities incl. a 'Winter Course' holiday programme; no overnight or boarding content seen.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/zr4plgksd2z", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.facebook.com/mayureekindergarten/", "type": "facebook", "accessed": "2026-11-10", "seen_via": "page_opened"}
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–17:00; Sat 09:00–16:00; Sun closed",
+  "stay_length_pattern": "Daytime, weekdays plus Saturday",
+  "identity_match_basis": "Name + 68 หมู่ 8 ต.แม่เหียะ + phone 053-806927 match (both sources); Facebook shows 68 หมู่ 8 หมู่บ้านวรุณนิเวศน์",
+  "searches_run": [
+   "โรงเรียนอนุบาลมยุรี เชียงใหม่ แม่เหียะ Mayuree Kindergarten เวลา",
+   "FETCH https://www.facebook.com/mayureekindergarten/"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Facebook was partially readable (About + latest post, 2026-10-30) but showed no hours. Hours come from a Google-derived aggregator."
+ },
+ {
+  "row_no": "11",
+  "facility_name_th": "ศรีชัยวัลย์",
+  "facility_name_en": "Srichaiwan Kindergarten (directory English name)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "Place listing gives Mon–Sat 07:00–17:30, closed Sunday.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/1zqc7khv2pb", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://motdang.net/cm/p/2297.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Sat 07:00–17:30; Sun closed",
+  "stay_length_pattern": "Daytime, Mon–Sat",
+  "identity_match_basis": "Phone 053-115576 + coordinates 18.763185, 99.045646 match input GPS; registry lists โรงเรียนอนุบาลศรีชัยวัลย์, ต.ท่าศาลา (founded 2553 BE)",
+  "searches_run": [
+   "โรงเรียนอนุบาลศรีชัยวัลย์ เชียงใหม่ ท่าศาลา เวลาเปิด"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Aggregator labels the area 'Saraphi' but phone and coordinates match the Tha Sala address. Facebook not fetched."
+ },
+ {
+  "row_no": "12",
+  "facility_name_th": "บ้าน ก.ไก่",
+  "facility_name_en": "Baan Kor Kai nursery / Pattira Kindergarten School",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "สถานรับเลี้ยงเด็กบ้าน ก.ไก่ ซึ่งเปิดรับเลี้ยงและอบรมเด็กตั้งแต่อายุแรกเกิดถึง 4 ปี ... เปรียบเสมือนบ้านหลังที่สองของเด็กๆ; จันทร์-ศุกร์ 08:00-17:30",
+  "evidence_en": "CMHY profile (sourced from pattira.ac.th) says Pattira Kindergarten grew out of Baan Kor Kai childcare centre (newborn–4 yrs, MSDHS licence 8/47, operating since 2546 BE) and lists Mon–Fri 08:00–17:30. Another listing gives Mon–Fri 07:30–17:30, closed weekends. 'Second home' is a figure of speech, not residence.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/place/18780-Pattira-kindergarten-School", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/322vzrn4ncm", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–17:30 (CMHY); Mon–Fri 07:30–17:30 (exa)",
+  "stay_length_pattern": "Weekday daytime",
+  "identity_match_basis": "Name บ้าน ก.ไก่ + ต.ป่าแดด + phones 053-140790 / 081-5316605 match; matches Facebook name 'Pattira Kindergarten School' in input",
+  "searches_run": [
+   "อนุบาลภัททิรา บ้าน ก.ไก่ Pattira Kindergarten ป่าแดด เชียงใหม่ เวลา"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Fee 3000–4500 is consistent with monthly day care. Facebook and pattira.ac.th not opened directly."
+ },
+ {
+  "row_no": "13",
+  "facility_name_th": "Children's Garden Nuresry",
+  "facility_name_en": "Children's Garden (Suandek Kindergarten, Chiang Mai)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "English-language directory listing for Suandek Kindergarten, Charoen Prathet Rd, gives Mon–Fri 08:00–17:00.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/en/place/5247-Suandek-Kindergarten", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/9j7d5q5st2r", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–17:00",
+  "stay_length_pattern": "Weekday daytime",
+  "identity_match_basis": "409 Charoen Prathet Rd, Chang Khlan + phone 053-276209 match input (exa); CMHY gives same phone and Charoen Prathet Rd",
+  "searches_run": [
+   "Children's Garden School Chiang Mai Charoen Prathet nursery hours",
+   "โรงเรียนอนุบาลสวนเด็กเชียงใหม่ เจริญประเทศ เวลา รับส่ง เนิร์สเซอรี่"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Rejected 'CM Children's Garden' (Waldorf kindergarten in Saraphi) as a different facility. Facebook not fetched."
+ },
+ {
+  "row_no": "14",
+  "facility_name_th": "บ้านเด็ก",
+  "facility_name_en": "Baan Dek (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No source matched the name together with 12/1 Santirak Rd or phone 053-226187. The generic name 'บ้านเด็ก' is shared by many facilities.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "None confirmed. A street-data page lists a kindergarten 'Darun Wali' near Santirak Rd, but nothing seen links it to this name, operator or phone.",
+  "searches_run": [
+   "บ้านเด็ก สถานรับเลี้ยงเด็ก ถนนสันติรักษ์ ช้างเผือก เชียงใหม่ 053-226187",
+   "\"053-226-187\" OR \"053226187\" เชียงใหม่ อนุบาล"
+  ],
+  "needs_partner_verification": true,
+  "notes": "The search tool's auto-summary claimed 'บ้านเด็กดรุณวลี' has phone 053-226-187, but no snippet or page actually showed that; not relied upon. A school-registry list shows 'รร.อนุบาลบ้านเด็ก' in ต.วัดเกต (different subdistrict) — not matched."
+ },
+ {
+  "row_no": "15",
+  "facility_name_th": "บ้านกติกา",
+  "facility_name_en": "Baan Katika Nursery (directory English name)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "รับเลี้ยงเด็กตั้งแต่ 1-6ขวบ",
+  "evidence_en": "Two independent listings give weekday daytime hours (Mon–Fri 08:00–16:30; Mon–Fri 07:00–17:00, closed Sat–Sun).",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/en/place/5647-Baan-katika-nursury", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/bknwb5x0hxy", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.yellowpages.co.th/profile/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%A5%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B8%87%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%B2-93Hb8afmt", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–16:30 (CMHY); Mon–Fri 07:00–17:00 (exa)",
+  "stay_length_pattern": "Weekday daytime",
+  "identity_match_basis": "Name + 6 ซ.2 ถ.แก้วนวรัฐ ต.วัดเกต + phone 053-243337 + GPS 18.7944690, 99.0040110 identical to input",
+  "searches_run": [
+   "สถานรับเลี้ยงเด็ก บ้านกติกา เชียงใหม่ แก้วนวรัฐ เวลาเปิด"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Facebook not fetched."
+ },
+ {
+  "row_no": "16",
+  "facility_name_th": "ลัดดาเนิร์สเซอรี่",
+  "facility_name_en": "Latda Nursery (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "Place listing gives Mon–Sat 07:30–16:30, closed Sunday.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/z7xqt5pxb1f", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.bethailand.com/20240325702/", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Sat 07:30–16:30; Sun closed",
+  "stay_length_pattern": "Daytime, Mon–Sat",
+  "identity_match_basis": "Phone 086-1795052 + coords 18.800354, 98.987771 match input; bethailand gives 94/1 ถนนสนามกีฬา ต.ศรีภูมิ (operator surname differs from input: เข็มขาว vs ชูไทย — likely change of licensee)",
+  "searches_run": [
+   "ลัดดาเนิสเซอรี่ เชียงใหม่ ถนนสนามกีฬา เวลาเปิด รับเลี้ยงเด็ก"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Facebook not fetched."
+ },
+ {
+  "row_no": "17",
+  "facility_name_th": "พิลเชษฐ์เนิร์สเซอรี่",
+  "facility_name_en": "Pilchet Nursery (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "Place listing gives Mon–Sat 07:00–17:00, closed Sunday.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/tlm4f07hzym", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Sat 07:00–17:00; Sun closed",
+  "stay_length_pattern": "Daytime, Mon–Sat",
+  "identity_match_basis": "Name + '4 ซอย1' Wat Ket + coords 18.801929, 99.00984 match input GPS; listing phone (084-1762345) differs from input (091-6326371)",
+  "searches_run": [
+   "พิลเชษฐ์ เนอสเซอรี่ เชียงใหม่ รัตนโกสินทร์ วัดเกต เวลา"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Single aggregator source; phone mismatch noted though name+address+coords match. Facebook not fetched."
+ },
+ {
+  "row_no": "18",
+  "facility_name_th": "ขาลสุวรรณ",
+  "facility_name_en": "Khansuwan Anusorn School (nursery section)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "สถานรับเลี้ยงเด็กขาลสุวรรณ; ก่อนพักรับประทานอาหารจนอิ่มหนำแล้วนอนกลางวันอย่างเต็มอิ่ม",
+  "evidence_en": "Place listing gives Mon–Sat 07:00–17:00, closed Sunday. A feature article (The Cloud) on the school describes the origin as 'สถานรับเลี้ยงเด็กขาลสุวรรณ' and a school-day routine (lunch, afternoon nap, Friday 14:00–16:00 activities); no boarding mentioned.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/8dlfd2h106l", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://readthecloud.com/business/the-entrepreneur/khansuwan-anusorn-school/", "type": "news", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Sat 07:00–17:00; Sun closed",
+  "stay_length_pattern": "Daytime school day",
+  "identity_match_basis": "308/2 ถ.เชียงใหม่-ลำพูน ต.วัดเกต + phone 053-140594 match input; operator จุรีภัทร์ ขาลสุวรรณ named in The Cloud article",
+  "searches_run": [
+   "โรงเรียนขาลสุวรรณอนุสรณ์ เชียงใหม่-ลำพูน วัดเกต เวลา หอพัก นักเรียนประจำ",
+   "โรงเรียนขาลสุวรรณอนุสรณ์ opening hours preschool Wat Ket Chiang Mai"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Search including หอพัก/นักเรียนประจำ returned no boarding content; full article text (saved by the search tool) contained no หอพัก/นักเรียนประจำ/กินนอน/ค้างคืน terms. Facebook not fetched."
+ },
+ {
+  "row_no": "19",
+  "facility_name_th": "ขวัญหทัยเนิร์สเซอรี่",
+  "facility_name_en": "Kwanhatai Nursery",
+  "evidenced_model": "day_only",
+  "confidence": "low",
+  "evidence_th": "มีอาหารเช้าและอาหารเที่ยงให้กิน; ยังไปฝากพิเศษวันเสาร์อยู่ค่ะ",
+  "evidence_en": "A listing shows 'Closed until 07:30 AM' (so it is closed overnight). Parent reviews describe breakfast and lunch at the nursery and extra Saturday care. No full opening hours were found.",
+  "evidence_sources": [
+   {"url": "https://www.wheree.com/Kindergarten-c880-g1494-Chiang_Mai_Province", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/52hphfgx9l3", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Opens 07:30 (closing time not found)",
+  "stay_length_pattern": "Daytime; optional Saturday care",
+  "identity_match_basis": "Name + 9/4 ถ.อารักษ์ ต.ศรีภูมิ + phone 053-216742 match input",
+  "searches_run": [
+   "ขวัญหทัย เนิสเซอรี่ เชียงใหม่ อารักษ์ ศรีภูมิ เวลาเปิด",
+   "cmhy ขวัญหทัย เนิสเซอรี่ Kwanhatai nursery Chiang Mai Mon-Fri"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Weak evidence: the day-only inference rests on an opening-time indicator and reviews. Saturday 'ฝากพิเศษ' is daytime extra care, not overnight. Facebook group not fetched."
+ },
+ {
+  "row_no": "20",
+  "facility_name_th": "สถานรับเลี้ยงเด็กบ้านแสนสุข",
+  "facility_name_en": "Baan San Suk Nursery (directory English name)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "Directory listing gives Mon–Fri 08:00–16:30.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/en/place/38622-Baan-San-Suk-Nursery", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–16:30",
+  "stay_length_pattern": "Weekday daytime",
+  "identity_match_basis": "Pa Tan + GPS 18.8381156, 98.9864487 matches input coordinates; Facebook name in listing matches input",
+  "searches_run": [
+   "สถานรับเลี้ยงเด็กบ้านแสนสุข เชียงใหม่ ป่าตัน เวลาเปิด"
+  ],
+  "needs_partner_verification": false,
+  "notes": "REJECTED MISMATCHES: baansansuknursery.com (Taksin 22, Thonburi, Bangkok) and a Phutthamonthon listing are different same-name facilities; 'บ้านแสนสุข' in Mae Ai is a village. Facebook not fetched."
+ },
+ {
+  "row_no": "21",
+  "facility_name_th": "ลานนาเบบี้โฮม",
+  "facility_name_en": "Lanna Baby Home",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "เวลาทำการ 7.30น. - 17.30น. (เกิน 17.31 น.คิดOT 50บาท เกิน 18.01คิดชั่วโมงละ100บาท); อัตราค่าบริการ รายเดือน 4,000บาท / รายวัน 250บาท",
+  "evidence_en": "The facility's own website gives 07:30–17:30 with overtime charges after 17:31 and hourly after 18:01, plus monthly/daily day rates. Directory gives Mon–Fri 07:30–17:30; an au-pair placement list gives Mon–Fri 07:00–16:00, closed weekends/holidays. 'Baby Home' is a brand name; evidence shows day care only.",
+  "evidence_sources": [
+   {"url": "https://www.lannababyhome.com/index2/summer.htm", "type": "official_website", "accessed": "2026-11-10", "seen_via": "page_opened"},
+   {"url": "https://www.lannababyhome.com/", "type": "official_website", "accessed": "2026-11-10", "seen_via": "page_opened"},
+   {"url": "https://www.cmhy.city/place/5583-Lanna-baby-kid-home", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.thaiaupair.com/article/childcare-centers-chiangmai", "type": "other", "accessed": "2026-11-10", "seen_via": "page_opened"}
+  ],
+  "operating_hours_found": "07:30–17:30 (own site; OT charged after 17:31); Mon–Fri 07:30–17:30 (CMHY); Mon–Fri 07:00–16:00, closed weekends (Thaiaupair, updated 02.2024)",
+  "stay_length_pattern": "Weekday daytime; hourly overtime pick-up after 18:00",
+  "identity_match_basis": "Name + 68 ซ.1 ถ.สุขเกษม ต.ป่าตัน + phones 053-106574 / 084-6119463 + website lannababyhome.com match input",
+  "searches_run": [
+   "FETCH https://www.lannababyhome.com/",
+   "ลานนาเบบี้โฮม เชียงใหม่ สถานรับเลี้ยงเด็ก เวลาเปิด ค้างคืน",
+   "FETCH https://www.lannababyhome.com/index2/summer.htm",
+   "FETCH https://www.thaiaupair.com/article/childcare-centers-chiangmai"
+  ],
+  "needs_partner_verification": false,
+  "notes": "The own-site hours page is a holiday 'Vacation Course' page linking 2015–2016 schedules, so it may be dated; later sources (CMHY, Thaiaupair 2024) are consistent with day-only. The overtime pricing indicates late pick-up, not overnight care."
+ },
+ {
+  "row_no": "22",
+  "facility_name_th": "สายธารพระพร",
+  "facility_name_en": "Saithan Phraphon Kindergarten (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "อนุบาลสายธารพระพร ... จันทร์-ศุกร์ 08:00-16:30",
+  "evidence_en": "Directory listing gives Mon–Fri 08:00–16:30.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/place/30100-Sasaipaporn-Nursery", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://motdang.net/cm/p/262597147984654450191.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–16:30",
+  "stay_length_pattern": "Weekday daytime",
+  "identity_match_basis": "Name + ซอย 8 ถนนเจริญเมือง ต.ท่าศาลา + phone 084-822-0371 + GPS 18.7826411, 99.0238066 identical to input; motdang gives 12 Charoen Muang Rd Soi 8",
+  "searches_run": [
+   "อนุบาลสายธารพระพร เชียงใหม่ เจริญเมือง ท่าศาลา เวลา"
+  ],
+  "needs_partner_verification": false,
+  "notes": "No own website/Facebook listed in input. Low fee (800–1500) consistent with community day care."
+ },
+ {
+  "row_no": "23",
+  "facility_name_th": "จีเนียสเนอสเซอรี่",
+  "facility_name_en": "Genius Nursery",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "เวลาเปิดทำการตั้งแต่ 7.00 น.- 18.00 น. (จันทร์ – ศุกร์) เปิดรับเลี้ยงวันเสาร์ และวันหยุดนักขัตฤกษ์; กรณีฝากเลี้ยงหลังเวลา 18.00 น. เป็นต้นไป คิดอัตรา 100 บาทต่อชั่วโมง",
+  "evidence_en": "Own website rules page: open Mon–Fri 07:00–18:00, daytime care also on Saturdays and public holidays (400 baht/day), hourly overtime after 18:00, parents must collect with a pick-up card. Clothing list is per day (2–3 sets/day). Pattern is daily drop-off/pick-up.",
+  "evidence_sources": [
+   {"url": "http://www.g-nursery.com/regulatid.php", "type": "official_website", "accessed": "2026-11-10", "seen_via": "page_opened"},
+   {"url": "http://www.g-nursery.com/index.php", "type": "official_website", "accessed": "2026-11-10", "seen_via": "page_opened"},
+   {"url": "https://www.thaiaupair.com/article/childcare-centers-chiangmai", "type": "other", "accessed": "2026-11-10", "seen_via": "page_opened"},
+   {"url": "https://www.yellowpages.net/phone-66-864302435-creche-Tambon-Fa-Ham-TH739038.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Fri 07:00–18:00; Saturday/public-holiday daytime care (Yellow Pages Network: Sat 08:00–17:00)",
+  "stay_length_pattern": "Daily drop-off/pick-up; optional Saturday/holiday day care; hourly overtime after 18:00",
+  "identity_match_basis": "Name + ต.ฟ้าฮ่าม + phones 053-246661 / 086-4302435 + website g-nursery.com match input; site gives 81/2 หมู่ 2 vs input 81/12 (Thaiaupair gives 81/12)",
+  "searches_run": [
+   "FETCH http://www.g-nursery.com/index.php",
+   "จีเนียส เนอสเซอรี่ เชียงใหม่ ฟ้าฮ่าม เวลาเปิด-ปิด รับเลี้ยงเด็ก",
+   "FETCH http://www.g-nursery.com/regulatid.php"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Website content appears dated (homepage posts 2012–2020; site fee 5,000/month vs directory 3,500). 'Bedding provided' refers to daytime naps. Extended hours/Saturday care are not overnight."
+ },
+ {
+  "row_no": "24",
+  "facility_name_th": "บ้านล้ำเลิศ",
+  "facility_name_en": "Baan Lamloet (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No source found matching the name with ต.แม่เหียะ or phone 053-280808. Directory status is 'ไม่มีเด็กในการดูแล' (no children currently in care).",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "None found",
+  "searches_run": [
+   "บ้านล้ำเลิศ สถานรับเลี้ยงเด็ก แม่เหียะ เชียงใหม่ 053-280808"
+  ],
+  "needs_partner_verification": true,
+  "notes": "No web presence listed in input; likely dormant given status. Results returned only unrelated Mae Hia municipal centres."
+ },
+ {
+  "row_no": "25",
+  "facility_name_th": "บ้านทอศิลป์",
+  "facility_name_en": "Baan Torsin Nursery (directory English name)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "Place listing gives Mon–Fri 08:00–16:30, Sat 09:00–15:00, closed Sunday.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/4592hf7dyhg", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.cmhy.city/place/22999-Baan-Torsin-Nursery", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–16:30; Sat 09:00–15:00; Sun closed",
+  "stay_length_pattern": "Daytime, Mon–Sat",
+  "identity_match_basis": "Name + Pa Daet (coords 18.748159, 98.9787 vs input 18.7479192, 98.9786761) + phone 093-5895461 match input",
+  "searches_run": [
+   "บ้านทอศิลป์ เนอสเซอรี่ เชียงใหม่ ป่าแดด เวลาเปิด"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Higher fee (5,500) consistent with private day nursery. Facebook not fetched."
+ }
+]

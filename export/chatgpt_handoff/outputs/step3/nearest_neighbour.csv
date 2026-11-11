@@ -1,0 +1,13 @@
+﻿marker_id,organisation,nearest_marker_id,nearest_organisation,distance_km
+CM-012,Friends for All Children Foundation,CM-042,Child's Dream,0.875
+CM-042,Child's Dream,CM-012,Friends for All Children Foundation,0.875
+CM-004,Thai Freedom House,CM-012,Friends for All Children Foundation,2.383
+CM-022,The Salvation Army Foundation (Thailand),CM-030,Dulabhatorn Foundation,2.483
+CM-030,Dulabhatorn Foundation,CM-022,The Salvation Army Foundation (Thailand),2.483
+CM-026,Projects for Asia Charitable Foundation,CM-032,Radion,2.78
+CM-032,Radion,CM-026,Projects for Asia Charitable Foundation,2.78
+CM-047,Interact Asia,CM-022,The Salvation Army Foundation (Thailand),3.398
+CM-010,Integrated Ministries for Ethnic Minorities Foundation (IMEMF),CM-030,Dulabhatorn Foundation,3.806
+CM-029,Wat Don Chan Children’s Quality of Life Development Project,CM-047,Interact Asia,4.324
+CM-050,Connie's Home,CM-042,Child's Dream,5.346
+CM-071,Chiang Mai Children's and Family Shelter,CM-022,The Salvation Army Foundation (Thailand),6.18

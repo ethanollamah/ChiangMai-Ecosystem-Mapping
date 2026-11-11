@@ -1,0 +1,56 @@
+{
+  "generated_utc": "2026-11-10T09:46:46.943821+00:00",
+  "n_level1_orgs": 53,
+  "n_level1_sites": 57,
+  "n_level1_points": 12,
+  "n_joinable_sites": 49,
+  "n_nonjoin_sites": 8,
+  "n_mapped_with_final_tick": 39,
+  "n_mapped_without_final_tick": 11,
+  "n_public_welfare_reception_orgs": 3,
+  "n_audit_vs_final_stage_disagreements": 16,
+  "n_districts_with_zero_mapped_sites": 12,
+  "top_districts_by_sites": [
+    {
+      "district_code": "5001",
+      "district_en": "Mueang Chiang Mai",
+      "n_sites": 15,
+      "share_of_level1_sites": 0.2632
+    },
+    {
+      "district_code": "5014",
+      "district_en": "San Sai",
+      "n_sites": 9,
+      "share_of_level1_sites": 0.1579
+    },
+    {
+      "district_code": "5005",
+      "district_en": "Doi Saket",
+      "n_sites": 8,
+      "share_of_level1_sites": 0.1404
+    }
+  ],
+  "nearest_neighbour": {
+    "n": 12,
+    "min_km": 0.875,
+    "median_km": 2.78,
+    "mean_km": 3.143,
+    "max_km": 6.18,
+    "method": "great-circle kilometres, WGS84, Earth radius 6371.0088 km",
+    "not_a_clustering_test": true
+  },
+  "limitations": [
+    "This is the mapped sample, not a census of all child-welfare provision in Chiang Mai.",
+    "Unique organisations, unique physical sites and nearest-neighbour points are different numerators.",
+    "Only 12 sites have an exact public house/building point. District counts use 57 sites, of which some have no point.",
+    "Shared district or tambon centroids were not used as points, so they cannot manufacture clusters.",
+    "Don Kaeo 63/1 and 63/3 share the reception-shelter coordinate and are not extra NN observations.",
+    "Juvenile justice is stored and labelled, not pooled into family-support counts.",
+    "Stage assignment is the FINAL checkbox. Audit Applicable_Stages that disagree with FINAL (kinship at Kid's Ark; foster at Connie's Home) are logged and not counted.",
+    "Public welfare/reception are directory categories, not FINAL ticks.",
+    "Zero mapped sites in a district is not evidence of no provision.",
+    "Nearest-neighbour distances are descriptive. No Clark-Evans or other clustering test is reported; study-area choice would dominate any such index.",
+    "Chiang Rai Wiang Pa Pao sites are a boundary note only."
+  ],
+  "rule": "Do not read few mapped providers as unmet need, or proximity as access. No causal claims. Population denominators are shown for later Level 2A rates, not used as need ranks here."
+}

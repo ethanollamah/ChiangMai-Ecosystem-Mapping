@@ -1,0 +1,8 @@
+﻿stage,n_sites,share_of_level1_sites,stage_evidence,note
+Identification & Routing,15,0.2632,"FINAL checkbox of the owning organisation, except public welfare/reception (directory category). Not independently verified at each site.",Do not sum across stages. Stage-sheet repeats are not extra sites.
+Parent Capability Building,21,0.3684,"FINAL checkbox of the owning organisation, except public welfare/reception (directory category). Not independently verified at each site.",Do not sum across stages. Stage-sheet repeats are not extra sites.
+Short-term Intervention,32,0.5614,"FINAL checkbox of the owning organisation, except public welfare/reception (directory category). Not independently verified at each site.",Do not sum across stages. Stage-sheet repeats are not extra sites.
+Residential and Institutional Care,30,0.5263,"FINAL checkbox of the owning organisation, except public welfare/reception (directory category). Not independently verified at each site.",Do not sum across stages. Stage-sheet repeats are not extra sites.
+Foster Care / Adoption,2,0.0351,"FINAL checkbox of the owning organisation, except public welfare/reception (directory category). Not independently verified at each site.",Do not sum across stages. Stage-sheet repeats are not extra sites.
+Kinship Care,0,0.0,"FINAL checkbox of the owning organisation, except public welfare/reception (directory category). Not independently verified at each site.",Do not sum across stages. Stage-sheet repeats are not extra sites.
+"Reintegration, Reunification and Adoption",18,0.3158,"FINAL checkbox of the owning organisation, except public welfare/reception (directory category). Not independently verified at each site.",Do not sum across stages. Stage-sheet repeats are not extra sites.

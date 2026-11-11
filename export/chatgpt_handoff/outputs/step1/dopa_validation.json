@@ -1,0 +1,607 @@
+{
+  "source_file": "raw/project_snapshot/dopa_2025_12_chiang_mai.txt",
+  "source_sha256": "128da57e18db7c501cdb6da4d54c0dd5af8be380c982e3ffaf512a5a2e730670",
+  "encoding": "utf-8-sig",
+  "n_rows": 334,
+  "n_numeric_fields_per_row": 219,
+  "identity_check": "male/female ages 0–101 + TDOB + XHOUSE + OTHER_NAT + MOVE = sex total; passed for all 334 rows",
+  "province_total_registered": 1798588,
+  "sum_25_district_residual_rows": 1127147,
+  "sum_54_municipalities": 671441,
+  "sum_reconstructed_districts": 1798588,
+  "sum_254_tambon_rows": 1798588,
+  "province_thai_reg_age_0_17": 279076,
+  "checks": [
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอเมืองเชียงใหม่",
+      "ok": true,
+      "expected": 15068,
+      "got": 15068,
+      "n_tambon_rows": 2
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอจอมทอง",
+      "ok": true,
+      "expected": 56254,
+      "got": 56254,
+      "n_tambon_rows": 6
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอแม่แจ่ม",
+      "ok": true,
+      "expected": 58026,
+      "got": 58026,
+      "n_tambon_rows": 7
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอเชียงดาว",
+      "ok": true,
+      "expected": 28831,
+      "got": 28831,
+      "n_tambon_rows": 3
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอดอยสะเก็ด",
+      "ok": true,
+      "expected": 48911,
+      "got": 48911,
+      "n_tambon_rows": 12
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอแม่แตง",
+      "ok": true,
+      "expected": 59418,
+      "got": 59418,
+      "n_tambon_rows": 11
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอแม่ริม",
+      "ok": true,
+      "expected": 84395,
+      "got": 84395,
+      "n_tambon_rows": 10
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอสะเมิง",
+      "ok": true,
+      "expected": 18114,
+      "got": 18114,
+      "n_tambon_rows": 4
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอฝาง",
+      "ok": true,
+      "expected": 112245,
+      "got": 112245,
+      "n_tambon_rows": 8
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอแม่อาย",
+      "ok": true,
+      "expected": 68547,
+      "got": 68547,
+      "n_tambon_rows": 7
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอพร้าว",
+      "ok": true,
+      "expected": 35730,
+      "got": 35730,
+      "n_tambon_rows": 8
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอสันป่าตอง",
+      "ok": true,
+      "expected": 58025,
+      "got": 58025,
+      "n_tambon_rows": 11
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอสันกำแพง",
+      "ok": true,
+      "expected": 44457,
+      "got": 44457,
+      "n_tambon_rows": 7
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอสันทราย",
+      "ok": true,
+      "expected": 23029,
+      "got": 23029,
+      "n_tambon_rows": 4
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอหางดง",
+      "ok": true,
+      "expected": 80682,
+      "got": 80682,
+      "n_tambon_rows": 10
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอฮอด",
+      "ok": true,
+      "expected": 24663,
+      "got": 24663,
+      "n_tambon_rows": 5
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอดอยเต่า",
+      "ok": true,
+      "expected": 22209,
+      "got": 22209,
+      "n_tambon_rows": 6
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภออมก๋อย",
+      "ok": true,
+      "expected": 62512,
+      "got": 62512,
+      "n_tambon_rows": 6
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอสารภี",
+      "ok": true,
+      "expected": 51097,
+      "got": 51097,
+      "n_tambon_rows": 8
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอเวียงแหง",
+      "ok": true,
+      "expected": 54097,
+      "got": 54097,
+      "n_tambon_rows": 3
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอไชยปราการ",
+      "ok": true,
+      "expected": 35430,
+      "got": 35430,
+      "n_tambon_rows": 4
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอแม่วาง",
+      "ok": true,
+      "expected": 27499,
+      "got": 27499,
+      "n_tambon_rows": 5
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอแม่ออน",
+      "ok": true,
+      "expected": 20544,
+      "got": 20544,
+      "n_tambon_rows": 6
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอดอยหล่อ",
+      "ok": true,
+      "expected": 24212,
+      "got": 24212,
+      "n_tambon_rows": 4
+    },
+    {
+      "check": "residual_tambons_sum_to_district:อำเภอกัลยาณิวัฒนา",
+      "ok": true,
+      "expected": 13152,
+      "got": 13152,
+      "n_tambon_rows": 3
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลบวกค้าง",
+      "ok": true,
+      "expected": 8768,
+      "got": 8768,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลบ่อหลวง",
+      "ok": true,
+      "expected": 11870,
+      "got": 11870,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลป่าไผ่",
+      "ok": true,
+      "expected": 16479,
+      "got": 16479,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลสันนาเม็ง",
+      "ok": true,
+      "expected": 14242,
+      "got": 14242,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลสันพระเนตร",
+      "ok": true,
+      "expected": 6444,
+      "got": 6444,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลสันปูเลย",
+      "ok": true,
+      "expected": 19230,
+      "got": 19230,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลเชิงดอย",
+      "ok": true,
+      "expected": 8109,
+      "got": 8109,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลเมืองนะ",
+      "ok": true,
+      "expected": 38405,
+      "got": 38405,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลทุ่งข้าวพวง",
+      "ok": true,
+      "expected": 11135,
+      "got": 11135,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลปิงโค้ง",
+      "ok": true,
+      "expected": 14353,
+      "got": 14353,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลพระธาตุปู่ก่ำ",
+      "ok": true,
+      "expected": 2379,
+      "got": 2379,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลเมืองแม่เหียะ",
+      "ok": true,
+      "expected": 20052,
+      "got": 20052,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลสารภี",
+      "ok": true,
+      "expected": 6474,
+      "got": 6474,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลฟ้าฮ่าม",
+      "ok": true,
+      "expected": 7165,
+      "got": 7165,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลหนองจ๊อม",
+      "ok": true,
+      "expected": 17687,
+      "got": 17687,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลหนองหอย",
+      "ok": true,
+      "expected": 7939,
+      "got": 7939,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลแม่แฝก",
+      "ok": true,
+      "expected": 8980,
+      "got": 8980,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลท่าศาลา",
+      "ok": true,
+      "expected": 7354,
+      "got": 7354,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลหนองผึ้ง",
+      "ok": true,
+      "expected": 16533,
+      "got": 16533,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลเจดีย์แม่ครัว",
+      "ok": true,
+      "expected": 8746,
+      "got": 8746,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลแม่ปั๋ง",
+      "ok": true,
+      "expected": 5895,
+      "got": 5895,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลชมภู",
+      "ok": true,
+      "expected": 8021,
+      "got": 8021,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลป่าแดด",
+      "ok": true,
+      "expected": 18171,
+      "got": 18171,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลเมืองสุเทพ",
+      "ok": true,
+      "expected": 16685,
+      "got": 16685,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลหนองป่าครั่ง",
+      "ok": true,
+      "expected": 7405,
+      "got": 7405,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลแม่วาง",
+      "ok": true,
+      "expected": 4434,
+      "got": 4434,
+      "n_tambon_rows": 2
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลไชยปราการ",
+      "ok": true,
+      "expected": 15129,
+      "got": 15129,
+      "n_tambon_rows": 3
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลยางเนิ้ง",
+      "ok": true,
+      "expected": 11219,
+      "got": 11219,
+      "n_tambon_rows": 3
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลอมก๋อย",
+      "ok": true,
+      "expected": 1036,
+      "got": 1036,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลท่าเดื่อ-มืดกา",
+      "ok": true,
+      "expected": 4082,
+      "got": 4082,
+      "n_tambon_rows": 2
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลท่าข้าม",
+      "ok": true,
+      "expected": 5503,
+      "got": 5503,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลหางดง",
+      "ok": true,
+      "expected": 6327,
+      "got": 6327,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลหนองตองพัฒนา",
+      "ok": true,
+      "expected": 8052,
+      "got": 8052,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลสันทรายหลวง",
+      "ok": true,
+      "expected": 29688,
+      "got": 29688,
+      "n_tambon_rows": 4
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลเมืองแม่โจ้",
+      "ok": true,
+      "expected": 23156,
+      "got": 23156,
+      "n_tambon_rows": 3
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลสันกำแพง",
+      "ok": true,
+      "expected": 17475,
+      "got": 17475,
+      "n_tambon_rows": 3
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลเมืองต้นเปา",
+      "ok": true,
+      "expected": 20895,
+      "got": 20895,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลสันป่าตอง",
+      "ok": true,
+      "expected": 4174,
+      "got": 4174,
+      "n_tambon_rows": 3
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลบ้านกลาง",
+      "ok": true,
+      "expected": 10171,
+      "got": 10171,
+      "n_tambon_rows": 4
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลเวียงพร้าว",
+      "ok": true,
+      "expected": 4347,
+      "got": 4347,
+      "n_tambon_rows": 2
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลแม่อาย",
+      "ok": true,
+      "expected": 10280,
+      "got": 10280,
+      "n_tambon_rows": 2
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลเวียงฝาง",
+      "ok": true,
+      "expected": 8092,
+      "got": 8092,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลบ้านแม่ข่า",
+      "ok": true,
+      "expected": 1808,
+      "got": 1808,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลสะเมิงใต้",
+      "ok": true,
+      "expected": 5226,
+      "got": 5226,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลแม่ริม",
+      "ok": true,
+      "expected": 9025,
+      "got": 9025,
+      "n_tambon_rows": 2
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลสันมหาพน",
+      "ok": true,
+      "expected": 8113,
+      "got": 8113,
+      "n_tambon_rows": 2
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลเมืองเมืองแกนพัฒนา",
+      "ok": true,
+      "expected": 11717,
+      "got": 11717,
+      "n_tambon_rows": 2
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลดอยสะเก็ด",
+      "ok": true,
+      "expected": 3898,
+      "got": 3898,
+      "n_tambon_rows": 3
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลเมืองงาย",
+      "ok": true,
+      "expected": 3680,
+      "got": 3680,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลเชียงดาว",
+      "ok": true,
+      "expected": 3648,
+      "got": 3648,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลแม่แจ่ม",
+      "ok": true,
+      "expected": 2510,
+      "got": 2510,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลจอมทอง",
+      "ok": true,
+      "expected": 8790,
+      "got": 8790,
+      "n_tambon_rows": 3
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลตำบลช้างเผือก",
+      "ok": true,
+      "expected": 8636,
+      "got": 8636,
+      "n_tambon_rows": 1
+    },
+    {
+      "check": "muni_tambons_sum_to_municipality:เทศบาลนครเชียงใหม่",
+      "ok": true,
+      "expected": 111809,
+      "got": 111809,
+      "n_tambon_rows": 14
+    },
+    {
+      "check": "province_equals_residual_plus_municipalities",
+      "ok": true,
+      "expected": 1798588,
+      "got": 1798588
+    },
+    {
+      "check": "province_equals_reconstructed_districts",
+      "ok": true,
+      "expected": 1798588,
+      "got": 1798588
+    },
+    {
+      "check": "province_equals_all_tambon_rows",
+      "ok": true,
+      "expected": 1798588,
+      "got": 1798588
+    },
+    {
+      "check": "province_child_0_17_equals_reconstructed_districts",
+      "ok": true,
+      "expected": 279076,
+      "got": 279076
+    },
+    {
+      "check": "do_not_sum_amphoe_rows_as_province",
+      "ok": true,
+      "expected": "strictly less than province",
+      "got": 1127147,
+      "province": 1798588,
+      "note": "อำเภอ rows are residuals. Their sum is 1,127,147; the province is 1,798,588."
+    }
+  ],
+  "how_to_use": {
+    "district_denominators": "outputs/step1/dopa_district_totals.csv",
+    "do_not_use": "อำเภอ-labelled rows in dopa_rows.csv as whole districts",
+    "do_not_sum": "province + district + tambon + municipality rows together",
+    "child_denominator": "thai_reg_age_0_17, with the coverage note attached"
+  }
+}

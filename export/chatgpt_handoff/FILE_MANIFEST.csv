@@ -1,0 +1,111 @@
+﻿file,bytes,sha256,role
+01_Chiang_Mai_Geographical_Analysis_Plan.md,44886,b10335293385c5ccfeade9fbb7f172e4d347aebe0ff3a44b639a96f845d4fc87,Living working plan. Update after each completed step.
+02_classification_FINAL_checkbox.json,23365,e9eb25544a3bb98028936112cf48d0ffc7e524ff8bf1655dd30e66be81148705,Seven-stage ticks extracted from landscape mapping (FINAL).xlsx / CM Mapping (checkbox).
+03_landscape_mapping_FINAL.xlsx,782861,bbae93c711f7e631e3399a29f8bbc0438793c8d454883faba9dcc85a9cbf1f15,Confirmed classification workbook. Do not substitute an older copy.
+04_Chiang_Mai_Organisation_Location_Audit.xlsx,91113,a6a0219320a0535d46f6a78896efeabe7b9d7e4e9f5c0bb46ff8f39e4021b07c,29 Oct 2026 geographic audit. Starting point; not yet cleaned.
+outputs/step1/accommodation_register.csv,147388,50eb3d315780764891be4bbd483436684ab16dc7c0eaac95f0353268fd467acc,Merged overnight/boarding check for all 148 private-childcare rows.
+outputs/step1/accommodation_register.json,356986,619ecdb01c2b8dca7506934ee8cb07ff71e57b25bc3f0dfa57db36df640faee0,Same register with evidence URLs and search logs.
+outputs/step1/accommodation_unresolved_cases.csv,68992,7c2cdf2eea98e49ba3944eab2172dd0bae0c2a909b3add496ef3c95f709f3fdc,"Watch list: unresolved, identity_not_confirmed, and the overnight flag."
+outputs/step1/dole_glossary.csv,1612,21e741a6cfcfb4b42ba525a11f405eebc223f95f575afd8bebc5f4d1ffc9c8ad,Thai–English glossary of DOLE dashboard labels.
+outputs/step1/dole_zero_dropout_by_district.csv,4753,7e2d1da23de436badfad5169644b2f8d871759d14a576995d3a1f662d3ecc5c6,DOLE Zero Dropout province + 25 districts.
+outputs/step1/dopa_district_totals.csv,7570,2bcf8b5c8c2a8f9feec854a7c8c3382dc1e6d4fc2c042c95fb65cd58cddd797e,Whole-district denominators (residual + assigned municipalities).
+outputs/step1/dopa_municipality_assignment.csv,15136,fca8954fd83ddb9098019b4a997ccd75952069e01df21a05feefa7e955a915ab,Which municipality was assigned to which district.
+outputs/step1/dopa_province_summary.csv,880,c1f7534c2fe2846178669e2bca0adacc9961f9049488e0b9fb8367858fab5719,Province totals and child-denominator coverage note.
+outputs/step1/dopa_rows.csv,75764,e495cf0ec79036c8c549ce79017214abf82f550dabab3562db0d089f2662611d,Every DOPA registration row with geography slice and age bands. Do not sum parent+child.
+outputs/step1/dopa_schema.csv,930,09a25d816218b23b1e3d339cdd294a93e0630cb93537ebc835cf6cf3eddfe819,Official DOPA field meanings.
+outputs/step1/dopa_validation.json,17655,9f9b805e2ab288fe7373bf159b741e257d7529e0705eadcd9112b0499db6c74f,Identity and geography reconciliation checks.
+outputs/step1/dopa_worked_example.csv,4213,d08dd503bc73613758bc88d1f0881fe51de38d2a87987d2986c9db1600936339,Mueang / Nakhon / Chang Phueak worked example rows.
+outputs/step1/private_childcare_directory_2025.csv,71851,17bdf0ab8847ccd4e6798ba424d9263c2613c2fbf40a694adef778105dd33e10,148 numbered rows from the 16 Oct 2025 private childcare PDF.
+outputs/step1/public_childrens_homes_2025.csv,3946,0f6788073d3184309fb130428f8b6d0b9e53217633cc6327d375aa3d6bef1b80,"Four public sites from the 2025 directory: two welfare homes, one reception shelter, one juvenile centre. Juvenile stays separately labelled."
+outputs/step1/tpmap_2569_mueang_5001.png,437648,41a04720d624ae5573a017216758dc4f83fad2b7ab58b4f8415e969539c1752d,"Screenshot of https://www.tpmap.in.th/2569/5001 on 10 Nov 2026: 0 target poor / 52,312 surveyed."
+outputs/step1/tpmap_capture_log.json,1881,113d02dcb2ba37338f33e9c0ee50b045e8f6144a3b9a584b91f806578b49caaa,Live-page check of Mueang 5001 and how to use the TPMAP table.
+outputs/step1/tpmap_district_evidence.csv,17017,15d4e77164266571e985d4e328531b7387584a62dd91090aaf8c1bacd586def3,2569 district TPMAP headline measures with provenance. Mueang zeros are live-page confirmed.
+outputs/step1/tpmap_glossary.csv,18784,2f94c8ad875793262675e9bfd363b32dbbaa1e83425afaaad0bb626494b2b441,TPMAP column and 38-indicator labels from the official Plan 13 data dictionary.
+outputs/step2/change_log.csv,28605,6c11a49c795ed58042df6a123b061a2299c47cc8d9ad6daaf7c0d538e9c9f840,"Every district, geocode and public-directory addition. Raw 29 Oct file was not edited."
+outputs/step2/cleaning_summary.json,866,4d01df5ac89b0785d955473079f5579ead460143efac0412534ba5205991ba2a,Step 2 counts and eligibility rule.
+outputs/step2/district_crosswalk.csv,2657,09555be15d1608d56de2a9d09b28819949e4761130393cb0d841e534049c09d4,Audit district labels onto DOPA 5001–5025. Non-district phrases are non-joins. Wiang Pa Pao is Chiang Rai.
+outputs/step2/geocode_cache.json,43556,eefa7bcbed939b1aef4690f461565f9ee88d8ba7d686b4fdcc879136218d718e,Nominatim response cache. Reproducible geocodes; not a finding.
+outputs/step2/organisations.csv,16618,f69fa16c7567f697054afde33a65d412f54f9e9974fcc3dba91a06c93b2f6410,Step 2 organisations (57). level1_org_eligible is the unique-org numerator.
+outputs/step2/site_stages.csv,34877,468decf6852839895701075210d70ed941f6d6578a8ba976b1d651fe42d22578,Organisation-level stage evidence copied to sites. FINAL checkbox remains the classification source.
+outputs/step2/sites.csv,84678,759054151642ab4c527957276ecd9085e9148f9152f9f04fbaf9d694a0bc689c,Step 2 cleaned sites (72). Use level1_*_eligible flags; do not treat every row as a point.
+outputs/step2/source_copy/Chiang_Mai_Organisation_Location_Audit_2026-10-29.xlsx,91113,a6a0219320a0535d46f6a78896efeabe7b9d7e4e9f5c0bb46ff8f39e4021b07c,Dated copy of the 29 Oct audit. The raw snapshot is also packed as 04_.
+outputs/step3/counts_overall.csv,1645,b37e5663e4b20b7e85dac65e2921dd30c14133f00425806b3b827813f44c2606,"Level 1 numerators: 53 orgs, 57 sites, 12 points, with definitions."
+outputs/step3/level1_points.csv,1873,1a1212cf9688df1fa87c078fa7f9824fb9a4333e95da510e8e859286e2cd721c,The 12 NN points plus the juvenile centre (in_nearest_neighbour=no).
+outputs/step3/level1_points.geojson,7424,56febb9f14f555c103bfb0a7ebed83101a592bcd604096b0711a32a52ad1e0d8,Same points as GeoJSON.
+outputs/step3/level1_points.svg,2189,87ac43c68ece767445c9ed59dabd68e85c4ff85ab1d13bd5458c9ff8f84d9dfe,"Offline scatter of the public points. Linear lon/lat, not a map projection."
+outputs/step3/level1_summary.json,2436,15352cd341bc8a405f7f11dd5b345444ad41cd01d44a9a375115adf2dcf2cbc1,"Level 1 headline counts, NN summary and limitations."
+outputs/step3/nearest_neighbour.csv,1031,ec731a330f621cc6e3aec750d3b9c59781490e1e7d000680e07659c24a7ce57b,Descriptive great-circle NN among 12 public house/building points. Not a clustering test.
+outputs/step3/org_stage_overlap.csv,699,f2591ae0dcddf89ba3e47ffca7e5107d1aaba751f2c909fff3fe9e73b1a92783,How many FINAL stages each mapped organisation has.
+outputs/step3/orgs_by_stage.csv,1737,cda3889fda31d73dcfd52a41bb60e58203edd86ce5640b3ac743ce5ff41a2be8,Unique organisations by FINAL stage. Do not add across stages.
+outputs/step3/sites_by_district.csv,4775,f3cd6f4f8ae16a11d4cd08606da69c1d8ee801c342de370332c9d507c9aba324,"All 25 DOPA districts including zeros, plus a non-join row. Zero mapped is not absent."
+outputs/step3/sites_by_stage.csv,1772,5b4c42037e75b8da44b572c1829fbf971d093a58da7dc5d4318c17d82a298a42,Eligible sites by FINAL stage of the owning organisation.
+outputs/step3/stage_source_disagreement.csv,3099,5ea7fc50610f10881550e35cd52d860f5e88a91ffe215a37ad1ae5741edac485,Audit Applicable_Stages that disagree with FINAL; not used in Level 1 stage counts.
+outputs/step4/district_presence.csv,23179,70b362e876cf95f981cfd7fc42a7ea00467d01b5d5c74f7a0706086076d68f98,"Level 2A: one row per DOPA district. Presence per 10,000 registered Thai children 0–17. DOLE and TPMAP stay in separate columns."
+outputs/step4/level2a_summary.json,3244,28f2089cffcb0a9ad24d33e9e6234f6625d9c879aa3b534cff9a955da8b36a46,"Level 2A thresholds, headline rates, and limitations."
+outputs/step4/measure_definitions.csv,3314,e5ea164c48e0842f05cacba9ed90ab7be9978addcbcead13569b1a93fe78c993,"Numerator, denominator, and what must not be added."
+outputs/step4/signals_for_closer_look.csv,7924,1d8e967fcc57f69c18b84dd9731a2454653b7d7347deab7c3336fe0dbc6b7390,Separate rule hits. Not a priority score and not an unmet-need ranking.
+outputs/step4/site_presence_role.csv,28895,67ed7b0a1f13e5bc793f2565e1e32abb08361a2750249fb4f62f111dd2d624dc,"Each Level 1 site as office, delivery, or mixed. Former/closed flagged."
+outputs/step5/design_decisions.csv,2666,1e5722eea7f54ffd090c3e6a05de7d835b416a7ce963787e8c01295360471e22,"Level 2B origin, destination, mode and threshold, each with the reason it was chosen."
+outputs/step5/destinations.csv,1520,79104657f6eaea715aec0269856e1fb85deacde2dca9aeda471b639f8fcc5d64,The eight exact public delivery or mixed sites used as route destinations.
+outputs/step5/district_access.csv,12259,ea11a9380f28515b00ab9f51ed5080102c42a6d98e955bf79aa1167c513c4dd0,"Private-vehicle time and distance from each centroid, walking sensitivity, and Valhalla check."
+outputs/step5/district_centroids.csv,10126,fad7c5febff530ddb1803fbc60edc47f02160ee099dd4ff58114021c6be05bde,25 district centroids used as administrative proxies. Not children's homes.
+outputs/step5/gaps_not_modelled.csv,455,7a0f5e53f63a9c88d686425caaf0bdace1b9e1160ae07eb95e994b1f80eaa854,"Affordability, eligibility and shared transport were not given numbers."
+outputs/step5/level2b_summary.json,1238,3bcf7e48eb1f1eea336d004ea0e3b4982fb607d9e8f1557f895071542016ceed,"Level 2B spread of times, descriptive bins, and engine comparison."
+outputs/step5/routing_cache.json,23443,3418f9468748eeaab8743fbfae6a58d9f90e9dc8f9c4d66febf9ba84da1da2cb,Cached FOSSGIS and Valhalla responses. Reproducible routes; not a finding.
+outputs/step6/comparison_educational_reengagement.csv,14580,294c71c036ced1086816b839d11456d4e2609c5df2149b4faa67cb56a08e975f,Unranked educational re-engagement comparison. DOLE flags stay in separate columns.
+outputs/step6/comparison_family_support.csv,14732,9fc418bcebdb22982b86d0dd72a4854c5fb45b43cc2e06d95703ab9613b2e8e3,"Unranked family-support comparison, DOPA code order. Not a score."
+outputs/step6/education_rule_hits.csv,6844,34da81fba8d08393fc474ff090eed398fcd72119b772326ad7d293547f1cf184,Separate yes/no rule hits for DOLE flags. Not a rank.
+outputs/step6/family_support_rule_hits.csv,4974,e88478a7f976676b8b0cad2cc6daf0c5998efc6ee462adc91ae40aaf7cf78770,Separate yes/no rule hits for family support. Not a rank.
+outputs/step6/level2c_summary.json,1901,121a48ff20c7ed7a70d8fbfb00c6aa04c917a63578f2bfeb0362d076b160ad3d,"Level 2C decision, cuts, and uncertainties."
+outputs/step6/local_validation_questions.csv,1563,9e3798ab34072067e91fceb62e89cac06ef68040574cfea9f91554f6691a8d22,Questions for TSA and local partners. Not measured answers.
+outputs/step6/provisional_outcomes.csv,815,9b18f4069a47979de0fac922bad33e4b9102154cfb2686aa7aa71bee3a6dd15d,Outcomes to monitor if a partnership proceeds. Not targets.
+raw/project_snapshot/Chiang_Mai_Organisation_Location_Audit.xlsx,91113,a6a0219320a0535d46f6a78896efeabe7b9d7e4e9f5c0bb46ff8f39e4021b07c,29 Oct 2026 geographic audit. Raw starting point; do not edit. Cleaned tables are outputs/step2/.
+raw/project_snapshot/private_directory.pdf,663096,ac519171c90f21ed602aceaded948cf11ddc67542878457d1ef215d754f78f0a,"Private childcare PDF (สถานรับเลี้ยงเด็กเอกชน), 16 Oct 2025."
+raw/project_snapshot/public_directory.pdf,45217,2d0eac86a848e75ef40b16c4ce5bc624bd410bafcd1a6b1350cb1e2603f58f3a,Public welfare/reception/juvenile directory. Extracted to outputs/step1/public_childrens_homes_2025.csv.
+raw/project_snapshot/dopa_2025_12_chiang_mai.txt,223113,128da57e18db7c501cdb6da4d54c0dd5af8be380c982e3ffaf512a5a2e730670,DOPA Dec 2025 Chiang Mai raw pipe-delimited text.
+raw/project_snapshot/tpmap_69_50_amphur_common.csv,10539,548feb7bfa15d455679f5d73b38e853d381c0b362b53f473aaf06129fe0bc7fd,TPMAP 2569 Chiang Mai district common indicators.
+raw/project_snapshot/tpmap_69_50_amphur_11111.csv,4994,cdecad0142dc61e66546d331c16b07295a5e8cd6f6a4b79cbf3720b75554a3cb,TPMAP 2569 poverty-filter file. Mueang (5001) zeros match the live page.
+raw/tpmap/TPMAP_datadict_plan13.xlsx,14311,e21d9d80e01aaea40ccc3c08b6f8ed109d41f9fbc3357a2e496aaf424e657bca,Official TPMAP Plan 13 data dictionary used for the glossary.
+raw/dole/acquisition_log.json,13499,35cdf05bc72e3fde11c56bae6bbb6d164b20f2237c69c203322d4dfd5c54bdf4,"One-attempt public POST log: URL, parameters, UTC time, SHA-256, totals."
+raw/dole/dole_5001.json,6431,6364694a1bd1b771ef88a452090ff4be676937f27dad66de8224b593780cd59d,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5002.json,7115,10eac93fe68360d831e36a2a74a9dab25150eb425d3f5626a782ff5b246eb9e6,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5003.json,5389,56a539507b9624f9c5dab416dd44daa78b8416b7cc5ca5cede257799e9c7147b,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5004.json,6109,ecdbdd499066bc3b8976064da45a89900433c97b2d7fa43d0c684e901857f851,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5005.json,6252,e62c51f280c2db7449c9ea200b9b5d1d6cd4df425fe77ae957296bf5b272606f,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5006.json,6631,59ef065398bd5042bf52fab913ad3ff76728d254067d8d5872fee5e627098131,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5007.json,7829,ea1fcecfd6c34da09286c748c80f9509b77d8434328ed4a9fbcb3815b15bc357,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5008.json,5018,b5e4ac41cbcdcb341b2cdd02bdfd4b7c594b63060d6ab5b0292e17af712f03dc,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5009.json,6672,fafc237fbf65a6d3809f56c4ba755f88cae04a2ef17e6e3c43b30d0b1e8a8816,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5010.json,7207,3d18264bbab0c74295a350b711eaaa00528c6a5bc65bdd3093d53af1632736da,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5011.json,5018,dbef515a4e19a17372bfd3325e29f013b7fd26eb22d15e2d596e84ce6abbec29,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5012.json,6210,5ee3c1bf5a78e0ff71ac18ccc0b7957e0da66f7da54f6c1b33771f828bfaf917,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5013.json,6038,216d764845a43c3e177f85ba18fa9ae332e7936b7968ab1ec31102697b6c8c33,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5014.json,5328,d5303f4fcd802f3739085e863f94464db77b1e81e345a8b1659b9fa1445604e1,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5015.json,5917,5e3ca38c39dbc9765df5f49b7ed3312f4c2d5bff67c10e91f57b48688aca794f,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5016.json,6294,066a1b43245ee12c972153c83a4b853c68421dd68b33b902d2842b20a85ad209,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5017.json,6349,fb1d603d164446b395bbf24714728759670638733706aa8f23390f68aca078e7,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5018.json,9437,07e964fe28617e82ba7242cac6c52c35bee41a7823cf8b629dc4c868ac7401cb,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5019.json,5493,326c66e560d790a4b60a032358cedf2d7808ad499e3c7b4f397c065e4f1fdc7c,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5020.json,5007,9b80c5533149e2ae33ffd2bd4392ad51f2e6aa5e9cbe726fef7371f701cfe50c,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5021.json,6028,908dfcbffa561b6a8d486108693b0ef3cc656b5f2593e733beb2eef326d855ff,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5022.json,5155,c5558a4e1fc433dc4a47e370ca2754ecaf4159679df6b6e90934c78d61a547d5,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5023.json,5731,71116520a1ae8a81e3aec6745454b581ae7f1225e21b726d472fb2c9666c728f,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5024.json,4795,e10b74a732607202a315346b3def24ba6b729a113c2a05ed050b5959907ab067,Unflattened DOLE aggregate JSON.
+raw/dole/dole_5025.json,4771,130d1ea915c6a715a24dda97fbc66ddae5bb6361c269c455fc6476df407824ea,Unflattened DOLE aggregate JSON.
+raw/dole/dole_50_province.json,13250,e24a198dd1fc4dcf7e89299d2f1572591c49433f4bf5626635ba165a220eeaaf,Unflattened DOLE aggregate JSON.
+scripts/build_chatgpt_handoff.py,14813,41c87f645325a67e97e0ec08825d14d15825beebfa13ba388b39d3e0f4e009db,Reproducible script. Do not treat scripts as findings.
+scripts/build_dole_table.py,5526,d039c07cd46afdcb28ba87ba16afc8c5db502633f024de91fd3c4d3752461bb4,Reproducible script. Do not treat scripts as findings.
+scripts/build_tpmap_table.py,10204,472029d436a9115371c3da75cbe33edb5dbd4cd04edbac9a7c456e681c46f4a0,Reproducible script. Do not treat scripts as findings.
+scripts/clean_geographic_base.py,34075,9d8f644b4ffefea8f460fc0f063e5cbcdb2b5a164f5c9b610224d133aa033c47,Reproducible script. Do not treat scripts as findings.
+scripts/convert_dopa.py,29947,2d92d5c77790276cc6523bd9032affc90555a8ea6b11ddcce89f48418ffce4b5,Reproducible script. Do not treat scripts as findings.
+scripts/extract_classification.py,3474,ef15b8f619104092dfa25e5bcaf8c31fe6079d8662e1617da82aa259a277b760,Reproducible script. Do not treat scripts as findings.
+scripts/extract_private_directory.py,2449,c9363ee20507acca3e97f9128674074a26e0f7304924210ed8ee005c7eccda4d,Reproducible script. Do not treat scripts as findings.
+scripts/extract_public_directory.py,7725,db5eab701a0ad148e360fb9efbd891aa52c2362f9457a297b4c6a22c523bbfed,Reproducible script. Do not treat scripts as findings.
+scripts/fetch_dole_districts.py,3162,ba74089943bfb55c152c6c10462d84695422ab040f5fc0484f8bdcde34e07a08,Reproducible script. Do not treat scripts as findings.
+scripts/level1_concentration.py,22496,83392b334d447d1930d7a8bc28759bb0aaab0c991069be0ca85e6a37cb8f87a3,Reproducible script. Do not treat scripts as findings.
+scripts/level2a_presence.py,24852,8b23db3f4612cacf5f1961d7242a4a673d19715e9a3e8b29cdd02c7de67e10be,Reproducible script. Do not treat scripts as findings.
+scripts/level2b_access.py,23522,dfb63578d52380712d9bd510e853b3e213095611605926ae2a48d8c1c2e0c030,Reproducible script. Do not treat scripts as findings.
+scripts/level2c_comparisons.py,17097,5e4eb2621b9eb3c17d1abe6a52175a9c5e5874920bfc5750f6c9daec32960fe1,Reproducible script. Do not treat scripts as findings.
+scripts/merge_accommodation_register.py,4269,453059a3d97a44574a4b8e67f52ebcbdfc1d662fb523125d7129764c3ee8a910,Reproducible script. Do not treat scripts as findings.
+scripts/write_batches_4_5.py,38072,959459a1a9166312183ffd051727cc79b4626b209ec60486c155c8fe40c31cdf,Reproducible script. Do not treat scripts as findings.
+scripts/_handoff_readme.md,18170,398cf37ce0933bb760cce5c6bc426b4b39c8e347b6ff47b942c2febe095e74d7,Template for 00_READ_ME_FIRST.md. Placeholders are filled at pack time.

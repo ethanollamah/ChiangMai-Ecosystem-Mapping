@@ -1,0 +1,4 @@
+﻿gap,status,why
+affordability,not_modelled,"Travel time does not include fares, fuel, or whether a household can pay. No fare table is in the source set."
+eligibility,not_modelled,"A reachable site may not accept a referral, serve the child's age, or have a place. Reach is not eligibility."
+shared_transport,not_modelled,Songthaew and bus timetables are not in the source set. Walking is the only no-vehicle sensitivity. It is not a transit model.

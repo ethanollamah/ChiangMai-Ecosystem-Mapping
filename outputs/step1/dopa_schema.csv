@@ -1,0 +1,8 @@
+﻿field,meaning
+DESC-CCAATT,"Area label (province, district, municipality or tambon). Not a CCAATT code in this file."
+MALE_AGE / FEMALE_AGE 0–101,"102 male/female pairs, interleaved. Age 0 = under 1 year; age 101 = over 100 years. Thai nationals on ordinary house registration only."
+MALE_TDOB / FEMALE_TDOB / TOTAL_TDOB,Thai nationals recorded with a lunar-calendar birth year; no single-year age.
+MALE_XHOUSE / FEMALE_XHOUSE / TOTAL_XHOUSE,"Persons on the central house register (ทะเบียนบ้านกลาง), who cannot be listed on an ordinary house register."
+MALE_OTHER_NAT / FEMALE_OTHER_NAT / TOTAL_OTHER_NAT,Persons who are not Thai nationals. All-age only; no single-year ages.
+MALE_MOVE / FEMALE_MOVE / TOTAL_MOVE,Persons who have moved out but not yet moved in anywhere.
+MALE_TOT / FEMALE_TOT / TOTAL_TOT,All registered persons. Identity: ages 0–101 + TDOB + XHOUSE + OTHER_NAT + MOVE.

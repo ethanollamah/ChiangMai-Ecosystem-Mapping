@@ -1,0 +1,48 @@
+{
+  "captured_utc": "2026-11-10T09:25:33.754154+00:00",
+  "live_page_checked": {
+    "url": "https://www.tpmap.in.th/2569/5001",
+    "filters": "year 2569; อ.เมืองเชียงใหม่; 5 MPI dimensions; welfare card = มีบัตร; ทุกตำบล",
+    "displayed": {
+      "target_poor_people": 0,
+      "jpt_people": 52312,
+      "jpt_households": 24044,
+      "mpi_poor_households": 0,
+      "mpi_poor_people": 0,
+      "target_poor_in_welfare_households": 0,
+      "rate": "0.00%",
+      "page_last_update_th": "3 เม.ย. 2569"
+    },
+    "matches_packed_csv": true,
+    "also_zero_under_filters": [
+      "all",
+      "nocard"
+    ],
+    "interpretation": "Mueang is the only Chiang Mai district with 0 target-poor people under this 2569 / 5-dimension view. The JPT survey still enumerates 24,044 households and 52,312 people. Do not read this as 'no poverty' or 'no need' in Mueang. Urban JPT/welfare-card coverage may be incomplete."
+  },
+  "packed_files": {
+    "tpmap_69_50_amphur_11111.csv": "cdecad0142dc61e66546d331c16b07295a5e8cd6f6a4b79cbf3720b75554a3cb",
+    "tpmap_69_50_amphur_common.csv": "548feb7bfa15d455679f5d73b38e853d381c0b362b53f473aaf06129fe0bc7fd",
+    "datadict": "raw/tpmap/TPMAP_datadict_plan13.xlsx"
+  },
+  "headline": {
+    "districts": 25,
+    "districts_with_target_poor": 24,
+    "mueang_target_poor": 0,
+    "highest_target_poor_count": {
+      "district_en": "Mae Chaem",
+      "target_poor_people": 8309,
+      "rate_percent": 19.8542
+    }
+  },
+  "how_to_use": {
+    "file": "outputs/step1/tpmap_district_evidence.csv",
+    "join": "district_code 5001–5025, same codes as DOPA/DOLE",
+    "do_not": [
+      "treat 0 in Mueang as missing data",
+      "treat 0 in Mueang as proof of no need",
+      "add the five dimension counts as unique people",
+      "treat target poor as a child-only count"
+    ]
+  }
+}

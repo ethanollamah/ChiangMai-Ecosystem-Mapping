@@ -1,0 +1,36 @@
+﻿audit_district_label,district_code,district_th,district_en,province_scope,join_eligible
+Mueang Chiang Mai,5001,อำเภอเมืองเชียงใหม่,Mueang Chiang Mai,chiang_mai,yes
+Chom Thong,5002,อำเภอจอมทอง,Chom Thong,chiang_mai,yes
+Mae Chaem,5003,อำเภอแม่แจ่ม,Mae Chaem,chiang_mai,yes
+Chiang Dao,5004,อำเภอเชียงดาว,Chiang Dao,chiang_mai,yes
+Doi Saket,5005,อำเภอดอยสะเก็ด,Doi Saket,chiang_mai,yes
+Mae Taeng,5006,อำเภอแม่แตง,Mae Taeng,chiang_mai,yes
+Mae Rim,5007,อำเภอแม่ริม,Mae Rim,chiang_mai,yes
+Samoeng,5008,อำเภอสะเมิง,Samoeng,chiang_mai,yes
+Fang,5009,อำเภอฝาง,Fang,chiang_mai,yes
+Mae Ai,5010,อำเภอแม่อาย,Mae Ai,chiang_mai,yes
+Phrao,5011,อำเภอพร้าว,Phrao,chiang_mai,yes
+San Pa Tong,5012,อำเภอสันป่าตอง,San Pa Tong,chiang_mai,yes
+San Kamphaeng,5013,อำเภอสันกำแพง,San Kamphaeng,chiang_mai,yes
+San Sai,5014,อำเภอสันทราย,San Sai,chiang_mai,yes
+Hang Dong,5015,อำเภอหางดง,Hang Dong,chiang_mai,yes
+Hot,5016,อำเภอฮอด,Hot,chiang_mai,yes
+Doi Tao,5017,อำเภอดอยเต่า,Doi Tao,chiang_mai,yes
+Omkoi,5018,อำเภออมก๋อย,Omkoi,chiang_mai,yes
+Saraphi,5019,อำเภอสารภี,Saraphi,chiang_mai,yes
+Wiang Haeng,5020,อำเภอเวียงแหง,Wiang Haeng,chiang_mai,yes
+Chai Prakan,5021,อำเภอไชยปราการ,Chai Prakan,chiang_mai,yes
+Mae Wang,5022,อำเภอแม่วาง,Mae Wang,chiang_mai,yes
+Mae On,5023,อำเภอแม่ออน,Mae On,chiang_mai,yes
+Doi Lo,5024,อำเภอดอยหล่อ,Doi Lo,chiang_mai,yes
+Galyani Vadhana,5025,อำเภอกัลยาณิวัฒนา,Galyani Vadhana,chiang_mai,yes
+แม่ริม,5007,อำเภอแม่ริม,Mae Rim,chiang_mai,yes
+Wiang Pa Pao,,อำเภอเวียงป่าเป้า,Wiang Pa Pao,chiang_rai,no
+Multiple / not publicly specified,,,,chiang_mai_non_join,no
+N/A,,,,chiang_mai_non_join,no
+Near Chiang Mai city; district not public,,,,chiang_mai_non_join,no
+Province-wide / assessment scope,,,,chiang_mai_non_join,no
+Province-wide / multiple districts,,,,chiang_mai_non_join,no
+Province-wide / not specified,,,,chiang_mai_non_join,no
+Undisclosed / conflicting public clues,,,,chiang_mai_non_join,no
+Undisclosed in Chiang Mai Province,,,,chiang_mai_non_join,no

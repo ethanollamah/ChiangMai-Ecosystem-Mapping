@@ -1,0 +1,103 @@
+{
+  "generated_utc": "2026-11-10T11:23:37.819583+00:00",
+  "province_thai_reg_age_0_17": 279076,
+  "n_joinable_level1_sites": 49,
+  "n_nonjoin_level1_sites": 8,
+  "n_districts_with_zero_current_delivery_or_mixed": 12,
+  "thresholds": {
+    "dole_home_not_found_q3": 135.0,
+    "dole_consented_q3": 40.0,
+    "tpmap_target_poor_median": 689,
+    "tpmap_target_poor_q3": 1438.0,
+    "thai_children_median": 11172,
+    "thai_children_q3": 14472.0,
+    "quartile_method": "statistics.quantiles n=4 method=inclusive",
+    "concentration_rule": "Level 1 site share >= 2x share of registered Thai children 0–17, and at least 5 sites"
+  },
+  "highest_current_delivery_or_mixed_per_10k": [
+    {
+      "district_code": "5005",
+      "district_en": "Doi Saket",
+      "current_delivery_or_mixed_per_10k_thai_0_17": "6.15"
+    },
+    {
+      "district_code": "5014",
+      "district_en": "San Sai",
+      "current_delivery_or_mixed_per_10k_thai_0_17": "3.70"
+    },
+    {
+      "district_code": "5007",
+      "district_en": "Mae Rim",
+      "current_delivery_or_mixed_per_10k_thai_0_17": "2.09"
+    }
+  ],
+  "highest_family_support_relevant_per_10k": [
+    {
+      "district_code": "5014",
+      "district_en": "San Sai",
+      "family_support_relevant_per_10k_thai_0_17": "3.70"
+    },
+    {
+      "district_code": "5010",
+      "district_en": "Mae Ai",
+      "family_support_relevant_per_10k_thai_0_17": "1.96"
+    },
+    {
+      "district_code": "5022",
+      "district_en": "Mae Wang",
+      "family_support_relevant_per_10k_thai_0_17": "1.84"
+    }
+  ],
+  "highest_dole_home_not_found": [
+    {
+      "district_code": "5009",
+      "district_en": "Fang",
+      "dole_home_not_found": 1326
+    },
+    {
+      "district_code": "5001",
+      "district_en": "Mueang Chiang Mai",
+      "dole_home_not_found": 990
+    },
+    {
+      "district_code": "5010",
+      "district_en": "Mae Ai",
+      "dole_home_not_found": 533
+    }
+  ],
+  "highest_tpmap_target_poor_people": [
+    {
+      "district_code": "5003",
+      "district_en": "Mae Chaem",
+      "tpmap_target_poor_people": 8309
+    },
+    {
+      "district_code": "5002",
+      "district_en": "Chom Thong",
+      "tpmap_target_poor_people": 3755
+    },
+    {
+      "district_code": "5006",
+      "district_en": "Mae Taeng",
+      "tpmap_target_poor_people": 2872
+    }
+  ],
+  "n_signals": 27,
+  "nonjoin_marker_ids": [
+    "CM-008",
+    "CM-015",
+    "CM-016",
+    "CM-017",
+    "CM-018",
+    "CM-025",
+    "CM-028",
+    "CM-051"
+  ],
+  "limitations": [
+    "Doi Saket's high delivery rate is seven family-style homes stored as district-level protected approximations, with no FINAL family-support tick. It is not an exact-point cluster and not a family-support presence rate.",
+    "District organisation counts are not additive.",
+    "Eight Level 1 sites are in Chiang Mai but not joined to a district, so they are absent from every district rate.",
+    "Small districts make a single site a large per-10,000 rate. Read the count beside the rate."
+  ],
+  "rule": "Presence rates use mapped sites over registered Thai children 0–17. They are not unmet-need ranks. DOLE, TPMAP and DOPA stay in separate columns. Offices are not delivery sites. Zero mapped delivery is not absence of provision."
+}

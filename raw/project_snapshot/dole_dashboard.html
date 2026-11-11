@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+
+<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="../assets/" data-template="vertical-menu-template-free">
+
+<head>
+<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <title>DOLE zero dropout</title>
+  <meta name="description" content="" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/img/DL.ico" />
+  <!-- Fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+  <!-- Icons. Uncomment required icon fonts -->
+  <link rel="stylesheet" href="assets/vendor/fonts/boxicons.css" />
+  <!-- Core CSS -->
+  <link rel="stylesheet" href="assets/vendor/css/core.css" class="template-customizer-core-css" />
+  <link rel="stylesheet" href="assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+  <link rel="stylesheet" href="assets/css/demo.css" />
+  <!-- Vendors CSS -->
+  <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+  <!-- Page CSS -->
+  <!-- Helpers -->
+  <script src="assets/vendor/js/helpers.js"></script>
+  <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+  <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+  <script src="assets/js/config.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.datatables.net/v/dt/dt-2.1.8/datatables.min.css" rel="stylesheet">
+</head>
+
+
+<body>
+  <!-- Layout wrapper -->
+  <div class="layout-wrapper layout-content-navbar">
+    <div class="layout-container">
+      <!-- Menu -->
+
+      <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+        <div class="app-brand demo">
+          <a href="index.php" class="app-brand-link">
+            <span class="app-brand-logo demo">
+            <img src="assets/img/logo.png" height="60px" >
+            </span>
+            <!-- <span class="mt-3 h4  demo menu-text fw-bolder ms-2">zero <br/>dropout</span> -->
+          </a>
+
+          <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+            <i class="bx bx-chevron-left bx-sm align-middle"></i>
+          </a>
+        </div>
+
+        <div class="menu-inner-shadow"></div>
+
+        <ul class="menu-inner py-1">
+          <!-- Dashboard -->
+          <li class="menu-item">
+            <a href="index.php" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">หน้าหลัก</div>
+            </a>
+          </li>
+
+          <!-- Layouts -->
+          
+
+                   <li class="menu-item ">
+            <a href="?id=login" class="menu-link">
+              <i class="menu-icon tf-icons bi bi-unlock-fill"></i>
+              <div data-i18n="Basic">เข้าสู่ระบบ</div>
+            </a>
+          </li>
+                   
+         
+         
+          <!-- Components -->
+         
+
+          <!-- Forms & Tables -->
+         
+         
+          <!-- Tables -->
+        
+      </aside>
+      <!-- / Menu -->
+
+      <!-- Layout container -->
+      <div class="layout-page">
+        <!-- Navbar -->
+       
+        <nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
+          <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+            <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+              <div class="d-flex justify-content-between">
+              <i class="bx bx-menu bx-sm"></i>
+              <img src="assets/img/logo.png" height="30px" >
+              </div>
+             
+             
+            </a>
+          </div>
+
+          <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+           
+            <!-- Search -->
+                       
+            <!-- /Search -->
+
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <!-- Place this tag where you want the button to render. -->
+
+
+              <!-- <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                 <button class="btn btn-outline-danger 98px"> <i class='bx bxs-bell-plus'></i><span id="num_warn"></span></button>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                 <span id="warn"></span>
+                </ul>
+              </li> -->
+              <!-- reat -->
+              <!-- <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                 <button class="btn btn-outline-primary 98px"> <i class='bx bxs-bell'></i></button>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                 <span id="warn_0"></span>
+                </ul>
+              </li> -->
+
+              <!-- User -->
+               
+                            <!--/ User -->
+            </ul>
+          </div>
+        </nav>
+        
+
+        <!-- / Navbar -->
+
+        <!-- Content wrapper -->
+        <div class="content-wrapper">
+          <!-- Content -->
+          <style>
+    :root {
+        --primary: #696cff;
+        --secondary: #9155fd;
+        --bg: #f5f5f9;
+        --card: #fff;
+        --text: #566a7f;
+        --text-dark: #3d4a5c;
+        --border: #e7e7e9;
+    }
+
+    * { box-sizing: border-box; }
+
+    .dash-header { background: linear-gradient(135deg, #696cff 0%, #9155fd 100%); padding: 20px 28px; color: #fff; position: relative; overflow: hidden; }
+    .dash-header::before { content: ''; position: absolute; width: 260px; height: 260px; border-radius: 50%; background: rgba(255,255,255,.07); top: -80px; right: -60px; }
+    .dash-header h1 { font-family: 'Prompt', sans-serif; font-size: 20px; font-weight: 700; margin: 0 0 2px; }
+    .dash-header p { font-size: 12px; opacity: .7; margin: 0; }
+
+    .filter-bar { background: #fff; border-bottom: 1px solid var(--border); padding: 12px 20px; }
+    .filter-bar .form-label { font-size: 12px !important; font-weight: 600 !important; color: #6b7280 !important; text-transform: uppercase !important; letter-spacing: .5px !important; margin-bottom: 4px !important; }
+    .filter-bar .form-control { border-radius: 8px !important; border-color: #e5e7eb !important; font-size: 13px !important; }
+    .filter-bar .form-control:focus { border-color: var(--primary) !important; box-shadow: 0 0 0 .2rem rgba(105,108,255,.2) !important; }
+    .filter-tag { background: #ede9fe; color: #5b21b6; border-radius: 99px; padding: 3px 12px; font-size: 12px; font-weight: 600; display: none; }
+
+    .dash-body { padding: 20px 24px; }
+    .empty-state { text-align: center; padding: 60px 20px; color: #aaa; }
+    .empty-state i { font-size: 48px; margin-bottom: 12px; display: block; }
+    .empty-state p { font-size: 14px; margin: 0; }
+
+    .sec-divider { display: flex !important; align-items: center !important; gap: 10px !important; margin: 8px 0 14px !important; padding: 0 !important; border: none !important; list-style: none !important; background: none !important; text-decoration: none !important; }
+    .sec-divider::before { display: none !important; }
+    .sec-divider::after { content: '' !important; display: block !important; flex: 1 !important; height: 1px !important; background: #e7e7e9 !important; border: none !important; }
+    .sec-divider span { font-family: 'Prompt', sans-serif !important; font-size: 14px !important; font-weight: 700 !important; color: #3d4a5c !important; white-space: nowrap !important; text-decoration: none !important; border-bottom: none !important; }
+
+    .stat-card { background: var(--card); border-radius: 14px; padding: 16px 18px; box-shadow: 0 2px 10px rgba(103,103,255,.07); border: 1px solid var(--border); height: 100%; transition: transform .2s, box-shadow .2s; }
+    .stat-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(103,103,255,.13); }
+    .stat-card .icon-box { width: 42px; height: 42px; border-radius: 11px; display: flex; align-items: center; justify-content: center; font-size: 19px; margin-bottom: 10px; }
+    .stat-card .big-num { font-family: 'Prompt', sans-serif; font-size: 28px; font-weight: 700; color: var(--text-dark); line-height: 1; }
+    .stat-card .card-label { font-size: 13px; margin-top: 4px; }
+    .stat-card .card-sub { font-size: 11px; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border); }
+
+    .section-card { background: var(--card); border-radius: 14px; padding: 16px 18px; box-shadow: 0 2px 10px rgba(103,103,255,.06); border: 1px solid var(--border); height: 100%; }
+    .sec-title { font-family: 'Prompt', sans-serif; font-size: 13px; font-weight: 600; color: var(--text-dark); display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+    .sec-icon { width: 26px; height: 26px; border-radius: 7px; background: linear-gradient(135deg, #696cff22, #9155fd22); color: var(--primary); display: flex; align-items: center; justify-content: center; font-size: 12px; }
+
+    .bar-row { display: flex; align-items: center; gap: 8px; margin-bottom: 9px; }
+    .bar-row:last-child { margin-bottom: 0; }
+    .bar-label { font-size: 12px; min-width: 115px; flex-shrink: 0; line-height: 1.3; }
+    .bar-track { flex: 1; height: 8px; background: #f0f0f0; border-radius: 99px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 99px; transition: width 1.2s cubic-bezier(.4,0,.2,1); }
+    .bar-num { font-family: 'Prompt', sans-serif; font-size: 13px; font-weight: 600; color: var(--text-dark); min-width: 40px; text-align: right; }
+    .bar-pct { font-size: 11px; color: #aaa; min-width: 32px; text-align: right; }
+
+    .svy-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 10px; }
+    .svy-box { border-radius: 12px; padding: 12px 14px; border: 1px solid transparent; }
+    .svy-box .svy-num { font-family: 'Prompt', sans-serif; font-size: 22px; font-weight: 700; line-height: 1; }
+    .svy-box .svy-label { font-size: 12px; margin-top: 3px; }
+    .svy-box .svy-pct { font-size: 10px; opacity: .7; margin-top: 2px; }
+
+    .age-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 8px; }
+    .age-box { border-radius: 10px; padding: 10px 8px; text-align: center; }
+    .age-box .a-num { font-family: 'Prompt', sans-serif; font-size: 20px; font-weight: 700; }
+    .age-box .a-label { font-size: 11px; margin-top: 1px; }
+    .age-box .a-pct { font-size: 10px; color: #aaa; }
+
+    .gender-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 10px; }
+    .gender-box { border-radius: 12px; padding: 14px; text-align: center; }
+    .gender-box .g-num { font-family: 'Prompt', sans-serif; font-size: 24px; font-weight: 700; }
+    .gender-box .g-label { font-size: 12px; margin-top: 2px; }
+
+    .help-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 8px; }
+    .help-box { background: #f8f7ff; border-radius: 10px; padding: 10px 12px; border: 1px solid #ede9fe; display: flex; align-items: center; gap: 10px; }
+    .help-box .h-icon { width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 15px; flex-shrink: 0; }
+    .help-box .h-num { font-family: 'Prompt', sans-serif; font-size: 18px; font-weight: 700; color: var(--text-dark); line-height: 1; }
+    .help-box .h-label { font-size: 11px; color: var(--text); line-height: 1.3; }
+
+    .skeleton { background: linear-gradient(90deg,#f0f0f0 25%,#e0e0e0 50%,#f0f0f0 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: 6px; }
+    @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+
+    @media(max-width:768px) {
+        .dash-body { padding: 10px; }
+        .age-grid  { grid-template-columns: repeat(2,1fr); }
+        .help-grid { grid-template-columns: 1fr; }
+        .bar-label { min-width: 70px; font-size: 11px; }
+        .stat-card { padding: 12px; }
+        .stat-card .big-num { font-size: 20px !important; word-break: break-all; }
+        .stat-card .card-label { font-size: 11px; }
+        .stat-card .card-sub { font-size: 10px; }
+        .section-card { padding: 12px; }
+        .svy-box .svy-num { font-size: 18px !important; }
+        .gender-box .g-num { font-size: 18px; }
+        .help-box .h-num { font-size: 15px; }
+        .dash-header h1 { font-size: 15px; }
+        .dash-header p  { font-size: 10px; }
+        #age_survey_grid { grid-template-columns: 1fr !important; }
+    }
+    @media(max-width:480px) {
+        .stat-card .big-num { font-size: 16px !important; }
+        .svy-grid { grid-template-columns: 1fr; }
+        .age-grid { grid-template-columns: repeat(2,1fr); }
+    }
+</style>
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    <div class="card">
+
+        <div class="dash-header">
+            <div style="position:relative;z-index:1;display:flex;align-items:center;gap:14px;">
+                <div style="width:42px;height:42px;background:rgba(255,255,255,.18);border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                    <i class="bi bi-bar-chart-fill" style="font-size:20px;"></i>
+                </div>
+                <div>
+                    <h1 class="text text-white">Dashboard</h1>
+                    <p>ข้อมูลเด็กและเยาวชนนอกระบบการศึกษา ปี 2568 (เพื่อสำรวจ ปี 2569) &nbsp;|&nbsp; อัปเดต: <span id="last_update">10/11/2026 13:04:38</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="filter-bar">
+            <div class="row g-2 align-items-end">
+                <div class="col-auto d-flex align-items-center">
+                    <label class="mb-0 me-2" style="font-size:13px;font-weight:600;color:#3d4a5c;">
+                        <i class="bi bi-funnel-fill me-1" style="color:var(--primary);"></i>กรองข้อมูล
+                    </label>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <label class="form-label">จังหวัด</label>
+                    <select class="form-control" id="province_id"></select>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <label class="form-label">อำเภอ</label>
+                    <select class="form-control" id="district_id"></select>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <label class="form-label">ตำบล</label>
+                    <select class="form-control" id="subdistrict_id"></select>
+                </div>
+                <div class="col-auto">
+                    <button id="btn_data" class="btn btn-primary" style="border-radius:8px;font-size:13px;">
+                        <i class="bi bi-search me-1"></i>ตรวจสอบ
+                    </button>
+                </div>
+                <div class="col-auto">
+                    <span class="filter-tag" id="filter_tag"></span>
+                </div>
+                <div class="col-auto ms-auto">
+                    <span style="font-size:12px;color:#aaa;" id="filter_count"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="dash-body" id="dash_body">
+
+            <div id="empty_state" class="empty-state">
+                <i class="bi bi-bar-chart text-muted"></i>
+                <p>เลือกตัวกรองแล้วกด <b>ตรวจสอบ</b> เพื่อแสดงข้อมูล</p>
+            </div>
+
+            <div id="dash_content" style="display:none;">
+
+                <div class="sec-divider"><span><i class="bi bi-grid-fill me-2" style="color:var(--primary);"></i>ภาพรวมทั้งหมด</span></div>
+                <div class="row g-3 mb-4">
+                    <div class="col-6 col-md-3">
+                        <div class="stat-card">
+                            <div class="icon-box" style="background:#ede9fe;"><i class="bi bi-people-fill" style="color:#7c3aed;"></i></div>
+                            <div class="big-num" id="c_total">-</div>
+                            <div class="card-label">จำนวนทั้งหมด</div>
+                            <div class="card-sub"><i class="bi bi-database" style="color:var(--primary);"></i> ข้อมูลในระบบทั้งหมด</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-card">
+                            <div class="icon-box" style="background:#fce7f3;"><i class="bi bi-gender-female" style="color:#db2777;"></i></div>
+                            <div class="big-num" id="c_female">-</div>
+                            <div class="card-label">เพศหญิง</div>
+                            <div class="card-sub" style="color:#db2777;"><span id="c_female_pct">-</span>% ของทั้งหมด</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-card">
+                            <div class="icon-box" style="background:#dbeafe;"><i class="bi bi-gender-male" style="color:#2563eb;"></i></div>
+                            <div class="big-num" id="c_male">-</div>
+                            <div class="card-label">เพศชาย</div>
+                            <div class="card-sub" style="color:#2563eb;"><span id="c_male_pct">-</span>% ของทั้งหมด</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-card">
+                            <div class="icon-box" style="background:#d1fae5;"><i class="bi bi-flag-fill" style="color:#059669;"></i></div>
+                            <div class="big-num" id="c_thai">-</div>
+                            <div class="card-label">สัญชาติไทย</div>
+                            <div class="card-sub" style="color:#059669;"><span id="c_thai_pct">-</span>% ของทั้งหมด</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sec-divider"><span><i class="bi bi-person-badge-fill me-2" style="color:#03c3ec;"></i>ข้อมูลประชากร</span></div>
+                <div class="row g-3 mb-4">
+                    <div class="col-lg-12">
+                        <div class="section-card">
+                            <div class="sec-title"><span class="sec-icon"><i class="bi bi-person-badge-fill"></i></span>ช่วงอายุ</div>
+                            <div class="age-grid" id="age_grid"><div class="skeleton" style="height:80px;grid-column:1/-1;"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sec-divider"><span><i class="bi bi-clipboard2-check-fill me-2" style="color:#059669;"></i>ผลการสำรวจ</span></div>
+                <div class="row g-3 mb-4">
+                    <div class="col-lg-4">
+                        <div class="section-card">
+                            <div class="sec-title"><span class="sec-icon"><i class="bi bi-person-check-fill"></i></span>สถานะการสำรวจ</div>
+                            <div style="background:#f0f0ff;border-radius:10px;padding:10px 12px;border:1px solid #d4d4ff;margin-bottom:12px;">
+                                <div class="row g-2 text-center">
+                                    <div class="col-4">
+                                        <div style="font-size:10px;color:#6b7280;font-weight:600;">ทั้งหมด</div>
+                                        <div style="font-family:'Prompt',sans-serif;font-size:16px;font-weight:700;color:#3d4a5c;" id="sv_total_all">-</div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div style="font-size:10px;color:#6b7280;font-weight:600;">สำรวจแล้ว</div>
+                                        <div style="font-family:'Prompt',sans-serif;font-size:16px;font-weight:700;color:#696cff;" id="sv_surveyed">-</div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div style="font-size:10px;color:#6b7280;font-weight:600;">คงเหลือ</div>
+                                        <div style="font-family:'Prompt',sans-serif;font-size:16px;font-weight:700;color:#ff3e1d;" id="sv_remain">-</div>
+                                    </div>
+                                </div>
+                                <div style="margin-top:8px;">
+                                    <div style="display:flex;justify-content:space-between;font-size:10px;color:#6b7280;margin-bottom:3px;">
+                                        <span>ความคืบหน้าการสำรวจ</span>
+                                        <span id="sv_pct_text">0%</span>
+                                    </div>
+                                    <div style="height:8px;background:#e0e0ff;border-radius:99px;overflow:hidden;">
+                                        <div id="sv_progress_bar" style="height:100%;width:0%;background:linear-gradient(90deg,#696cff,#9155fd);border-radius:99px;transition:width 1.2s cubic-bezier(.4,0,.2,1);"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="svy-grid mb-3">
+                                <div class="svy-box" style="background:#d1fae5;border-color:#a7f3d0;">
+                                    <div class="svy-num" style="color:#059669;" id="s_found">-</div>
+                                    <div class="svy-label" style="color:#065f46;"><i class="bi bi-person-check-fill me-1"></i>พบตัว</div>
+                                    <div class="svy-pct" style="color:#065f46;" id="s_found_pct">-%</div>
+                                </div>
+                                <div class="svy-box" style="background:#fee2e2;border-color:#fca5a5;">
+                                    <div class="svy-num" style="color:#dc2626;" id="s_notfound">-</div>
+                                    <div class="svy-label" style="color:#991b1b;"><i class="bi bi-person-x-fill me-1"></i>ไม่พบตัว</div>
+                                    <div class="svy-pct" style="color:#991b1b;" id="s_notfound_pct">-%</div>
+                                </div>
+                            </div>
+                            <div style="background:#f8f7ff;border-radius:10px;padding:10px 12px;border:1px solid #ede9fe;margin-bottom:10px;">
+                                <div style="font-size:11px;font-weight:600;color:#7c3aed;margin-bottom:8px;">
+                                    <i class="bi bi-arrow-return-right me-1"></i>จากที่พบตัว <span id="s_found_ref">-</span> ราย
+                                </div>
+                                <div class="svy-grid">
+                                    <div class="svy-box" style="background:#dbeafe;border-color:#93c5fd;padding:8px 10px;">
+                                        <div class="svy-num" style="color:#2563eb;font-size:18px;" id="s_willing">-</div>
+                                        <div class="svy-label" style="color:#1e40af;font-size:11px;">ยินยอมให้ข้อมูล</div>
+                                        <div class="svy-pct" style="color:#1e40af;" id="s_willing_pct">-%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="section-card">
+                            <div class="sec-title"><span class="sec-icon"><i class="bi bi-funnel-fill"></i></span>ผลการคัดกรองเบื้องต้น</div>
+                            <div id="screening_list"><div class="skeleton" style="height:200px;"></div></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="section-card">
+                            <div class="sec-title"><span class="sec-icon"><i class="bi bi-mortarboard-fill"></i></span>ประวัติการศึกษา</div>
+                            <div class="svy-grid">
+                                <div class="svy-box" style="background:#dbeafe;border-color:#93c5fd;">
+                                    <div class="svy-num" style="color:#2563eb;" id="e_ever">-</div>
+                                    <div class="svy-label" style="color:#1e40af;">เคยได้รับการศึกษา</div>
+                                    <div class="svy-pct" style="color:#1e40af;" id="e_ever_pct">-%</div>
+                                </div>
+                                <div class="svy-box" style="background:#fde8d8;border-color:#fdba74;">
+                                    <div class="svy-num" style="color:#ea580c;" id="e_never">-</div>
+                                    <div class="svy-label" style="color:#9a3412;">ไม่เคยเข้ารับการศึกษา</div>
+                                    <div class="svy-pct" style="color:#9a3412;" id="e_never_pct">-%</div>
+                                </div>
+                            </div>
+                            <div class="svy-box mt-2" style="background:#fef3c7;border-color:#fcd34d;display:flex;align-items:center;justify-content:space-between;">
+                                <div>
+                                    <div class="svy-label" style="color:#92400e;"><i class="bi bi-mortarboard-fill me-1"></i>เข้าศึกษาแล้ว</div>
+                                    <div class="svy-pct" style="color:#92400e;" id="s_studying_pct">-%</div>
+                                </div>
+                                <div class="svy-num" style="color:#d97706;font-size:26px;" id="s_studying">-</div>
+                            </div>
+                            <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border);">
+                                <div style="font-size:11px;font-weight:600;color:#d97706;margin-bottom:8px;"><i class="bi bi-building-fill me-1"></i>หน่วยงานที่เข้าศึกษา</div>
+                                <div id="studying_office_list"><div class="skeleton" style="height:80px;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sec-divider"><span><i class="bi bi-people-fill me-2" style="color:#696cff;"></i>ผลการสำรวจแยกตามช่วงอายุและเพศ</span></div>
+                <div class="row g-3 mb-4">
+                    <div class="col-12">
+                        <div class="section-card">
+                            <div class="age-grid" id="age_survey_grid" style="grid-template-columns:repeat(3,1fr);"><div class="skeleton" style="height:200px;grid-column:1/-1;"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sec-divider"><span><i class="bi bi-briefcase-fill me-2" style="color:#03c3ec;"></i>ข้อมูลทักษะและอาชีพ</span></div>
+                <div class="row g-3 mb-4">
+                    <div class="col-lg-4">
+                        <div class="section-card">
+                            <div class="sec-title"><span class="sec-icon"><i class="bi bi-book-fill"></i></span>ความสามารถในการอ่าน</div>
+                            <div id="r_skill_list"><div class="skeleton" style="height:80px;"></div></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="section-card">
+                            <div class="sec-title"><span class="sec-icon"><i class="bi bi-pencil-fill"></i></span>ความสามารถในการเขียน</div>
+                            <div id="w_skill_list"><div class="skeleton" style="height:80px;"></div></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="section-card">
+                            <div class="sec-title"><span class="sec-icon"><i class="bi bi-briefcase-fill"></i></span>ประกอบอาชีพอยู่หรือไม่</div>
+                            <div class="svy-grid mb-3">
+                                <div class="svy-box" style="background:#d1fae5;border-color:#a7f3d0;">
+                                    <div class="svy-num" style="color:#059669;" id="w_yes">-</div>
+                                    <div class="svy-label" style="color:#065f46;"><i class="bi bi-check-circle-fill me-1"></i>ประกอบอาชีพ</div>
+                                    <div class="svy-pct" style="color:#065f46;" id="w_yes_pct">-%</div>
+                                </div>
+                                <div class="svy-box" style="background:#fee2e2;border-color:#fca5a5;">
+                                    <div class="svy-num" style="color:#dc2626;" id="w_no">-</div>
+                                    <div class="svy-label" style="color:#991b1b;"><i class="bi bi-x-circle-fill me-1"></i>ไม่ได้ประกอบอาชีพ</div>
+                                    <div class="svy-pct" style="color:#991b1b;" id="w_no_pct">-%</div>
+                                </div>
+                            </div>
+                            <div style="background:#f8f7ff;border-radius:10px;padding:10px 12px;border:1px solid #ede9fe;">
+                                <div style="font-size:11px;font-weight:600;color:#7c3aed;margin-bottom:8px;"><i class="bi bi-bar-chart-fill me-1"></i>อาชีพยอดนิยม</div>
+                                <div id="work_list"><div class="skeleton" style="height:60px;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sec-divider"><span><i class="bi bi-house-fill me-2" style="color:#059669;"></i>ข้อมูลครัวเรือน</span></div>
+                <div class="row g-3 mb-4">
+                    <div class="col-lg-3"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-house-fill"></i></span>ที่อยู่อาศัย/พักพิง</div><div id="hh_living_list"><div class="skeleton" style="height:60px;"></div></div></div></div>
+                    <div class="col-lg-3"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-key-fill"></i></span>การอยู่อาศัย</div><div id="hh_house_list"><div class="skeleton" style="height:60px;"></div></div></div></div>
+                    <div class="col-lg-3"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-credit-card-fill"></i></span>ภาระหนี้สิน</div><div id="hh_debt_list"><div class="skeleton" style="height:60px;"></div></div></div></div>
+                    <div class="col-lg-3"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-people-fill"></i></span>ภาระพึ่งพิง</div><div id="hh_noburden_list"><div class="skeleton" style="height:60px;"></div></div></div></div>
+                    <div class="col-lg-4"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-shield-check-fill"></i></span>สวัสดิการ</div><div id="hh_welfare_list"><div class="skeleton" style="height:60px;"></div></div></div></div>
+                    <div class="col-lg-4">
+                        <div class="section-card">
+                            <div class="sec-title"><span class="sec-icon"><i class="bi bi-people-fill"></i></span>ค่าเฉลี่ยสมาชิกครัวเรือน</div>
+                            <div class="text-center py-2">
+                                <div style="font-family:'Prompt',sans-serif;font-size:36px;font-weight:700;color:#696cff;" id="hh_avg_member">-</div>
+                                <div style="font-size:13px;color:#6b7280;">คน/ครัวเรือน</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="section-card">
+                            <div class="sec-title"><span class="sec-icon"><i class="bi bi-cash-stack"></i></span>รายได้รวมเฉลี่ย/เดือน</div>
+                            <div class="text-center py-2">
+                                <div style="font-family:'Prompt',sans-serif;font-size:36px;font-weight:700;color:#059669;" id="hh_avg_income">-</div>
+                                <div style="font-size:13px;color:#6b7280;">บาท/เดือน</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sec-divider"><span><i class="bi bi-exclamation-triangle-fill me-2" style="color:#ff3e1d;"></i>ปัญหาและอุปสรรคที่ทำให้ไม่สามารถเข้ารับการศึกษาได้</span></div>
+                <div class="row g-3 mb-4">
+                    <div class="col-lg-6"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-emoji-frown-fill"></i></span>ปัญหาจากความคิดหรือพฤติกรรมของตัวเด็กและเยาวชน</div><div id="prob_behavior_list"><div class="skeleton" style="height:100px;"></div></div></div></div>
+                    <div class="col-lg-6"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-heart-pulse-fill"></i></span>ปัญหาด้านสุขภาพของเด็กและเยาวชน</div><div id="prob_health_list"><div class="skeleton" style="height:100px;"></div></div></div></div>
+                    <div class="col-lg-6"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-house-heart-fill"></i></span>ปัญหาจากครอบครัวของเด็กและเยาวชน</div><div id="prob_famiry_list"><div class="skeleton" style="height:100px;"></div></div></div></div>
+                    <div class="col-lg-6"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-tree-fill"></i></span>ปัญหาจากสภาพแวดล้อมและสังคม</div><div id="prob_environment_list"><div class="skeleton" style="height:100px;"></div></div></div></div>
+                    <div class="col-12"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-building-fill"></i></span>ปัญหาจากสถานศึกษา</div><div id="prob_education_list"><div class="skeleton" style="height:100px;"></div></div></div></div>
+                </div>
+
+                <div class="sec-divider"><span><i class="bi bi-hand-thumbs-up-fill me-2" style="color:#ffab00;"></i>ความต้องการความช่วยเหลือ</span></div>
+                <div class="row g-3 mb-4">
+                    <div class="col-lg-3">
+                        <div class="section-card">
+                            <div class="sec-title"><span class="sec-icon"><i class="bi bi-hand-thumbs-up-fill"></i></span>ต้องการความช่วยเหลือ</div>
+                            <div class="svy-grid mb-3">
+                                <div class="svy-box" style="background:#ede9fe;border-color:#c4b5fd;">
+                                    <div class="svy-num" style="color:#7c3aed;" id="h_want">-</div>
+                                    <div class="svy-label" style="color:#5b21b6;">ต้องการ</div>
+                                    <div class="svy-pct" style="color:#5b21b6;" id="h_want_pct">-%</div>
+                                </div>
+                                <div class="svy-box" style="background:#f3f4f6;border-color:#e5e7eb;">
+                                    <div class="svy-num" style="color:#6b7280;" id="h_notwant">-</div>
+                                    <div class="svy-label" style="color:#374151;">ไม่ต้องการ</div>
+                                    <div class="svy-pct" style="color:#374151;" id="h_notwant_pct">-%</div>
+                                </div>
+                            </div>
+                            <div style="padding-top:10px;border-top:1px solid var(--border);">
+                                <div class="sec-title" style="margin-bottom:8px;"><span class="sec-icon"><i class="bi bi-x-circle-fill"></i></span>เหตุผลที่ไม่ต้องการ</div>
+                                <div id="help2_list"><div class="skeleton" style="height:60px;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="section-card">
+                            <div class="sec-title"><span class="sec-icon"><i class="bi bi-grid-1x2-fill"></i></span>ความช่วยเหลือที่ต้องการแต่ละด้าน</div>
+                            <div class="help-grid" id="help_detail_grid"><div class="skeleton" style="height:80px;grid-column:1/-1;"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-3 mb-4">
+                    <div class="col-lg-6"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-book-fill"></i></span>หน่วยงานที่ต้องการศึกษาต่อ</div><div id="study_office_list"><div class="skeleton" style="height:80px;"></div></div></div></div>
+                    <div class="col-lg-6"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-tools"></i></span>ทักษะอาชีพที่ต้องการพัฒนา</div><div id="train_detail_list"><div class="skeleton" style="height:80px;"></div></div></div></div>
+                    <div class="col-lg-4"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-heart-pulse-fill"></i></span>ด้านเตรียมความพร้อม</div><div id="prepare_detail_list"><div class="skeleton" style="height:80px;"></div></div></div></div>
+                    <div class="col-lg-4"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-lightbulb-fill"></i></span>ด้านทักษะชีวิต</div><div id="skills_detail_list"><div class="skeleton" style="height:80px;"></div></div></div></div>
+                    <div class="col-lg-4"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-wheelchair"></i></span>ด้านช่วยเหลือผู้พิการ</div><div id="disabled_help_detail_list"><div class="skeleton" style="height:80px;"></div></div></div></div>
+                </div>
+
+                <div class="sec-divider"><span><i class="bi bi-geo-alt-fill me-2" style="color:#ff6692;"></i>ที่อยู่และสัญชาติ</span></div>
+                <div class="row g-3 mb-4">
+                    <div class="col-lg-5"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-globe2"></i></span>สัญชาติ (Top 10)</div><div id="nation_list"><div class="skeleton" style="height:120px;"></div></div></div></div>
+                    <div class="col-lg-7"><div class="section-card"><div class="sec-title"><span class="sec-icon"><i class="bi bi-geo-alt-fill"></i></span><span id="prov_title">จำนวนแยกตามจังหวัด</span></div><div id="province_list"><div class="skeleton" style="height:120px;"></div></div></div></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="config.js"></script>
+<script src="address.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.7/dist/loadingoverlay.min.js"></script>
+
+<script>
+$(document).ready(function() {
+
+    var oid            = '';
+    var province_id    = '';
+    var district_id    = '';
+    var subdistrict_id = '';
+    var type_user      = '';
+
+    const COLORS   = ['#696cff','#9155fd','#03c3ec','#71dd37','#ffab00','#ff3e1d','#32cfce','#ff6692','#b2a1ff','#82ca9d'];
+    const AGE_BG   = ['#fce7f3','#dbeafe','#d1fae5','#fef3c7','#fde8d8','#ede9fe','#f3f4f6'];
+    const AGE_CLR  = ['#db2777','#2563eb','#059669','#d97706','#ea580c','#7c3aed','#6b7280'];
+    const AGE_ICON = ['🧒','📚','🎒','🧑‍🎓','💼','👴','❓'];
+
+    function fmt(n)   { return Number(n||0).toLocaleString('th-TH'); }
+    function pct(v,t) { return t ? Math.round(v/t*100) : 0; }
+    function el(id)   { return document.getElementById(id); }
+
+    function renderBars(arr, containerId, labelKey, total) {
+        if (!arr || !arr.length) { el(containerId).innerHTML = '<div class="text-center text-muted py-2" style="font-size:12px;">ไม่มีข้อมูล</div>'; return; }
+        let html = '';
+        arr.forEach((item,i) => {
+            const name = item[labelKey] || 'ไม่ระบุ';
+            const val  = parseInt(item.total);
+            const p    = pct(val, total);
+            html += `<div class="bar-row">
+                <div class="bar-label">${name}</div>
+                <div class="bar-track"><div class="bar-fill" style="width:0%;background:${COLORS[i%COLORS.length]};" data-w="${p}%"></div></div>
+                <div class="bar-num">${fmt(val)}</div>
+                <div class="bar-pct">${p}%</div>
+            </div>`;
+        });
+        el(containerId).innerHTML = html;
+        setTimeout(() => { el(containerId).querySelectorAll('.bar-fill').forEach(e => e.style.width = e.dataset.w); }, 80);
+    }
+
+    function renderBasic(data) {
+        $('#empty_state').hide();
+        $('#dash_content').show();
+        const total = data.total || 0;
+        el('c_total').textContent = fmt(total);
+        let male=0, female=0;
+        (data.gender||[]).forEach(g => {
+            if (parseInt(g.sex_id)===1) male   = parseInt(g.total);
+            if (parseInt(g.sex_id)===2) female = parseInt(g.total);
+        });
+        el('c_male').textContent     = fmt(male);   el('c_male_pct').textContent   = pct(male,total);
+        el('c_female').textContent   = fmt(female); el('c_female_pct').textContent = pct(female,total);
+        const thai = (data.nation||[]).find(n => n.nationality_id==='099' || n.nationality==='ไทย');
+        el('c_thai').textContent     = fmt(thai ? thai.total : 0);
+        el('c_thai_pct').textContent = pct(thai ? thai.total : 0, total);
+        const AGE_ORDER = ['ปฐมวัย (3-6 ปี)','ประถมศึกษา (7-12 ปี)','มัธยมศึกษาตอนต้น (13-15 ปี)','มัธยมศึกษาตอนปลาย (16-18 ปี)','วัยทำงาน (19-59 ปี)','วัยสูงอายุ (60+ ปี)','อื่น ๆ'];
+        const sortedAge = (data.age||[]).slice().sort((a,b) => { const ia=AGE_ORDER.indexOf(a.age_range),ib=AGE_ORDER.indexOf(b.age_range); return (ia===-1?99:ia)-(ib===-1?99:ib); });
+        el('age_grid').innerHTML = sortedAge.map((item,i) => `
+            <div class="age-box" style="background:${AGE_BG[i%AGE_BG.length]};">
+                <div style="font-size:20px;margin-bottom:2px;">${AGE_ICON[i%AGE_ICON.length]}</div>
+                <div class="a-num" style="color:${AGE_CLR[i%AGE_CLR.length]};">${fmt(item.total)}</div>
+                <div class="a-label" style="color:${AGE_CLR[i%AGE_CLR.length]};font-size:10px;">${item.age_range}</div>
+                <div class="a-pct">${pct(item.total,total)}%</div>
+            </div>`).join('');
+        renderBars(data.nation||[], 'nation_list', 'nationality', total);
+        const prov = $('#province_id').val();
+        if (prov && prov !== 'all' && data.amphur && data.amphur.length) {
+            const found = provinces.find(x => x.code == prov);
+            el('prov_title').textContent = 'อำเภอใน' + (found ? found.name : '');
+            renderBars(data.amphur, 'province_list', 'amphur', total);
+        } else {
+            el('prov_title').textContent = 'จำนวนแยกตามจังหวัด';
+            renderBars(data.province||[], 'province_list', 'province', total);
+        }
+        el('filter_count').textContent = 'แสดง ' + fmt(total) + ' รายการ';
+        el('last_update').textContent  = new Date().toLocaleString('th-TH');
+    }
+
+    function renderSurvey(data) {
+        const total = parseInt((el('c_total').textContent||'0').replace(/[^0-9]/g,'')) || 0;
+        const sv = data.survey || {};
+        el('s_found').textContent     = fmt(sv.found);     el('s_found_pct').textContent     = pct(sv.found,total)+'%';
+        el('s_notfound').textContent  = fmt(sv.notfound);  el('s_notfound_pct').textContent  = pct(sv.notfound,total)+'%';
+        el('s_found_ref').textContent = fmt(sv.found);
+        el('s_willing').textContent   = fmt(sv.willing);   el('s_willing_pct').textContent   = pct(sv.willing,sv.found||1)+'%';
+        el('s_studying').textContent  = fmt(sv.studying);  el('s_studying_pct').textContent  = pct(sv.studying,total)+'%';
+        const surveyed  = (sv.found||0)+(sv.notfound||0);
+        const remain    = Math.max(0,total-surveyed);
+        const surveyPct = total > 0 ? Math.round(surveyed/total*100) : 0;
+        el('sv_total_all').textContent = fmt(total);
+        el('sv_surveyed').textContent  = fmt(surveyed);
+        el('sv_remain').textContent    = fmt(remain);
+        el('sv_pct_text').textContent  = surveyPct+'%';
+        setTimeout(() => { const bar=el('sv_progress_bar'); if(bar) bar.style.width=surveyPct+'%'; }, 100);
+        renderBars(data.screening||[], 'screening_list', 'name', total);
+        const studyingOfficeT = (data.studying_office||[]).reduce((s,x)=>s+(x.total||0),0)||1;
+        renderBars(data.studying_office||[], 'studying_office_list', 'name', studyingOfficeT);
+        const es=data.ever_study||{}, esT=(es.ever||0)+(es.never||0);
+        el('e_ever').textContent  = fmt(es.ever);  el('e_ever_pct').textContent  = pct(es.ever,esT)+'%';
+        el('e_never').textContent = fmt(es.never); el('e_never_pct').textContent = pct(es.never,esT)+'%';
+        const skillT = sv.willing||1;
+        renderBars(data.r_skill||[], 'r_skill_list', 'name', skillT);
+        renderBars(data.w_skill||[], 'w_skill_list', 'name', skillT);
+        const wk=data.work||{}, wkT=(wk.yes||0)+(wk.no||0);
+        el('w_yes').textContent = fmt(wk.yes); el('w_yes_pct').textContent = pct(wk.yes,wkT)+'%';
+        el('w_no').textContent  = fmt(wk.no);  el('w_no_pct').textContent  = pct(wk.no,wkT)+'%';
+        renderBars(wk.top||[], 'work_list', 'name', wk.yes||1);
+    }
+
+    function renderSkills(data) {
+        const sv_willing = parseInt((el('s_willing').textContent||'0').replace(/[^0-9]/g,'')) || 1;
+        const pb = data.problems||{};
+        renderBars(pb.behavior||[],    'prob_behavior_list',    'name', sv_willing);
+        renderBars(pb.health||[],      'prob_health_list',      'name', sv_willing);
+        renderBars(pb.famiry||[],      'prob_famiry_list',      'name', sv_willing);
+        renderBars(pb.environment||[], 'prob_environment_list', 'name', sv_willing);
+        renderBars(pb.education||[],   'prob_education_list',   'name', sv_willing);
+    }
+
+    function renderHelp(data) {
+        const sv_found = parseInt((el('s_found').textContent||'0').replace(/[^0-9]/g,'')) || 1;
+        const hp = data.help||{};
+        el('h_want').textContent    = fmt(hp.want);    el('h_want_pct').textContent    = pct(hp.want,sv_found)+'%';
+        el('h_notwant').textContent = fmt(hp.notwant); el('h_notwant_pct').textContent = pct(hp.notwant,sv_found)+'%';
+        renderBars(hp.notwant_reason||[], 'help2_list', 'name', hp.notwant||1);
+        el('help_detail_grid').innerHTML = (hp.detail||[]).map(item => `
+            <div class="help-box">
+                <div class="h-icon" style="background:${item.bg};color:${item.clr};"><i class="bi ${item.icon}"></i></div>
+                <div><div class="h-num">${fmt(item.total)}</div><div class="h-label">${item.label}</div></div>
+            </div>`).join('');
+        renderBars(hp.study_office||[],        'study_office_list',        'name', (hp.study_office||[]).reduce((s,x)=>s+(x.total||0),0)||1);
+        renderBars(hp.train_detail||[],        'train_detail_list',        'name', (hp.train_detail||[]).reduce((s,x)=>s+(x.total||0),0)||1);
+        renderBars(hp.prepare_detail||[],      'prepare_detail_list',      'name', (hp.prepare_detail||[]).reduce((s,x)=>s+(x.total||0),0)||1);
+        renderBars(hp.skills_detail||[],       'skills_detail_list',       'name', (hp.skills_detail||[]).reduce((s,x)=>s+(x.total||0),0)||1);
+        renderBars(hp.disabled_help_detail||[],'disabled_help_detail_list','name', (hp.disabled_help_detail||[]).reduce((s,x)=>s+(x.total||0),0)||1);
+        const AGE_SURVEY_BG  = ['#fce7f3','#dbeafe','#d1fae5','#fef3c7','#fde8d8','#ede9fe'];
+        const AGE_SURVEY_CLR = ['#db2777','#2563eb','#059669','#d97706','#ea580c','#7c3aed'];
+        const AGE_SURVEY_ICO = ['🧒','📚','🎒','🧑‍🎓','💼','👴'];
+        el('age_survey_grid').innerHTML = (data.age_survey||[]).map((item,i) => {
+            const sp=item.total>0?Math.round(item.surveyed/item.total*100):0;
+            const fp=item.surveyed>0?Math.round(item.found/item.surveyed*100):0;
+            const clr=AGE_SURVEY_CLR[i%AGE_SURVEY_CLR.length];
+            return `<div style="background:${AGE_SURVEY_BG[i%AGE_SURVEY_BG.length]};border-radius:14px;padding:14px 12px;">
+                <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
+                    <span style="font-size:20px;">${AGE_SURVEY_ICO[i%AGE_SURVEY_ICO.length]}</span>
+                    <div><div style="font-size:12px;font-weight:700;color:${clr};">${item.label}</div>
+                    <div style="font-size:10px;color:#6b7280;">ทั้งหมด ${fmt(item.total)} ราย</div></div>
+                </div>
+                <div style="margin-bottom:10px;">
+                    <div style="display:flex;justify-content:space-between;font-size:11px;font-weight:700;color:${clr};margin-bottom:3px;">
+                        <span>สำรวจแล้ว ${fmt(item.surveyed)} ราย</span><span>${sp}%</span>
+                    </div>
+                    <div style="height:6px;background:rgba(0,0,0,.08);border-radius:99px;overflow:hidden;">
+                        <div style="height:100%;width:${sp}%;background:${clr};border-radius:99px;transition:width 1.2s;"></div>
+                    </div>
+                </div>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;">
+                    <div style="background:rgba(255,255,255,.65);border-radius:8px;padding:8px;text-align:center;">
+                        <div style="font-size:9px;color:#2563eb;font-weight:600;margin-bottom:2px;">👨 ชาย</div>
+                        <div style="font-family:'Prompt',sans-serif;font-size:15px;font-weight:700;color:#2563eb;">${fmt(item.male)}</div>
+                    </div>
+                    <div style="background:rgba(255,255,255,.65);border-radius:8px;padding:8px;text-align:center;">
+                        <div style="font-size:9px;color:#db2777;font-weight:600;margin-bottom:2px;">👩 หญิง</div>
+                        <div style="font-family:'Prompt',sans-serif;font-size:15px;font-weight:700;color:#db2777;">${fmt(item.female)}</div>
+                    </div>
+                    <div style="background:rgba(255,255,255,.65);border-radius:8px;padding:8px;text-align:center;">
+                        <div style="font-size:9px;color:#059669;font-weight:600;margin-bottom:2px;">✅ พบตัว</div>
+                        <div style="font-family:'Prompt',sans-serif;font-size:15px;font-weight:700;color:#059669;">${fmt(item.found)}</div>
+                        <div style="font-size:9px;color:#aaa;">${fp}%</div>
+                    </div>
+                    <div style="background:rgba(255,255,255,.65);border-radius:8px;padding:8px;text-align:center;">
+                        <div style="font-size:9px;color:#dc2626;font-weight:600;margin-bottom:2px;">❌ ไม่พบตัว</div>
+                        <div style="font-family:'Prompt',sans-serif;font-size:15px;font-weight:700;color:#dc2626;">${fmt(item.notfound)}</div>
+                        <div style="font-size:9px;color:#aaa;">${100-fp}%</div>
+                    </div>
+                </div>
+                <div style="margin-top:8px;background:rgba(255,255,255,.5);border-radius:8px;padding:6px 10px;display:flex;justify-content:space-between;align-items:center;">
+                    <span style="font-size:11px;color:#9ca3af;">⏳ ยังไม่สำรวจ</span>
+                    <span style="font-family:'Prompt',sans-serif;font-size:11px;font-weight:600;color:#9ca3af;">${fmt(item.not_surveyed)} ราย</span>
+                </div>
+            </div>`;
+        }).join('');
+    }
+
+    function renderHousehold(data) {
+        const hhT = (data.hh_living||[]).reduce((s,x)=>s+(x.total||0),0)||1;
+        renderBars(data.hh_living||[],   'hh_living_list',   'name', hhT);
+        renderBars(data.hh_house||[],    'hh_house_list',    'name', hhT);
+        renderBars(data.hh_debt||[],     'hh_debt_list',     'name', hhT);
+        renderBars(data.hh_noburden||[], 'hh_noburden_list', 'name', hhT);
+        renderBars(data.hh_welfare||[],  'hh_welfare_list',  'name', hhT);
+        const avg = data.hh_avg||{};
+        el('hh_avg_member').textContent = avg.avg_member || '-';
+        el('hh_avg_income').textContent = avg.avg_income ? fmt(avg.avg_income) : '-';
+    }
+
+    function option_province(code, id) {
+        $('#'+id).empty().append('<option value="all">ทั้งหมด</option>');
+        $.each(provinces, function(index, item) { $('#'+id).append('<option value="'+item.code+'"'+(item.code==code?' selected':'')+'>'+item.name+'</option>'); });
+    }
+    function option_district(code, id, province) {
+        $('#'+id).empty().append('<option value="all">ทั้งหมด</option>');
+        $.each(district_v2, function(index, item) { if (item.province_id==province) $('#'+id).append('<option value="'+item.code+'"'+(item.code==code?' selected':'')+'>'+item.name+'</option>'); });
+    }
+    function option_subdistrict(code, id, district) {
+        $('#'+id).empty().append('<option value="all">ทั้งหมด</option>');
+        $.each(subdistrict, function(index, item) { if (item.district_id==district) $('#'+id).append('<option value="'+item.code+'"'+(item.code==code?' selected':'')+'>'+item.name+'</option>'); });
+    }
+    function show_addread(p, d, sd, code) {
+        if (code==3)      { $('#province_id,#district_id').prop('disabled',true); option_province(p,'province_id'); option_district(d,'district_id',p); option_subdistrict('','subdistrict_id',d); }
+        else if (code==4) { $('#province_id,#district_id,#subdistrict_id').prop('disabled',true); option_province(p,'province_id'); option_district(d,'district_id',p); option_subdistrict(sd,'subdistrict_id',d); }
+        else if (code==1) { $('#province_id,#district_id').prop('disabled',true); option_province(p,'province_id'); option_district(d,'district_id',p); option_subdistrict('','subdistrict_id',d); }
+        else if (code==5) { $('#province_id').prop('disabled',true); option_province(p,'province_id'); option_district('','district_id',p); option_subdistrict('','subdistrict_id',''); }
+        else              { option_province('','province_id'); option_district('','district_id',''); option_subdistrict('','subdistrict_id',''); }
+    }
+    function select_teacher(code) { showLoading(); $.ajax({ url:apiUrl+'api/teacher.php', type:'POST', data:{person_id:code,edit:1}, success:function(data){ school(data[0].sub_school_id); }, complete:hideLoading }); }
+    function school(code) { showLoading(); $.ajax({ url:apiUrl+'api/school_admin.php', type:'POST', data:{school_id:code}, success:function(data){ if(data.length) $.each(data,function(i,item){ show_addread(item.province_id,item.district_id,'',3); }); else sub_school(code); }, complete:hideLoading }); }
+    function sub_school(code) { showLoading(); $.ajax({ url:apiUrl+'api/sub_school.php', type:'POST', data:{sub_school_id:code}, success:function(data){ if(data.length) $.each(data,function(i,item){ show_addread(item.province_id,item.district_id,item.sub_district_id,4); }); }, complete:hideLoading }); }
+
+    if (type_user==3||type_user==4) select_teacher(oid);
+    else show_addread(province_id,district_id,subdistrict_id,type_user);
+
+    $('#province_id').change(function() { if (!$(this).prop('disabled')) { option_district('','district_id',$(this).val()); option_subdistrict('','subdistrict_id',''); } });
+    $('#district_id').change(function()  { if (!$(this).prop('disabled')) { option_subdistrict('','subdistrict_id',$(this).val()); } });
+
+    $('#btn_data').click(function() {
+        var p = $('#province_id').val(), d = $('#district_id').val(), s = $('#subdistrict_id').val();
+        var pName=''; if (p&&p!=='all') { var f=provinces.find(x=>x.code==p); pName=f?f.name:''; }
+        var dName=''; if (d&&d!=='all') { var fD=district_v2.find(x=>x.code==d); dName=fD?' › '+fD.name:''; }
+        var tag=el('filter_tag');
+        if (pName) { tag.textContent=pName+dName; tag.style.display='inline-block'; } else { tag.style.display='none'; }
+        load_dashboard(p,d,s);
+    });
+
+    function load_dashboard(province, district, subdistrict) {
+        showLoading();
+        var postData = { province_id:province||'', district_id:district||'', subdistrict_id:subdistrict||'' };
+        var completed = 0;
+        function onDone() { completed++; if (completed===5) hideLoading(); }
+
+        $.ajax({ url:api_url+'api/dashboard_68.php', type:'POST', dataType:'json', data:postData })
+            .done(function(data) { renderBasic(data); renderSurvey(data); renderSkills(data); renderHelp(data); renderHousehold(data); completed=4; })
+            .fail(function(xhr)  { console.error('dashboard_68 failed', xhr.responseText); completed=4; })
+            .always(onDone);
+    }
+
+}); // end document.ready
+</script>
+
+
+
+        </div>
+     
+        <!-- / Content -->
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start">
+            <div class="container d-flex justify-content-center py-5">
+            </div>
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+              แพลตฟอร์มข้อมูลประชาชนที่หลุดออกจากระบบการศึกษา<br />
+              © 2026.04.28 | Version: 2.0.0
+            </div>
+            <!-- Copyright -->
+          </footer>
+        <!-- / Footer -->
+
+        <div class="content-backdrop fade"></div>
+      </div>
+      <!-- Content wrapper -->
+    </div>
+    <!-- / Layout page -->
+  </div>
+
+  <!-- Overlay -->
+  <div class="layout-overlay layout-menu-toggle"></div>
+  </div>
+  <!-- / Layout wrapper -->
+
+
+
+  <!-- build:js assets/vendor/js/core.js -->
+  <script src="https://kit.fontawesome.com/1c6aab102b.js" crossorigin="anonymous"></script>
+
+<!-- build:js assets/vendor/js/core.js -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="assets/vendor/libs/popper/popper.js"></script>
+<script src="assets/vendor/js/bootstrap.js"></script>
+<script src="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+<script src="assets/vendor/js/menu.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="config.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.7/dist/loadingoverlay.min.js"></script>
+<script src="https://cdn.datatables.net/v/dt/dt-2.1.8/datatables.min.js"></script>
+ 
+
+</body>
+</html>
+<script>
+  $(document).ready(function(){
+    var oid='';
+    var user_type='';
+    console.log(user_type);
+    $('#type_name').text('ระดับการเข้าถึง '+ data_type_user(user_type));
+
+
+   
+
+  })
+</script>

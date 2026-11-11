@@ -1,0 +1,627 @@
+[
+ {
+  "row_no": "76",
+  "facility_name_th": "สุรีย์วรรณ",
+  "facility_name_en": "Sureewan Nursery (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "ที่ตั้ง : 50 ม.3 ต.ไชยสถาน อ.สารภี เชียงใหม่ 50140",
+  "evidence_en": "A business listing matches the directory address in Chai Sathan, Saraphi. Operator name differs (นางอุไรวรรณ เงาธรรม vs directory นางกัญญาวรรณ์ กองราช). No opening hours or overnight wording found.",
+  "evidence_sources": [
+   {
+    "url": "https://www.bethailand.com/20011025742/",
+    "type": "directory_listing",
+    "accessed": "2026-11-10",
+    "seen_via": "page_opened"
+   },
+   {
+    "url": "https://dhammastudy.org/school/index?page=693&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + 50 ม.3 ต.ไชยสถาน อ.สารภี matches Bethailand and the private-school register; operator surname differs",
+  "searches_run": [
+   "สถานรับเลี้ยงเด็กสุรีย์วรรณ สารภี",
+   "รับเลี้ยงเด็กค้างคืน สารภี"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook page named in the directory was not opened. Possible change of licensee."
+ },
+ {
+  "row_no": "77",
+  "facility_name_th": "ดวงกมล",
+  "facility_name_en": "Duangkamon Kindergarten (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "เวลาทำการ จันทร์-ศุกร์ เวลา 08:00-16:30",
+  "evidence_en": "Yellow Pages listing at the same house number in Chom Phu, Saraphi, gives weekday hours 08:00–16:30. No overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://www.yellowpages.co.th/profile/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%81%E0%B8%A1%E0%B8%A5-%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%9A%E0%B8%B2%E0%B8%A5-93g43w4ys",
+    "type": "directory_listing",
+    "accessed": "2026-11-10",
+    "seen_via": "page_opened"
+   },
+   {
+    "url": "https://dhammastudy.org/school/index?page=693&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–16:30",
+  "stay_length_pattern": "Weekday daytime",
+  "identity_match_basis": "Address 60/1 หมู่ 7 ต.ชมภู อ.สารภี matches Yellow Pages; landline in YP is 053-420-784, directory lists 053-963889",
+  "searches_run": [
+   "อนุบาลดวงกมล สารภี เวลาทำการ"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Phone numbers differ between Yellow Pages and the 2025 directory; address match is strong. Facebook not opened."
+ },
+ {
+  "row_no": "78",
+  "facility_name_th": "อนุบาลกฤษดา",
+  "facility_name_en": "Kritsada Nursery (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "CMHY lists บ้านกฤษดา in Saraphi with matching phone 081-021-6794; Motdang lists สถานรับเลี้ยงเด็กกฤษดา in Chom Phu. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://www.cmhy.city/place/24341-Baan-Kok-Da",
+    "type": "directory_listing",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   },
+   {
+    "url": "https://motdang.net/cm/p/04464868406913351750.html",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Phone 081-0216794 matches CMHY; directory address is ชมภู, CMHY places it in ไชยสถาน",
+  "searches_run": [
+   "อนุบาลกฤษดา สารภี เวลาทำการ"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Subdistrict conflict between listings. Facebook not opened."
+ },
+ {
+  "row_no": "79",
+  "facility_name_th": "พิมพ์มาลาเนิสเซอรี่",
+  "facility_name_en": "Pimphimala Nursery (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register and CMHY list โรงเรียนอนุบาลพิมมาลา in Yang Noeng, Saraphi; Motdang lists phone 053-321-836 matching the directory. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=693&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   },
+   {
+    "url": "https://www.cmhy.city/place/36603-Pimmala-Kindergarten",
+    "type": "directory_listing",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.ยางเนิ้ง อ.สารภี + phone 053-321836",
+  "searches_run": [
+   "พิมพ์มาลา สารภี เนิร์สเซอรี่ เวลาทำการ"
+  ],
+  "needs_partner_verification": true,
+  "notes": "No dedicated accommodation-keyword search beyond district overnight sweep."
+ },
+ {
+  "row_no": "80",
+  "facility_name_th": "อำไพ",
+  "facility_name_en": "Umpai Nursery (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Directory lists a Facebook page (Umpai Nursery chiangmai). No independent listing with hours was found. District overnight search did not return this name.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Directory row only; no corroborated web listing opened",
+  "searches_run": [
+   "อำไพ สารภี เนิร์สเซอรี่",
+   "รับเลี้ยงเด็กค้างคืน สารภี"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened. Identity not independently confirmed online."
+ },
+ {
+  "row_no": "81",
+  "facility_name_th": "สถานรับเลี้ยงและอบรมเด็กบ้าน สวนพิมพรรณ",
+  "facility_name_en": "Baan Suan Pimphanthan Kindergarten (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "Monday–Friday 7 AM–5 PM; Saturday Closed; Sunday Closed",
+  "evidence_en": "Exa/Google-hours listing for โรงเรียนอนุบาลบ้านสวนพิมพรรณ in Saraphi gives weekday 07:00–17:00, closed weekends. Phone +6653325720 matches directory 053-325720. No overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://exa.ai/library/place/08xlqk20wzx",
+    "type": "directory_listing",
+    "accessed": "2026-11-10",
+    "seen_via": "page_opened"
+   }
+  ],
+  "operating_hours_found": "Mon–Fri 07:00–17:00, closed Sat–Sun",
+  "stay_length_pattern": "Weekday daytime",
+  "identity_match_basis": "Phone 053-325720 and GPS ~18.71098, 99.03157 vs directory 18.7108459",
+  "searches_run": [
+   "บ้านสวนพิมพรรณ สารภี เวลาทำการ"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Hours from a third-party place listing, not the facility's own site. Facebook not opened."
+ },
+ {
+  "row_no": "82",
+  "facility_name_th": "สถานพัฒนาเด็กใจแก้ว",
+  "facility_name_en": "Jaikaew Early Childhood Development Centre (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Motdang lists สถานพัฒนาเด็กปฐมวัย ใจแก้ว at 266/9 หมู่ 4 ต.หนองผึ้ง with email sapakit@gmail.com, matching the directory. No hours found for this private centre. A municipal CDC hours page (08:30–16:30) was rejected as a different facility.",
+  "evidence_sources": [
+   {
+    "url": "https://motdang.net/cm/p/357813598478113972465.html",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   },
+   {
+    "url": "https://donkaidee.go.th/travel/detail/136/data.html",
+    "type": "government",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Address 266/9 ม.4 ต.หนองผึ้ง + email sapakit@gmail.com + phone 084-1766258",
+  "searches_run": [
+   "สถานพัฒนาเด็กใจแก้ว สารภี"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Municipal CDC hours were not used. Facebook not opened."
+ },
+ {
+  "row_no": "83",
+  "facility_name_th": "บ้านครูจิตร",
+  "facility_name_en": "Baan Khru Jit (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Motdang lists สถานรับเลี้ยงเด็กบ้านครูจิตร at 23/1 หมู่ 1 ต.ดอนแก้ว อ.สารภี, matching the directory. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://motdang.net/cm/p/533732644210388997227.html",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + 23/1 ม.1 ต.ดอนแก้ว อ.สารภี",
+  "searches_run": [
+   "บ้านครูจิตร สารภี สถานรับเลี้ยงเด็ก"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "84",
+  "facility_name_th": "สุมาลี",
+  "facility_name_en": "Sumalee Kindergarten",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register places โรงเรียนอนุบาลสุมาลี in Talat Yai, Doi Saket (matches directory). A Motdang listing with matching phone 095-698-3440 places it in Mae Khue. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=692&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   },
+   {
+    "url": "https://motdang.net/cm/p/sumalee-kindergarten-1914811927339883.html",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + อ.ดอยสะเก็ด + phone 095-6983440; register tambon ตลาดใหญ่ vs Motdang แม่คือ",
+  "searches_run": [
+   "อนุบาลสุมาลี ดอยสะเก็ด"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Subdistrict conflict. Facebook not opened."
+ },
+ {
+  "row_no": "85",
+  "facility_name_th": "วิลาวัลย์",
+  "facility_name_en": "Wilawan Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register lists โรงเรียนอนุบาลวิลาวัลย์ in Luang Nuea, Doi Saket, matching the directory tambon. No hours or overnight wording found.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=692&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.ลวงเหนือ อ.ดอยสะเก็ด on the private-school register",
+  "searches_run": [
+   "อนุบาลวิลาวัลย์ ดอยสะเก็ด"
+  ],
+  "needs_partner_verification": true,
+  "notes": "No website or Facebook listed in the directory."
+ },
+ {
+  "row_no": "86",
+  "facility_name_th": "สถานรับเลี้ยงเด็กจันทโชติ",
+  "facility_name_en": "Jantachote Kindergarten",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register lists โรงเรียนอนุบาลจันทโชติ in Mae Pong, Doi Saket, matching the directory. No hours or overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=692&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.แม่โป่ง อ.ดอยสะเก็ด",
+  "searches_run": [
+   "อนุบาลจันทโชติ ดอยสะเก็ด"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook pages named in the directory were not opened."
+ },
+ {
+  "row_no": "87",
+  "facility_name_th": "บ้านอุ้มรักโฮซันนา",
+  "facility_name_en": "Baan Um Rak Hosanna (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Searches for the Thai name plus Doi Saket, and for overnight terms, returned unrelated hotels, an elderly nursing home, a Bangkok nursery with a similar name, and a Phang Nga tour company named Hosanna. No matching childcare listing found.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "No corroborated online match by name and locality",
+  "searches_run": [
+   "บ้านอุ้มรักโฮซันนา ดอยสะเก็ด ค้างคืน พักประจำ",
+   "อุ้มรักโฮซันนา เนิร์สเซอรี่"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Name could be read as residential; public evidence did not confirm either identity or operating model. Facebook not opened."
+ },
+ {
+  "row_no": "88",
+  "facility_name_th": "พรชัย คิดส์ เนอสเซอรี่ Pornchai Kids Nursery (สถานรับเลี้ยงเด็กบ้านเด็กพร้าว)",
+  "facility_name_en": "Pornchai Kids Nursery / Anuban Pornchai",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "จันทร์-ศุกร์ 08:00-16:00",
+  "evidence_en": "CMHY listing for อนุบาลพรชัย in Wiang, Phrao gives weekday hours 08:00–16:00 and phone 081-033-8687 matching the directory. Direct page fetch returned HTTP 403; hours are from the search snippet. No overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://www.cmhy.city/place/26232-Pornchai-Kindergarten",
+    "type": "directory_listing",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   },
+   {
+    "url": "https://dhammastudy.org/school/index?page=692&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "Mon–Fri 08:00–16:00",
+  "stay_length_pattern": "Weekday daytime",
+  "identity_match_basis": "Phone 081-0338687 + ต.เวียง อ.พร้าว; CMHY house number is 76 หมู่ 4 vs directory 355 หมู่ 4",
+  "searches_run": [
+   "อนุบาลพรชัย พร้าว เวลาทำการ"
+  ],
+  "needs_partner_verification": true,
+  "notes": "House-number mismatch. Facebook not opened. CMHY page itself could not be fetched (403)."
+ },
+ {
+  "row_no": "89",
+  "facility_name_th": "ศูนย์การเรียนเด็กบ้านครูพิน",
+  "facility_name_en": "Baan Khru Phin Children's Learning Centre (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Motdang lists ศูนย์การเรียนเด็กบ้านครูพิน with phone 081-167-6779 in Phrao. Directory phone is 053-475330. Name match only; no hours.",
+  "evidence_sources": [
+   {
+    "url": "https://motdang.net/cm/p/4259844452915926504992.html",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + อ.พร้าว; phone does not match the directory landline",
+  "searches_run": [
+   "บ้านครูพิน พร้าว"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Phone mismatch. Facebook not opened."
+ },
+ {
+  "row_no": "90",
+  "facility_name_th": "คำเที่ยง",
+  "facility_name_en": "Khamthiang Nursery (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No matching public listing was found under this short name in Phrao. Directory includes GPS. No hours or overnight evidence.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Directory GPS only; no independent web match",
+  "searches_run": [
+   "คำเที่ยง พร้าว สถานรับเลี้ยงเด็ก"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Very common name; no Facebook listed."
+ },
+ {
+  "row_no": "91",
+  "facility_name_th": "จิตโรภาส",
+  "facility_name_en": "Chitropas Kindergarten (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "เวลาทำการ จันทร์-ศุกร์ เวลา 07:00-17:00",
+  "evidence_en": "Yellow Pages listing at 46 หมู่ 1 ต.ริมใต้ อ.แม่ริม gives weekday hours 07:00–17:00. Address matches the directory (46/1). No overnight wording. CMHY nearby-places list also names โรงเรียนอนุบาล จิตโรภาส.",
+  "evidence_sources": [
+   {
+    "url": "https://www.yellowpages.co.th/profile/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B9%82%E0%B8%A3%E0%B8%A0%E0%B8%B2%E0%B8%AA-%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%9A%E0%B8%B2%E0%B8%A5-92t6hFSTI",
+    "type": "directory_listing",
+    "accessed": "2026-11-10",
+    "seen_via": "page_opened"
+   },
+   {
+    "url": "https://www.cmhy.city/place/38558-Child-Development-CenterMae-Sa",
+    "type": "directory_listing",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "Mon–Fri 07:00–17:00",
+  "stay_length_pattern": "Weekday daytime",
+  "identity_match_basis": "Address 46/1 ม.1 ต.ริมใต้ อ.แม่ริม; YP landline 053-297-250 differs from directory mobile 098-2365354",
+  "searches_run": [
+   "อนุบาลจิตโรภาส แม่ริม เวลาทำการ"
+  ],
+  "needs_partner_verification": false,
+  "notes": "Hours from Yellow Pages, not the school's own site. Facebook not opened."
+ },
+ {
+  "row_no": "92",
+  "facility_name_th": "วรรณภา",
+  "facility_name_en": "Wannapa Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Directory lists a Facebook page and email. No hours listing was found. Overnight district search did not return this name.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Directory row only",
+  "searches_run": [
+   "อนุบาลวรรณภา แม่ริม"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "93",
+  "facility_name_th": "ชุลีกร",
+  "facility_name_en": "Chulikorn Nursery (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No matching public listing found for this name in Mae Rim.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "No corroborated online match",
+  "searches_run": [
+   "ชุลีกร แม่ริม สถานรับเลี้ยงเด็ก"
+  ],
+  "needs_partner_verification": true,
+  "notes": "No online contact listed in the directory."
+ },
+ {
+  "row_no": "94",
+  "facility_name_th": "วันเพ็ญเนิร์สเซอรี่",
+  "facility_name_en": "Wanphen Nursery (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Directory lists a Facebook page. No hours listing found. Overnight search did not return this name.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Directory row + Facebook name only",
+  "searches_run": [
+   "วันเพ็ญเนิร์สเซอรี่ แม่ริม"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "95",
+  "facility_name_th": "สถานรับเลี้ยงและอบรมเด็กเอี่ยมสะอาด",
+  "facility_name_en": "Iamsa-ard Kindergarten (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "Monday–Friday 7:30 AM–5:30 PM; Saturday 7:30 AM–4 PM; Sunday Closed",
+  "evidence_en": "Exa/Google-hours listing for โรงเรียนอนุบาลเอี่ยมสะอาด at 87/1, postcode 50180, phone +6652011289, matches the directory address and phone. Parent reviews describe daily drop-off and pick-up. Saturday hours are still daytime. No overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://exa.ai/library/place/qfhp7dym2nf",
+    "type": "directory_listing",
+    "accessed": "2026-11-10",
+    "seen_via": "page_opened"
+   },
+   {
+    "url": "https://www.jobth.com/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97/0000126831YJCAV.html",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "Mon–Fri 07:30–17:30, Sat 07:30–16:00, Sun closed",
+  "stay_length_pattern": "Daytime including Saturday; children collected each day",
+  "identity_match_basis": "Address 87/1 ม.6 ต.ดอนแก้ว อ.แม่ริม + phone 052-011289",
+  "searches_run": [
+   "อนุบาลเอี่ยมสะอาด แม่ริม เวลาทำการ"
+  ],
+  "needs_partner_verification": false,
+  "notes": "A job advert gives slightly different office hours (Mon–Fri 08:00–17:00). Reviews from 2024–2025 describe ordinary school days."
+ },
+ {
+  "row_no": "96",
+  "facility_name_th": "อินทิราบ้านเด็ก",
+  "facility_name_en": "Inthira Baan Dek Kindergarten (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Directory lists a Facebook page and GPS. No hours listing found.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Directory GPS + Facebook name only",
+  "searches_run": [
+   "อินทิราบ้านเด็ก แม่ริม"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "97",
+  "facility_name_th": "สถานรับเลี้ยงเด็กบ้านครูเอี้ยง",
+  "facility_name_en": "Baan Khru Iang (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Directory lists a Facebook page and GPS. No hours listing found.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Directory GPS + Facebook name only",
+  "searches_run": [
+   "บ้านครูเอี้ยง แม่ริม"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "98",
+  "facility_name_th": "สถานรับเลี้ยงเด็กอนุบาลลิตเติ้ลคิดส์",
+  "facility_name_en": "Little Kids Nursery",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No matching public listing found under Little Kids Nursery in Mae Rim. Name is shared by many facilities elsewhere.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "No corroborated online match by name and Mae Rim locality",
+  "searches_run": [
+   "ลิตเติ้ลคิดส์ แม่ริม เนิร์สเซอรี่"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "99",
+  "facility_name_th": "บ้านแม่ริมมอนเตสซอรี่ Baan Maerim Montessori",
+  "facility_name_en": "Baan Mae Rim Montessori",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "เวลาเปิด 2 เทอม: พ.ค. ถึง ต.ค. และ พ.ย. ถึง เม.ย.",
+  "evidence_en": "MamaMapa (Oct 2026) describes a small Montessori school in Rim Nuea, Mae Rim, ages 2y6m–6y11m matching the licence, max 20 children, two academic terms. That is consistent with a day school but is not daily opening hours. Phone listed there (052 005 489) differs from the directory (090-319-2395). No overnight wording.",
+  "evidence_sources": [
+   {
+    "url": "https://mamamapa.com/chiang-mai/nurseries-kindergartens/",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "page_opened"
+   },
+   {
+    "url": "https://montessorithailand.org/spaces?keyword=North+Region",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "Academic terms May–Oct and Nov–Apr (MamaMapa); daily clock hours not found",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.ริมเหนือ อ.แม่ริม + licensed age 2ปี6เดือน-6ปี11เดือน match MamaMapa; phones differ",
+  "searches_run": [
+   "บ้านแม่ริมมอนเตสซอรี่ เวลาทำการ"
+  ],
+  "needs_partner_verification": true,
+  "notes": "No daily hours found, so not classified day_only. Facebook/website not listed in the directory."
+ },
+ {
+  "row_no": "100",
+  "facility_name_th": "เมฆขจร",
+  "facility_name_en": "Mekkhajorn Chiang Mai School (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Private-school register lists โรงเรียนเมฆขจรเชียงใหม่ in Khilek, Mae Taeng, matching the directory tambon. No hours or overnight wording. Instagram/Facebook names are in the directory but were not opened.",
+  "evidence_sources": [
+   {
+    "url": "https://dhammastudy.org/school/index?page=692&per-page=50&sort=id",
+    "type": "other",
+    "accessed": "2026-11-10",
+    "seen_via": "search_snippet"
+   }
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.ขี้เหล็ก อ.แม่แตง on the private-school register",
+  "searches_run": [
+   "เมฆขจร แม่แตง"
+  ],
+  "needs_partner_verification": true,
+  "notes": "Facebook/Instagram not opened."
+ }
+]

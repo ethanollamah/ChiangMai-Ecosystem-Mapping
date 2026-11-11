@@ -1,0 +1,471 @@
+[
+ {
+  "row_no": "51",
+  "facility_name_th": "อุดมวิทย์",
+  "facility_name_en": "Udomwit (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "จันทร์-ศุกร์ 08:00-16:30",
+  "evidence_en": "Directory listings for อนุบาลอุดมวิทย์ at 40/1-2 Moo 3, San Sai (same phone 053-127640) give weekday-only daytime hours 08:00-16:30; Saturday and Sunday closed. No accommodation wording found.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/place/29064-Audomvit-kindergarten", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/zbj5vmpkclj", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 08:00-16:30; Sat-Sun closed",
+  "stay_length_pattern": "daily day attendance (weekdays)",
+  "identity_match_basis": "Name อนุบาลอุดมวิทย์ + address 40/1-2 หมู่ 3 (San Sai, 50210) + phone 053-127640",
+  "searches_run": ["อนุบาลอุดมวิทย์ สันทรายหลวง เชียงใหม่"],
+  "needs_partner_verification": false,
+  "notes": "Hours come from aggregator listings (likely Google Business data), not the operator's own page. Facebook/TikTok listed in input not opened (Facebook not readable by fetch tool)."
+ },
+ {
+  "row_no": "52",
+  "facility_name_th": "สวนองุ่น",
+  "facility_name_en": "Suan Angun (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "ขออนุญาตก่อตั้งเป็น “สถานรับเลี้ยงเด็กสวนองุ่น” ประเภทไป – กลับ เมื่อวันที่ 15 กรกฎาคม พ.ศ. 2547",
+  "evidence_en": "Vineyard Methodist School's history says a nursery named สถานรับเลี้ยงเด็กสวนองุ่น was licensed in 2004 as day-attendance (ไป-กลับ) type with the same licensee (นางสังวาลย์ เยียว). However that history concerns the San Sai Noi site that became the school; this row is a separate address in San Phranet (68/2 Moo 4) and no source describing this San Phranet facility's current operating pattern was found.",
+  "evidence_sources": [
+   {"url": "https://www.vms.ac.th/th/page/school-history", "type": "official_website", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.cmhy.city/place/18829-Yineyard-Methodist-school", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Only name + licensee name match a historical (2004) record; address (San Phranet Moo 4) not matched in any source",
+  "searches_run": ["สวนองุ่น สันพระเนตร สันทราย สถานรับเลี้ยงเด็ก", "\"สวนองุ่น\" สันพระเนตร เนอสเซอรี่ หมู่ 4 เชียงใหม่ 095-7804717"],
+  "needs_partner_verification": true,
+  "notes": "Historical 2004 ไป-กลับ licence is not proof of current practice and may refer to row 54's predecessor rather than this site. No online contact listed in input."
+ },
+ {
+  "row_no": "53",
+  "facility_name_th": "เนตรระหงษ์",
+  "facility_name_en": "Netrrahong School",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "สถานรับเลี้ยงเด็ก “เนตรระหงษ์” สังกัดกรมประชาสงเคราะห์ ประเภท ไป-กลับ ... เวลาทำการ จันทร์-ศุกร์ เวลา 08:00-16:00",
+  "evidence_en": "A school profile (GotoKnow, written 2010) states the nursery was licensed in 1994 as day-attendance (ไป-กลับ) type. Current directory listings give daytime hours (Yellow Pages: Mon-Fri 08:00-16:00; another aggregator: Mon-Fri 07:00-17:00, Sat 07:00-12:00, Sun closed).",
+  "evidence_sources": [
+   {"url": "https://www.gotoknow.org/posts/349745", "type": "other", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.yellowpages.co.th/profile/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B9%80%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%AB%E0%B8%87%E0%B8%A9%E0%B9%8C-%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%9A%E0%B8%B2%E0%B8%A5-93g4a6U4v", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/qjchmj1zvfy", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://map.longdo.com/poilist/40?page=20", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 08:00-16:00 (Yellow Pages); Mon-Fri 07:00-17:00, Sat 07:00-12:00 (aggregator)",
+  "stay_length_pattern": "daily day attendance",
+  "identity_match_basis": "Name + operator นางศรีวรรณ เจริญเนตร + address 143/2 หมู่ 5 ต.ป่าไผ่ + phones 053-396108 / 053-040162",
+  "searches_run": ["โรงเรียนอนุบาลเนตรระหงษ์ ป่าไผ่ สันทราย"],
+  "needs_partner_verification": false,
+  "notes": "ไป-กลับ licence wording dates from 1994 (historical); current pattern inferred from present-day hours listings. Facebook not opened."
+ },
+ {
+  "row_no": "54",
+  "facility_name_th": "อนุบาลสวนองุ่น",
+  "facility_name_en": "Vineyard Methodist School (kindergarten section)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "ประเภทไป – กลับ ... เวลาทำการ จันทร์-ศุกร์ 07:30 - 16:30",
+  "evidence_en": "The school (listed website vms.ac.th) originated as a ไป-กลับ (day) nursery licensed in 2004 under the same licensee. A listing for 'VMS - Kindergarten' (the Facebook page named in the input) shows Mon-Fri 07:30-16:30. The school's homepage (opened) and kindergarten curriculum page show an ordinary private day school; no boarding wording found.",
+  "evidence_sources": [
+   {"url": "https://www.vms.ac.th/", "type": "official_website", "accessed": "2026-11-10", "seen_via": "page_opened"},
+   {"url": "https://www.vms.ac.th/th/page/school-history", "type": "official_website", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.vms.ac.th/th/page/our-kindergarten", "type": "official_website", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.yellowmega.com/TH/Chiang-Mai/731094116913362/VMS---Kindergarten-%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%9A%E0%B8%B2%E0%B8%A5", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 07:30-16:30",
+  "stay_length_pattern": "daily day attendance (weekdays)",
+  "identity_match_basis": "Website vms.ac.th and Facebook name match input online_contact; licensee นางสังวาลย์ เยียว; subdistrict สันทรายน้อย. Street address differs (input 349 ม.2 vs school 460 ม.9) - possibly separate kindergarten building",
+  "searches_run": ["สวนองุ่น สันพระเนตร สันทราย สถานรับเลี้ยงเด็ก", "โรงเรียนสวนองุ่นเชียงใหม่ แผนกอนุบาล เวลาเรียน เปิด ปิด พักประจำ"],
+  "needs_partner_verification": false,
+  "notes": "Address discrepancy (349 Moo 2 vs 460 Moo 9, both ต.สันทรายน้อย) noted; the licensed childcare facility may be a separate kindergarten site of the same school."
+ },
+ {
+  "row_no": "55",
+  "facility_name_th": "เบบี้จีเนียสเนิสเซอรี่",
+  "facility_name_en": "Baby Genius Nursery",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "จันทร์-ศุกร์ 07:00-16:00",
+  "evidence_en": "Two directory listings for อนุบาลเบบี้จีเนียส / เบบี้จีเนียส เนิสเซอรี่ in Nong Chom, San Sai with the same mobile number (088-2668112) show Mon-Fri 07:00-16:00, closed weekends.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/place/38373-Baby-Genius-Kru-Benz", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://opencorpdata.com/place/ChIJ1-a6Tsgk2jARJPfRPGhhqqU", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 07:00-16:00; Sat-Sun closed",
+  "stay_length_pattern": "daily day attendance (weekdays)",
+  "identity_match_basis": "Name + ต.หนองจ๊อม อ.สันทราย + phone 088-2668112 (house numbers differ between sources: input 230 ม.1; listings 96 ม.9 and 248 ม.1)",
+  "searches_run": ["อนุบาลเบบี้จีเนียส หนองจ๊อม สันทราย เวลาเปิด"],
+  "needs_partner_verification": false,
+  "notes": "Rejected 'Genious Nursery / G-Nursery' (ต.ฟ้าฮ่าม, Mueang) as a different facility. Attempted to open facebook.com/BabyGeniusNursery: fetch timed out."
+ },
+ {
+  "row_no": "56",
+  "facility_name_th": "บ้านเด็กดีเนอร์สเซอร์รี่โฮม",
+  "facility_name_en": "Ban Dek Dee Nursery Home (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Identity confirmed via a place listing (105/57 Soi Mu Ban Onsirin, phone 096-2535195), but no operating hours or attendance pattern found. A 2025 parent review describes a small nursery with daily activity reports, which does not establish hours either way.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/f5g2x4c05rq", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://2pos.world/327142/cat-2074", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + address 105/57 หมู่บ้านอรสิริน + phone 096-2535195",
+  "searches_run": ["บ้านเด็กดีเนอร์สเซอร์รี่โฮม อรสิริน หนองจ๊อม เชียงใหม่", "\"บ้านเด็กดี\" เนอร์สเซอรี่โฮม สันทราย ค้างคืน หรือ เวลาเปิดปิด รับเลี้ยงเด็ก"],
+  "needs_partner_verification": true,
+  "notes": "Several unrelated 'บ้านเด็กดี' nurseries exist elsewhere (Songkhla, Phuket, Nakhon Ratchasima, Mueang Chiang Mai) - rejected. Facebook not opened."
+ },
+ {
+  "row_no": "57",
+  "facility_name_th": "เอส.โอ.คิดส์คลับเฮาส์",
+  "facility_name_en": "S.O. Kids Club House",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "CMHY.city listing (category: nursery) gives Mon-Fri 08:00-18:00 with GPS 18.8440679, 99.0212666, identical to the input coordinates.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/en/place/29032-SO-Kids-Club-House", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 08:00-18:00",
+  "stay_length_pattern": "daily day attendance (weekdays)",
+  "identity_match_basis": "Name + ต.หนองจ๊อม + exact GPS match with input",
+  "searches_run": ["เอส.โอ.คิดส์คลับเฮ้าส์ หนองจ๊อม สันทราย เวลาเปิด"],
+  "needs_partner_verification": false,
+  "notes": "Single aggregator source; Facebook (facebook.com/so.kidhouse) not opened."
+ },
+ {
+  "row_no": "58",
+  "facility_name_th": "ลิตเติ้ลแบร์",
+  "facility_name_en": "Little Bear Preschool",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "จันทร์-ศุกร์ 08:00-17:00 ... เตรียมอนุบาลเล็กๆ",
+  "evidence_en": "CMHY.city listing for ลิตเติ้ล แบร์ พรีสกูล (JC Garden Ville, San Na Meng) gives Mon-Fri 08:00-17:00 and describes a small pre-kindergarten for ages 2-5.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/place/17785-Little-Bear-Preschool", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 08:00-17:00",
+  "stay_length_pattern": "daily day attendance (weekdays)",
+  "identity_match_basis": "Name + หมู่บ้านเจซี การ์เด้นวิลล์ ต.สันนาเม็ง + phone 086-1861641 + exact GPS match",
+  "searches_run": ["Little Bear Preschool ลิตเติ้ลแบร์ สันนาเม็ง สันทราย เชียงใหม่"],
+  "needs_partner_verification": false,
+  "notes": "Rejected 'Little Bear House' (hotel, Doi Saket) as unrelated. Facebook not opened."
+ },
+ {
+  "row_no": "59",
+  "facility_name_th": "ลีเมอร์ ไลออน แลมบ์(Lemur Lion Lamb)",
+  "facility_name_en": "Lemur Lion Lamb",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "The operator's website describes 'an English based, mixed-age group, development daycare' with monthly fees for 2-5 days per week, half-day option at 75%, lunch and snacks included - a daytime model with no accommodation. Directory listing gives Mon-Fri 08:00-16:30 (another: 08:00-17:00), closed weekends.",
+  "evidence_sources": [
+   {"url": "https://lemurlionlamb.com/", "type": "official_website", "accessed": "2026-11-10", "seen_via": "page_opened"},
+   {"url": "https://www.yellowmega.com/TH/Chiang-Mai/678126659224769/Lemur-Lion-Lamb", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/x8ns0qzrxbf", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 08:00-16:30 (listing); 08:00-17:00 (another listing)",
+  "stay_length_pattern": "day care 2-5 days/week, full or half days",
+  "identity_match_basis": "Name + 433 Moo 5 ต.สันพระเนตร + phone 085-7120607 + email lemurlionlamb@gmail.com (all on official site)",
+  "searches_run": ["Lemur Lion Lamb Chiang Mai nursery San Sai hours"],
+  "needs_partner_verification": false,
+  "notes": "Website states hours only indirectly (day/half-day pricing); explicit hours are from listings. One listing (chiangmaikids.com) shows 'Days of Operations' Sunday-Saturday, which appears to be a generic template and conflicts with other listings. Website mentions donating profits to help orphans in Chiang Mai - this is a donation, not provision of residential care."
+ },
+ {
+  "row_no": "60",
+  "facility_name_th": "สถานรับเลี้ยงเด็กแม่บัวคลี่",
+  "facility_name_en": "Maebuaklee Kindergarten",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Identity confirmed (Maebuaklee Kindergarten Sankamphaeng, 33 Moo 8 ต.สันกำแพง, phone 053-331376), but no operating hours or attendance pattern found in sources seen.",
+  "evidence_sources": [
+   {"url": "https://motdang.net/cm/p/maebuaklee-kindergarten-sankamphaeng-589497194248796437516.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://dhammastudy.org/school/index?page=436&per-page=50&sort=-district_name", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "English name matches input Facebook name + address 33 หมู่ 8 ต.สันกำแพง + phone 053-331376",
+  "searches_run": ["แม่บัวคลี่ สันกำแพง สถานรับเลี้ยงเด็ก อนุบาล เวลาเปิด", "โรงเรียนอนุบาลแม่บัวคลี่ ประวัติ สถานรับเลี้ยงเด็ก ไป-กลับ หรือ พักค้างคืน"],
+  "needs_partner_verification": true,
+  "notes": "An exa.ai listing places 'อนุบาลแม่บัวคลี่' in On Klang, Mae On with a different phone (053-392300) - possible branch, not matched. Facebook not opened."
+ },
+ {
+  "row_no": "61",
+  "facility_name_th": "สิทธิโรจน์",
+  "facility_name_en": "Sitthi Rot Kindergarten",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Identity confirmed (อนุบาลสิทธิโรจน์, 142/1 ถนนเชียงใหม่-สันกำแพง ต.ต้นเปา, phone 053-338714) but no operating hours or attendance pattern found.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/8snwyq3086l", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://motdang.net/cm/p/sitthi-rot-kindergarten-4557794469.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + 142/1 ต.ต้นเปา + phone 053-338714",
+  "searches_run": ["อนุบาลสิทธิโรจน์ ต้นเปา สันกำแพง", "อนุบาลสิทธิโรจน์ สันกำแพง เวลาทำการ 053-338714"],
+  "needs_partner_verification": true,
+  "notes": "Facebook not opened."
+ },
+ {
+  "row_no": "62",
+  "facility_name_th": "ร่มแก้ว",
+  "facility_name_en": "Rom Kaeo Kindergarten",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "เวลาทำการ จันทร์-ศุกร์ เวลา 08:00-15:30",
+  "evidence_en": "Yellow Pages lists the kindergarten at 177/1 Moo 3 Ton Pao with weekday hours 08:00-15:30. The school's own blog describes it as the village kindergarten of Bo Sang with pupils from surrounding villages (day pupils); no accommodation wording.",
+  "evidence_sources": [
+   {"url": "https://www.yellowpages.co.th/profile/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%A3%E0%B9%88%E0%B8%A1%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7-%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%9A%E0%B8%B2%E0%B8%A5-8V9p10sCW", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://romkaew.wordpress.com/", "type": "official_website", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 08:00-15:30",
+  "stay_length_pattern": "daily day attendance (weekdays)",
+  "identity_match_basis": "Name + 177/1 หมู่ 3 ต.ต้นเปา + phone 053-338225",
+  "searches_run": ["โรงเรียนอนุบาลร่มแก้ว ต้นเปา สันกำแพง เวลาเปิด"],
+  "needs_partner_verification": false,
+  "notes": "Licensed age range here is newborn-2 years (nursery arm of the kindergarten); hours listed are for the school as a whole."
+ },
+ {
+  "row_no": "63",
+  "facility_name_th": "ก้าวไกล",
+  "facility_name_en": "Kao Klai (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No source matching this facility (name + ต.ทรายมูล or phone 087-5757991) was found.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "None found",
+  "searches_run": ["สถานรับเลี้ยงเด็กก้าวไกล ทรายมูล สันกำแพง"],
+  "needs_partner_verification": true,
+  "notes": "No online contact in input. Search results returned only a municipal childcare centre (ศูนย์พัฒนาเด็กเล็กวัดสันโค้ง) in the same subdistrict - not this facility."
+ },
+ {
+  "row_no": "64",
+  "facility_name_th": "ไผ่แก้ว",
+  "facility_name_en": "Phai Kaeo Kindergarten (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "จันทร์-ศุกร์ 08:00-16:30",
+  "evidence_en": "CMHY.city listing for โรงเรียนอนุบาลไผ่แก้ว (161 Moo 7, Chae Chang; phones 053-331-619, 089-850-4254) gives Mon-Fri 08:00-16:30.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/place/22564-Pikaew-kindergarten", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 08:00-16:30",
+  "stay_length_pattern": "daily day attendance (weekdays)",
+  "identity_match_basis": "Name + 161 หมู่ 7 ต.แช่ช้าง + both phones match",
+  "searches_run": ["โรงเรียนอนุบาลไผ่แก้ว แช่ช้าง สันกำแพง เวลาเปิด"],
+  "needs_partner_verification": false,
+  "notes": "Rejected โรงเรียนบ้านหนองไผ่แก้ว (different school). Facebook (facebook.com/paikaewschool) not opened."
+ },
+ {
+  "row_no": "65",
+  "facility_name_th": "ดรุณศึกษา 1",
+  "facility_name_en": "Darun Sueksa 1 (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No source matching ดรุณศึกษา 1 at 131/2 Moo 2 ต.สันกำแพง or phone 089-9538189 was found. Only a 'ดรุณศึกษา 2' SME record surfaced (see row 67).",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "None found",
+  "searches_run": ["ดรุณศึกษา สันกำแพง สถานรับเลี้ยงเด็ก บ้านป่าสัก", "\"ดรุณศึกษา\" สันกำแพง เชียงใหม่ เนอสเซอรี่ อนุบาล"],
+  "needs_partner_verification": true,
+  "notes": "No online contact in input."
+ },
+ {
+  "row_no": "66",
+  "facility_name_th": "บ้านหละอ่อนหน้อย",
+  "facility_name_en": "Ban La-on Noi (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "The Facebook name in the input (โรงเรียนอนุบาลสุขประเสริฐ) matches a private kindergarten registered in ต.สันกำแพง (founded 2011, pre-K to K), whose surname matches the operator (สุขประเสริฐ). No operating hours or attendance pattern found.",
+  "evidence_sources": [
+   {"url": "https://motdang.net/cm/p/2299.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://dhammastudy.org/school/index?page=556&per-page=50&sort=district_name", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Linked school name (from input Facebook) + subdistrict ต.สันกำแพง + operator surname; the nursery name itself not found",
+  "searches_run": ["โรงเรียนอนุบาลสุขประเสริฐ สันกำแพง บ้านหละอ่อนหน้อย เวลาเปิด", "สถานรับเลี้ยงเด็กสมศรี สันกำแพง เชียงใหม่"],
+  "needs_partner_verification": true,
+  "notes": "A 'สถานรับเลี้ยงเด็กละอ่อนหน้อย' listing at 2 Moo 14 ต.สันกำแพง appeared (contact.page) but its address differs from input (1/11 Moo 12) - not treated as a match."
+ },
+ {
+  "row_no": "67",
+  "facility_name_th": "ดรุณศึกษา 2",
+  "facility_name_en": "Darun Sueksa 2 (translit.)",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "An SME directory record lists 'ดรุณศึกษา 2' in ต.สันกำแพง under นางรุ่งทิวา (surname น้อยจันทร์ vs input ปัญโญสุข) at 118/2 Moo 2, phone 053-392757 - a partial match only. No operating hours or attendance pattern found.",
+  "evidence_sources": [
+   {"url": "https://www.thailandcompanydirectory.com/otop/1127", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.bethailand.com/20011225672/", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Partial: name + subdistrict + operator first name; address and phone differ from input (possibly older record)",
+  "searches_run": ["ดรุณศึกษา สันกำแพง สถานรับเลี้ยงเด็ก บ้านป่าสัก", "\"ดรุณศึกษา\" สันกำแพง เชียงใหม่ เนอสเซอรี่ อนุบาล"],
+  "needs_partner_verification": true,
+  "notes": "Identity only weakly matched; no evidence on operating model."
+ },
+ {
+  "row_no": "68",
+  "facility_name_th": "เปรมฤดี",
+  "facility_name_en": "Premrudee (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "low",
+  "evidence_th": "เวลาทำการ จันทร์-ศุกร์ เวลา 08:00-16:30",
+  "evidence_en": "Yellow Pages lists 'โรงเรียน เปรมฤดี อนุบาล' at 57/9 Moo 2 Ton Pao (input: 57/10 Moo 2) with Mon-Fri 08:00-16:30. The input phone (052-067877) and Facebook name match อนุบาลบวรทัตวิทยา at 57/9 Moo 2 Ton Pao, which appears to operate at the same address. No accommodation wording found.",
+  "evidence_sources": [
+   {"url": "https://www.yellowpages.co.th/profile/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A1%E0%B8%A4%E0%B8%94%E0%B8%B5-%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%9A%E0%B8%B2%E0%B8%A5-93g42cj3f", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://motdang.net/cm/p/7446065272438990148618.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 08:00-16:30 (Yellow Pages, may be dated)",
+  "stay_length_pattern": "daily day attendance (weekdays)",
+  "identity_match_basis": "Name เปรมฤดี + ม.2 ต.ต้นเปา (57/9 vs 57/10); phone 052-067877 matches บวรทัตวิทยา at the same address",
+  "searches_run": ["โรงเรียนอนุบาลเปรมฤดี บวรทัตวิทยา ต้นเปา สันกำแพง เวลาเปิด"],
+  "needs_partner_verification": true,
+  "notes": "The input appears to have the Facebook names of rows 68 and 71 swapped or reflects a site/name change: row 68 (เปรมฤดี) lists the บวรทัตวิทยา Facebook and phone, while row 71 lists the เปรมฤดี Facebook and Premrudee's current phone. Partner should confirm which licensed nursery is at which address."
+ },
+ {
+  "row_no": "69",
+  "facility_name_th": "สถานรับเลี้ยงเด็กสมศรี",
+  "facility_name_en": "Somsri Child Care Centre (translit.)",
+  "evidenced_model": "identity_not_confirmed",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "No source matching this facility (name + 89/4 Moo 2 ต.สันกำแพง or phone 084-2231870) was found.",
+  "evidence_sources": [],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "None found",
+  "searches_run": ["สถานรับเลี้ยงเด็กสมศรี สันกำแพง เชียงใหม่"],
+  "needs_partner_verification": true,
+  "notes": "Directory status is 'ไม่มีเด็กในการดูแล' (no children currently in care). No online contact in input."
+ },
+ {
+  "row_no": "70",
+  "facility_name_th": "ท๊อป-เทน",
+  "facility_name_en": "Top-Ten Nursery (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "เวลาทำการ จันทร์-ศุกร์ 7.30 - 16.00 น.",
+  "evidence_en": "The facility's Facebook 'about' text (mirrored on a listing site) states it cares for children from age 1 through kindergarten 3 with business hours Mon-Fri 07:30-16:00; a 2024 enrolment post invites visits Mon-Fri 08:00-16:30. The same listing's hours table shows Mon-Sat 07:30-17:00.",
+  "evidence_sources": [
+   {"url": "https://www.schoolandcollegelistings.com/TH/San-Kamphaeng/440673026124230/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%A5%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B8%87%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81%E0%B8%97%E0%B9%87%E0%B8%AD%E0%B8%9B-%E0%B9%80%E0%B8%97%E0%B8%99", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/3c1g58vj47m", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://motdang.net/cm/p/95610691485087910644.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 07:30-16:00 (self-description); Mon-Sat 07:30-17:00 (listing table)",
+  "stay_length_pattern": "daily day attendance",
+  "identity_match_basis": "Name + address 60 หมู่ 1 + phone 086-9239691",
+  "searches_run": ["สถานรับเลี้ยงเด็กท็อป-เทน ร้องวัวแดง สันกำแพง", "toptennursery ท็อปเทน เนอสเซอรี่ แม่ออน เวลาเปิด รับเด็ก"],
+  "needs_partner_verification": false,
+  "notes": "One aggregator (exa.ai) shows hours '7:30 AM-5 AM', almost certainly a data-entry error for 5 PM, contradicted by the facility's own stated hours; not treated as overnight evidence. Location discrepancy: listings place it opposite Mae On Hospital (Mae On area) whereas input says ต.ร้องวัวแดง อ.สันกำแพง; phone confirms identity."
+ },
+ {
+  "row_no": "71",
+  "facility_name_th": "ซิตี้โฮมพรีสคูล",
+  "facility_name_en": "City Home Preschool (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "low",
+  "evidence_th": "เปิดสอนในระดับ เนอสเซอรี่ เตรียมอนุบาล และ อนุบาล 1-3",
+  "evidence_en": "The input phone (053-101249) and Facebook name match โรงเรียนอนุบาลเปรมฤดี (Premrudee Kindergarten School), whose page (mirrored on a listing site, posts to Sept 2026) offers nursery, pre-K and K1-3 with hours Mon-Fri 07:00-17:30. The name 'ซิตี้โฮมพรีสคูล' itself was not found.",
+  "evidence_sources": [
+   {"url": "https://www.schoolandcollegelistings.com/TH/San-Kamphaeng/1953847421500754/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A1%E0%B8%A4%E0%B8%94%E0%B8%B5-Premrudee-Kindergarten-School", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 07:00-17:30 (Premrudee Kindergarten listing)",
+  "stay_length_pattern": "daily day attendance (weekdays)",
+  "identity_match_basis": "Phone 053-101249 + Facebook name (เปรมฤดี) + ต.ต้นเปา; licensed name ซิตี้โฮมพรีสคูล and address 179/2 ม.8 not independently confirmed",
+  "searches_run": ["ซิตี้โฮมพรีสคูล ต้นเปา สันกำแพง City Home Preschool", "โรงเรียนอนุบาลเปรมฤดี บวรทัตวิทยา ต้นเปา สันกำแพง เวลาเปิด"],
+  "needs_partner_verification": true,
+  "notes": "See row 68 note on apparent name/contact swap between rows 68 and 71. Classification relies on contact-linked school hours."
+ },
+ {
+  "row_no": "72",
+  "facility_name_th": "เบรนนี่ คิดส์ แม่แต เนอสเซอรี่",
+  "facility_name_en": "Brainy Kids Maetae Nursery",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "Listing of the facility's Facebook page (phone 081-3864318) shows hours 09:00-17:00 Mon-Sat; posts describe weekday language classes and enrolment of ages 1.5-6. A 2020-21 academic study of its marketing refers to enrolled pupils and parents (day nursery context).",
+  "evidence_sources": [
+   {"url": "https://www.yellowmega.com/TH/Chiang-Mai/298536997245429/Brainy-kids-maetae-nursery", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://2pos.world/359352/5618", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.tci-thaijo.org/articles/social04-249960", "type": "other", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Sat 09:00-17:00 (listing)",
+  "stay_length_pattern": "daily day attendance",
+  "identity_match_basis": "Name + บ้านแม่แต สันกำแพง (21, ม.6 in listing vs 21/6 ม.5 in input) + phone 081-3864318",
+  "searches_run": ["Brainy kids maetae nursery เบรนนี่ คิดส์ แม่แต บวกค้าง สันกำแพง"],
+  "needs_partner_verification": false,
+  "notes": "09:00 opening seems late for a nursery and may be an aggregator default; still daytime-only."
+ },
+ {
+  "row_no": "73",
+  "facility_name_th": "บ้านอุ่นรักเนอสเซอรี่",
+  "facility_name_en": "Ban Un Rak Nursery Chiang Mai",
+  "evidenced_model": "unresolved",
+  "confidence": "low",
+  "evidence_th": "",
+  "evidence_en": "Identity confirmed (Mot Dang listing, phone 099-553-1629, near Wat Sahakon 1, Mae On), but no operating hours or attendance pattern found.",
+  "evidence_sources": [
+   {"url": "https://motdang.net/cm/p/4019286774923845490726312.html", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "",
+  "stay_length_pattern": "",
+  "identity_match_basis": "Name + ต.บ้านสหกรณ์ area + phone 099-5531629",
+  "searches_run": ["บ้านอุ่นรักเนอสเซอรี่ บ้านสหกรณ์ แม่ออน เชียงใหม่", "บ้านอุ่นรักเนอสเซอรี่ แม่ออน เวลาทำการ 099-5531629"],
+  "needs_partner_verification": true,
+  "notes": "Same-name nurseries in Uthai Thani, Pathum Thani and Samut Prakan rejected. Input phones (099-5531629 / 090-0541099) also appear in row 74's contact list, suggesting a link with Varaneegul's operators. Facebook not opened."
+ },
+ {
+  "row_no": "74",
+  "facility_name_th": "วิราชินีกูล",
+  "facility_name_en": "The Varaneegul Kindergarten School",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "",
+  "evidence_en": "Directory listing for โรงเรียนอนุบาลวรานีกูล (303 Chiang Mai-Lamphun Rd, Saraphi; phone 053-321429) gives Mon-Fri 07:00-18:00 and Sat 07:00-17:00, closed Sunday. A 2024 job ad for a nursery teacher at the same address describes caring for young children; no accommodation wording.",
+  "evidence_sources": [
+   {"url": "https://exa.ai/library/place/pmck2yc69dd", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.u-review.in.th/th/edu/2705", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://www.jobnorththailand.com/job/952438", "type": "other", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 07:00-18:00; Sat 07:00-17:00; Sun closed",
+  "stay_length_pattern": "daily day attendance (extended day, Mon-Sat)",
+  "identity_match_basis": "English name matches input Facebook + 303 หมู่ 5 ถ.เชียงใหม่-ลำพูน ต.ยางเนิ้ง + phone 053-321429",
+  "searches_run": ["โรงเรียนอนุบาลวิราชินีกูล Varaneegul ยางเนิ้ง สารภี"],
+  "needs_partner_verification": false,
+  "notes": "Thai name in input (วิราชินีกูล) differs in spelling from the school name (วรานีกูล); English name, address and phone confirm. Official website varaneegul.ac.th returned HTTP 503 when opened."
+ },
+ {
+  "row_no": "75",
+  "facility_name_th": "สถานรับเลี้ยงและพัฒนาเด็กสุปราณี",
+  "facility_name_en": "Supranee Child Care and Development Centre (translit.)",
+  "evidenced_model": "day_only",
+  "confidence": "medium",
+  "evidence_th": "จันทร์-ศุกร์ 08:00-16:30 ... #อนุบาล#รับเลี้ยงเด็ก#ก่อนวัยเรียน",
+  "evidence_en": "CMHY.city listing for โรงเรียนอนุบาลสุปราณี (141/1 Moo 3 Yang Noeng; same GPS as input) gives Mon-Fri 08:00-16:30; other listings give Mon-Fri 07:00-17:30 or 08:00-17:00, all with weekends closed.",
+  "evidence_sources": [
+   {"url": "https://www.cmhy.city/place/22149-Supanee-Kindergarten", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"},
+   {"url": "https://exa.ai/library/place/k8pjpfqdt25", "type": "directory_listing", "accessed": "2026-11-10", "seen_via": "search_snippet"}
+  ],
+  "operating_hours_found": "Mon-Fri 08:00-16:30 (also 07:00-17:30 in another listing); Sat-Sun closed",
+  "stay_length_pattern": "daily day attendance (weekdays)",
+  "identity_match_basis": "Name + 141/1 หมู่ 3 ต.ยางเนิ้ง + phone 053-321817 + email schoolsupranee@gmail.com + exact GPS match",
+  "searches_run": ["โรงเรียนอนุบาลสุปราณี สารภี ยางเนิ้ง เวลาเปิด"],
+  "needs_partner_verification": false,
+  "notes": "Facebook not opened."
+ }
+]

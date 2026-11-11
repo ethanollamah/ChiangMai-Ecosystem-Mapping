@@ -1,0 +1,10 @@
+﻿stage,n_organisations,share_of_level1_orgs,share_of_mapped_child_welfare,classification_source,note
+Identification & Routing,15,0.283,0.3,landscape mapping (FINAL) checkbox,"Organisation may appear in more than one stage. Shares use unique organisations, not stage-rows."
+Parent Capability Building,17,0.3208,0.34,landscape mapping (FINAL) checkbox,"Organisation may appear in more than one stage. Shares use unique organisations, not stage-rows."
+Short-term Intervention,27,0.5094,0.54,landscape mapping (FINAL) checkbox,"Organisation may appear in more than one stage. Shares use unique organisations, not stage-rows."
+Residential and Institutional Care,24,0.4528,0.48,landscape mapping (FINAL) checkbox,"Organisation may appear in more than one stage. Shares use unique organisations, not stage-rows."
+Foster Care / Adoption,2,0.0377,0.04,landscape mapping (FINAL) checkbox,"Organisation may appear in more than one stage. Shares use unique organisations, not stage-rows."
+Kinship Care,0,0.0,0.0,landscape mapping (FINAL) checkbox,"Organisation may appear in more than one stage. Shares use unique organisations, not stage-rows."
+"Reintegration, Reunification and Adoption",15,0.283,0.3,landscape mapping (FINAL) checkbox,"Organisation may appear in more than one stage. Shares use unique organisations, not stage-rows."
+(mapped child-welfare; no FINAL tick),11,0.2075,0.22,landscape mapping (FINAL) checkbox,Present in the mapped universe; not assigned to a value-chain stage.
+"(public welfare / reception — directory category, not FINAL)",3,0.0566,,2025 public children's-homes directory,Not in FINAL checkbox. Welfare homes treated as residential-care category; reception as short-term category in site_stages only.

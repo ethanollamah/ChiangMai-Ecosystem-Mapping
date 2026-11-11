@@ -1,0 +1,8 @@
+﻿comparison,question,why
+both,Which providers are working in this district but absent from the mapped sample?,Zero mapped sites is not proof that no provider exists. The sample is the audit plus the 2025 public directory.
+both,"What languages do families use here, and can a TSA partner work in those languages?",Language is outside the geographic tables. A reachable district can still be the wrong partnership.
+both,"Can a family make this trip without a private vehicle, and what does it cost?",The travel estimate is a car-profile time from a district centroid. Fares and songthaew schedules were not modelled.
+both,Does a mapped organisation have capacity to host a partnership or take a referral?,"A mapped site is a location, not a measure of spare capacity or willingness."
+family_support,"Are the TPMAP target-poor households a group a prevention partnership could meet, or a feature of who the survey counted?","Target-poor people are an all-age welfare-card MPI count. Mueang's displayed zero is a survey result, not a finding of no need."
+educational_reengagement,"For home-not-found records, is the gap a missing address, a move, or a child outside school?",Home-not-found is an unlocated DOLE record. It becomes a re-engagement caseload only after the record is located and the schooling status is known.
+educational_reengagement,"Among records that consented, how many want help, and is that help about school re-entry?","Consented, help-wanted and never-studied are different columns. Already-enrolled records are not unresolved cases."
